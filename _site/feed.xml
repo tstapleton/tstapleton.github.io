@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thomas Stapleton</title>
+    <description>Learning by doing. Forever a student. The personal website for Thomas Stapleton.
+</description>
+    <link>http://tstapleton.github.io//</link>
+    <atom:link href="http://tstapleton.github.io//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 31 Aug 2014 16:38:58 -0700</pubDate>
+    <lastBuildDate>Sun, 31 Aug 2014 16:38:58 -0700</lastBuildDate>
+    <generator>Jekyll v2.3.0</generator>
+    
+      <item>
+        <title>Time for a New Website</title>
+        <description>&lt;p&gt;It is time for a new website. I built my last website in April 2012 in order to learn more about front-end development so I could get a new job. It was only a rethinking of what my resume could be in digital form, and didn’t really have a place to continually add content.&lt;/p&gt;
+
+&lt;p&gt;So I’ll start fresh. I’ll be using &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; with &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHubPages&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I hope this becomes a place where I can write more because I learn so much by writing. I want to be able to look back on what I had written in the past to see what I was thinking and how I was solving problems at the time. I’m happy I spent the time &lt;a href=&quot;/tags/resume-site&quot;&gt;documenting my thinking&lt;/a&gt; in building the first version of my site, it was interesting reading it again as I’ve been porting over the content.&lt;/p&gt;
+
+&lt;p&gt;I hope this becomes a place where I can collect my side projects. I used to do a lot of web development on the side - mainly &lt;a href=&quot;http://www.shopify.com/&quot;&gt;Shopify&lt;/a&gt; themes and &lt;a href=&quot;https://www.drupal.org/&quot;&gt;Drupal&lt;/a&gt; websites. I had an outlet to explore new technologies on a variety of different projects, and I was able to showcase them publically. Most of my work now is internal to &lt;a href=&quot;http://tradeshift.com/&quot;&gt;Tradeshift&lt;/a&gt; and I really haven’t spent much time on side projects recently. Rebuilding this site will be the first of the new side projects.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 23 Aug 2014 19:00:00 -0700</pubDate>
+        <link>http://tstapleton.github.io//2014/08/23/time-for-a-new-website.html</link>
+        <guid isPermaLink="true">http://tstapleton.github.io//2014/08/23/time-for-a-new-website.html</guid>
+        
+        <category>development</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Style Tiles</title>
+        <description>&lt;p&gt;Style Tiles are a way to communicate the visual design of a site without locking into a particular page layout. As the layout for a responsive website will change as the device width changes, we need a new way to communicate design that is separated from the layout.&lt;/p&gt;
+
+&lt;p&gt;A &lt;a href=&quot;/styletiles/0&quot;&gt;generic Style Tile template&lt;/a&gt; has been developed, which will be used to communicate the desired design of the site.&lt;/p&gt;
+
+&lt;h3 id=&quot;design-themes&quot;&gt;Design Themes&lt;/h3&gt;
+
+&lt;p&gt;The visual design of the site should complement the site messages:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Provide value, solve problems, deliver results&lt;/li&gt;
+  &lt;li&gt;Trust, reliability&lt;/li&gt;
+  &lt;li&gt;Contribution, ability, action&lt;/li&gt;
+  &lt;li&gt;Diversity, passion&lt;/li&gt;
+  &lt;li&gt;Easy to read, distraction free&lt;/li&gt;
+  &lt;li&gt;Focus on content&lt;/li&gt;
+  &lt;li&gt;Lighthearted, show personality&lt;/li&gt;
+  &lt;li&gt;Clear organization&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The elements of design can be applied to communicate the desired messages.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Line
+    &lt;ul&gt;
+      &lt;li&gt;Straight and thin lines tend to be more refined and smart&lt;/li&gt;
+      &lt;li&gt;Horizontal lines suggest rest, vertical lines suggest grandeur, diagonal lines suggest movement&lt;/li&gt;
+      &lt;li&gt;Combining horizontal and vertical lines communicates stability&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Color
+    &lt;ul&gt;
+      &lt;li&gt;Brown to suggest stability&lt;/li&gt;
+      &lt;li&gt;Light yellow to suggest intellect and freshness&lt;/li&gt;
+      &lt;li&gt;Light blue to suggest health and understanding&lt;/li&gt;
+      &lt;li&gt;Dark blue to suggest knowledge, trust and integrity&lt;/li&gt;
+      &lt;li&gt;White to suggest safety and cleanliness&lt;/li&gt;
+      &lt;li&gt;Black to suggest seriousness, power, formality&lt;/li&gt;
+      &lt;li&gt;Grey to suggest security and practicality&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Shape
+    &lt;ul&gt;
+      &lt;li&gt;Squares communicate security and stability&lt;/li&gt;
+      &lt;li&gt;Curving shapes are more feminine&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Space
+    &lt;ul&gt;
+      &lt;li&gt;White space can give breathing room for the eyes&lt;/li&gt;
+      &lt;li&gt;Less white space can give feelings of claustrophobia&lt;/li&gt;
+      &lt;li&gt;Too much white space can signify unfinished work&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Texture
+    &lt;ul&gt;
+      &lt;li&gt;Textures can bring realism and add visual interest&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;iterating-on-the-design&quot;&gt;Iterating on the Design&lt;/h3&gt;
+
+&lt;p&gt;Three style tiles were developed from the generic template and compared for how they communicate the site messages, &lt;a href=&quot;/styletiles/1&quot;&gt;style tile 1&lt;/a&gt;, &lt;a href=&quot;/styletiles/2&quot;&gt;style tile 2&lt;/a&gt; and &lt;a href=&quot;/styletiles/3&quot;&gt;style tile 3&lt;/a&gt;. The bright colors and light font weight in the &lt;a href=&quot;/styletiles/1&quot;&gt;first style tile&lt;/a&gt; makes it feel too playful to communicate value and reliability. The &lt;a href=&quot;/styletiles/2&quot;&gt;second style tile&lt;/a&gt; goes too far in the other direction, feeling too formal and almost legal-like. The &lt;a href=&quot;/styletiles/3&quot;&gt;third style tile&lt;/a&gt; introduced some of the lighter colors from the first one, but with a heavier paragraph font weight. Icons were introduced in the third one, which makes it look more interesting. But the header font weights look overwhelming.&lt;/p&gt;
+
+&lt;p&gt;I switched the header fonts from the second style tile with those in the third tile and I’m pretty happy with &lt;a href=&quot;/styletiles/4&quot;&gt;style tile 4&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+
+&lt;p&gt;I first heard about using Style Tiles from &lt;a href=&quot;http://badassideas.com/about/&quot;&gt;Samantha Warren&lt;/a&gt;. She has a great explanation of the process in her blog post &lt;a href=&quot;http://badassideas.com/style-tiles-as-a-web-design-process-tool&quot;&gt;Style Tiles as a Web Design Process Tool&lt;/a&gt;, and built a &lt;a href=&quot;http://styletil.es/&quot;&gt;site&lt;/a&gt; explaining the process.&lt;/p&gt;
+
+&lt;p&gt;I learned a bit about design from &lt;a href=&quot;http://www.color-wheel-pro.com/color-meaning.html&quot;&gt;Color Wheel Pro - See Color Theory in Action&lt;/a&gt;, &lt;a href=&quot;http://justcreative.com/2008/06/13/how-to-design-learn-the-basics/&quot;&gt;What to know how to design? Learn The Basics.&lt;/a&gt; and &lt;a href=&quot;http://char.txa.cornell.edu/language/principl/principl.htm&quot;&gt;Principles of Design&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 13 Apr 2012 10:00:00 -0700</pubDate>
+        <link>http://tstapleton.github.io//2012/04/13/style-tiles.html</link>
+        <guid isPermaLink="true">http://tstapleton.github.io//2012/04/13/style-tiles.html</guid>
+        
+        <category>resume-site</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Responsive Framework</title>
+        <description>&lt;p&gt;Following the mobile strategy, the site will be designed for mobile devices first, and progressively enhanced as device resolution increases. The successful combination of a flexible grid-based layout, flexible images and media, and CSS3 media queries will produce a site that responds the user’s device.&lt;/p&gt;
+
+&lt;p&gt;Responsive design is about better meeting the user’s needs. The user can interact with the content from a variety of devices, so the design produced should make that always a good experience for the user.&lt;/p&gt;
+
+&lt;p&gt;There are many existing responsive grid frameworks. After evaluating some, I’ve decided to use the &lt;a href=&quot;http://fluidbaselinegrid.com/&quot;&gt;Fluid Baseline Grid&lt;/a&gt; because it follows the mobile first strategy, the markup is simple, and can be easily customized to my desired design.&lt;/p&gt;
+
+&lt;h3 id=&quot;implementation&quot;&gt;Implementation&lt;/h3&gt;
+
+&lt;p&gt;I’ll update the Fluid Baseline Grid to be based on 4 columns instead of the default 3 since each period has 4 pieces of content to highlight. The grid will display 1 column on mobile devices with content linearized, then switch to a 2 column layout for tablets, and finally switch up to a 4 column layout for large screens. This will keep the content grouped nicely for all devices.&lt;/p&gt;
+
+&lt;p&gt;The same content will be served to every device as there is no reason to think that a user on a mobile device would want less or different content, for this site. Some consideration should be given to make images responsive, starting with serving smaller images to mobile devices rather than allowing the browser to scale down the full image.&lt;/p&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;http://www.abookapart.com/products/responsive-web-design&quot;&gt;Responsive Web Design&lt;/a&gt;&lt;/em&gt; by Ethan Marcotte for the explanation on why and how to implement a responsive website.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 12 Apr 2012 10:00:00 -0700</pubDate>
+        <link>http://tstapleton.github.io//2012/04/12/responsive-framework.html</link>
+        <guid isPermaLink="true">http://tstapleton.github.io//2012/04/12/responsive-framework.html</guid>
+        
+        <category>resume-site</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Mobile Strategy</title>
+        <description>&lt;p&gt;As screen space is reduced on mobile devices, the content displayed should be the most important for the user to know and for the site to communicate. Often the user’s time and attention are limited in mobile situations, but given the common saying that traditional resumes have about 30 seconds to make an impression, competing for the user’s focus is already accepted.&lt;/p&gt;
+
+&lt;p&gt;Focus on the most important pieces, while not removing content from the mobile experience. Consider the possibility of limited bandwidth on mobile devices and implement strategies for improved performance like image sprites, bundle and minify CSS and JavaScript, limit dependencies on heavy CSS frameworks and JavaScript libraries, and use CSS3 properties to reduce the need for images.&lt;/p&gt;
+
+&lt;h3 id=&quot;organization&quot;&gt;Organization&lt;/h3&gt;
+
+&lt;p&gt;Collecting all experience on a single page will make the content the focus of the site. Clear separation between the experience section and the project documentation will keep relevant content together and allow for exploration within each section.&lt;/p&gt;
+
+&lt;p&gt;User interaction with mobile devices generally falls into one of four categories:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lookup / find - need an answer to something now&lt;/li&gt;
+  &lt;li&gt;Explore / play - have some time to kill&lt;/li&gt;
+  &lt;li&gt;Check in / status - stay on top of updating information&lt;/li&gt;
+  &lt;li&gt;Edit / create - need something done now&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These interaction types should be handled with the following site features:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lookup / find - site header has clear contact information, objective and experience summary to provide a quick overview&lt;/li&gt;
+  &lt;li&gt;Explore / play - highlighted resume content should tease content and provide more details when desired&lt;/li&gt;
+  &lt;li&gt;Check in / status - the main experience content won’t be changing too often, but updating information could come in the form of updates to github, new blog posts, and recent tweets&lt;/li&gt;
+  &lt;li&gt;Edit / create - ideally the user needs to contact me immediately to discuss an opportunity with their company, so I should make this really easy to do&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;layout&quot;&gt;Layout&lt;/h3&gt;
+
+&lt;p&gt;Design the mobile experience first and strive for the minimum amount necessary to communicate the desired messages. Then progressively enhance the layout using responsive web design. While all content should be accessible regardless of device used, layout rules can reposition elements, increase image sizes, and toggle initial visibility of content.&lt;/p&gt;
+
+&lt;p&gt;Some work will be needed to handle responsive images, both in terms of size and resolution. Appropriate images can be determined and served using CSS3 media queries, JavaScript and server side solutions. Each image should have multiple sizes and multiple resolutions.&lt;/p&gt;
+
+&lt;p&gt;Develop a working prototype early and start testing how it behaves. Start testing the mobile experience early to evaluate how it meets the desired goals and consider how a user would interact with it in real world situations. Expect multiple iterations on the design to get something optimal.&lt;/p&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;http://www.abookapart.com/products/mobile-first&quot;&gt;Mobile First&lt;/a&gt;&lt;/em&gt; by Luke Wroblewski for explaining the importance of mobile and how it should affect our design process.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 11 Apr 2012 11:00:00 -0700</pubDate>
+        <link>http://tstapleton.github.io//2012/04/11/mobile-strategy.html</link>
+        <guid isPermaLink="true">http://tstapleton.github.io//2012/04/11/mobile-strategy.html</guid>
+        
+        <category>resume-site</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Research and Assessment</title>
+        <description>&lt;p&gt;Erin explains that the purpose of user research is to discover what your readers really want and need. My users are potential employers looking for front-end web developers, preferably those with consumers as their end users (versus working on a line-of-business web app), and who value design and user experience.&lt;/p&gt;
+
+&lt;h3 id=&quot;user-research&quot;&gt;User Research&lt;/h3&gt;
+
+&lt;p&gt;The purpose of doing user research is to discover what your users really want and need. There are many blog posts from someone with hiring power discussing the job application and interviewing process. Some common ideas are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Employers are looking for people who are smart and get things done&lt;/li&gt;
+  &lt;li&gt;Candidate should demonstrate passion, be able to explain things well, and show leadership roles in team projects&lt;/li&gt;
+  &lt;li&gt;Passion - early experience with programming, extra-curricular activities, exploring new technologies&lt;/li&gt;
+  &lt;li&gt;Pickiness - cover letter should demonstrate that the applicant really wants to work for the company applied to, specifically&lt;/li&gt;
+  &lt;li&gt;English - neatness, orderliness, no grammar or spelling errors&lt;/li&gt;
+  &lt;li&gt;Brains - high GPAs, high test scores, honor societies&lt;/li&gt;
+  &lt;li&gt;Selectivity - evidence that applicant has passed a highly selective process in the past&lt;/li&gt;
+  &lt;li&gt;Hard-core - difficulty of projects listed&lt;/li&gt;
+  &lt;li&gt;Diversity - applicant will bring new ideas and new ways of thinking to the existing team&lt;/li&gt;
+  &lt;li&gt;Learn to sell, learn to write, learn to produce extraordinary video and multimedia&lt;/li&gt;
+  &lt;li&gt;Demonstrate that you can contribute far more than you cost&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A review of recent job postings shows some of the common requirements listed for front-end developer positions are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Knowledge and understanding of JavaScript&lt;/li&gt;
+  &lt;li&gt;Experience with JavaScript/CSS frameworks and libraries&lt;/li&gt;
+  &lt;li&gt;Experience with git and github&lt;/li&gt;
+  &lt;li&gt;Experience in templating languages&lt;/li&gt;
+  &lt;li&gt;Clean and maintainable code, values quality&lt;/li&gt;
+  &lt;li&gt;Up to date with web standards and best practices, and what technologies can be used now&lt;/li&gt;
+  &lt;li&gt;Mobile web development experience&lt;/li&gt;
+  &lt;li&gt;Experience with agile development&lt;/li&gt;
+  &lt;li&gt;Examples of work - portfolio, side projects, open source contributions, personal sites&lt;/li&gt;
+  &lt;li&gt;Responsive and adaptive design&lt;/li&gt;
+  &lt;li&gt;Front-end testing frameworks&lt;/li&gt;
+  &lt;li&gt;Resolve cross-browser issues&lt;/li&gt;
+  &lt;li&gt;Focus on performance, knowledgeable about techniques to increase performance&lt;/li&gt;
+  &lt;li&gt;Communicate effectively and clearly, collaborate with team and users&lt;/li&gt;
+  &lt;li&gt;Typography, layout, design skills&lt;/li&gt;
+  &lt;li&gt;Understanding of UI/UX best practices and patterns, appreciation of usability&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And the continual feedback from the applying and interviewing process should be used to improve the site and content.&lt;/p&gt;
+
+&lt;h3 id=&quot;user-proxies&quot;&gt;User Proxies&lt;/h3&gt;
+
+&lt;p&gt;Ultimately, my user is someone who works for a company that needs a front-end developer and who has the power to hire a new employee. But as I will be joining a team, a employee of the new organization is also an important user to consider.&lt;/p&gt;
+
+&lt;p&gt;Tina is a lead designer at ACME and has been overworked recently due to the recent success of their web app. She has been talking with her manager about bringing a new developer to the team so they can handle the extra work and continue to build an amazing product. She is looking for someone she can trust to finish tasks on time and up to their high quality standards. She is busy doing work during the day, and relaxes in the evening, often browsing the web on her iPhone and iPad.&lt;/p&gt;
+
+&lt;p&gt;Jeff is a manager of a web development shop that does client work. Recently, there have been a couple projects Jeff has had to turn down due to lack of time for his current team. He is looking to bring on a new developer so the company can accept more client projects and expand into larger projects. Jeff needs someone who can understand client needs and communicate well with clients, while meeting deadlines and often working on multiple projects concurrently. Jeff has set aside some time during his work day to find a new developer, and is having trouble finding a good one.&lt;/p&gt;
+
+&lt;h3 id=&quot;content-inventory&quot;&gt;Content Inventory&lt;/h3&gt;
+
+&lt;p&gt;A content inventory is a detailed list of all existing content, with some meta data on each piece. Once content is collected, it should then be assessed for quality by answering questions like - Is it appropriate? Useful and user-centered? Clear, consistent, and concise? Has it been properly supported, or is it outdated and inaccurate?&lt;/p&gt;
+
+&lt;p&gt;At the start of the project, all existing content was contained within my &lt;a href=&quot;#&quot;&gt;resume&lt;/a&gt;. The bullet points have been pulled out of the document and added to a &lt;a href=&quot;#&quot;&gt;content inventory&lt;/a&gt; spreadsheet for better organization, meta data collection, and assessment.&lt;/p&gt;
+
+&lt;p&gt;There is enough content to cut the less important items, and maintain variety and depth. Most content could be improved through a rewrite once a clear message to convey is determined, like asking “how does this item demonstrate value to an organization?”&lt;/p&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;http://www.abookapart.com/products/the-elements-of-content-strategy&quot;&gt;The Elements of Content Strategy&lt;/a&gt;&lt;/em&gt; by Erin Kissane for direction on understanding users and assessing content.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.joelonsoftware.com/articles/GuerrillaInterviewing3.html&quot;&gt;The Guerrilla Guide to Interviewing (version 3.0)&lt;/a&gt;, &lt;a href=&quot;http://www.joelonsoftware.com/articles/SortingResumes.html&quot;&gt;Sorting Resumes&lt;/a&gt;, and &lt;a href=&quot;http://sethgodin.typepad.com/seths_blog/2011/10/how-to-get-a-job-with-a-small-company.html&quot;&gt;How to get a job with a small company&lt;/a&gt; for contributions on how an applicant should earn a position.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://jobs.37signals.com/&quot;&gt;37signals Job Board&lt;/a&gt; for collecting many relevant job postings into one place.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 10 Apr 2012 10:00:00 -0700</pubDate>
+        <link>http://tstapleton.github.io//2012/04/10/research-and-assessment.html</link>
+        <guid isPermaLink="true">http://tstapleton.github.io//2012/04/10/research-and-assessment.html</guid>
+        
+        <category>resume-site</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Content Strategy</title>
+        <description>&lt;p&gt;The primary message that should be conveyed to potential employers is that I will be able to provide value to their organization, that I can figure out how to solve problems and then deliver results.&lt;/p&gt;
+
+&lt;p&gt;I need to convey that I care about the projects that I have worked on, by identifying how I contributed to making the project great.&lt;/p&gt;
+
+&lt;p&gt;I need to convey diversity and passion, by describing a variety of accomplishments and having opinions on subjects.&lt;/p&gt;
+
+&lt;p&gt;I need to convey ability and action, by showcasing completed projects and listing my responsibilities.&lt;/p&gt;
+
+&lt;h3 id=&quot;big-concepts&quot;&gt;Big Concepts&lt;/h3&gt;
+
+&lt;p&gt;A traditional resume consists of text in bullet points, separated into various categories and delivered in a printable format. A website with the resume content would be more effective at delivering the desired messages to potential employers.&lt;/p&gt;
+
+&lt;p&gt;The resume content on the website should be readable like a traditional resume, in the sense that a reader can easily read the content quickly. But the content should be explorable, where a user can get more detail about a piece of content, something that wouldn’t be easily available with a traditional, static resume.&lt;/p&gt;
+
+&lt;p&gt;The website can be used as a code sample for potential employers to demonstrate current abilities. Host all code and supporting documentation on github so it is easily available.&lt;/p&gt;
+
+&lt;p&gt;Describing the process of building the website could be included as a separate section of the resume site, which can demonstrate writing ability and thinking process. Plus, writing about solving problems often leads to a better solution.&lt;/p&gt;
+
+&lt;p&gt;Much of the written content reviewed during the content inventory phase felt formal and terse. Use the website to be more lighthearted to better demonstrate personality.&lt;/p&gt;
+
+&lt;p&gt;Resume content should be rewritten to convey the messages described above. The at-a-glance resume view should be short and direct summaries, encouraging exploration for more detail. More descriptive content should be developed for important resume pieces, which could include images, links to active sites, and more text to communicate the desired messages.&lt;/p&gt;
+
+&lt;h3 id=&quot;structural-design&quot;&gt;Structural Design&lt;/h3&gt;
+
+&lt;p&gt;The structural design of this site will be fairly simple by intention. The resume content should be main focus of the site, with the project documentation easily available, but distinctly separate.&lt;/p&gt;
+
+&lt;h4 id=&quot;sitemap&quot;&gt;Sitemap&lt;/h4&gt;
+
+&lt;p&gt;To allow for easy reading, most of the resume content should be available on a single page, with additional content becoming available as requested, without directing the user onto a separate page. The project documentation will be available on a different page, as to separate it from the main resume content, while collecting it in one location for easy exploration.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Experience (the resume content)&lt;/li&gt;
+  &lt;li&gt;Notation (the project planning documentation)
+    &lt;ul&gt;
+      &lt;li&gt;Project Definition&lt;/li&gt;
+      &lt;li&gt;Research and Assessment&lt;/li&gt;
+      &lt;li&gt;Content Strategy&lt;/li&gt;
+      &lt;li&gt;Design Process&lt;/li&gt;
+      &lt;li&gt;Mobile Strategy&lt;/li&gt;
+      &lt;li&gt;Responsive Framework&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;experience-organization&quot;&gt;Experience Organization&lt;/h4&gt;
+
+&lt;p&gt;The resume content is unique in that grouping by organization and job title results in many overlaps of time and responsibilities. The relevant experiences for a new position as a front-end developer come from multiple job titles from multiple organizations since I have been doing web development outside my day job for a few years now.&lt;/p&gt;
+
+&lt;p&gt;Analysis of the content shows 8 overlapping and non-hierarchical terms that can be used for categorization:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Education - taking responsibility to learn something new&lt;/li&gt;
+  &lt;li&gt;Design - determining how something should work to solve a problem&lt;/li&gt;
+  &lt;li&gt;Development - writing code to solve a problem&lt;/li&gt;
+  &lt;li&gt;Drupal - implementing a solution using the open source content management system &lt;a href=&quot;http://drupal.org&quot;&gt;Drupal&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Shopify - implementing a solution using the ecommerce platform &lt;a href=&quot;http://www.shopify.com&quot;&gt;Shopify&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Leadership - affecting the path forward and bringing others along&lt;/li&gt;
+  &lt;li&gt;Teaching - learning someone’s situation then providing a resolution and explanation so it is understandable&lt;/li&gt;
+  &lt;li&gt;Data Analysis - collecting and interpreting information to understand a situation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Content should be sectioned by year to show new experiences first as recent work should establish current abilities. Within each year, a few important projects should be made more prominent to attract attention to specific pieces that are deemed most important. And each piece of content should be tagged with the relevant categories to provide a quick way of finding similar content.&lt;/p&gt;
+
+&lt;p&gt;A summary section at the top of the page should include a brief bio and the type of position I am looking for, similar to a traditional resume objective. Statistic-like information would also be useful, like organizations I have worked for, dates of employment, positions held, and terms that will be used for the content.&lt;/p&gt;
+
+&lt;p&gt;A review of the quantity of content pieces in each year, and those desired to be highlighted, shows that some years should be combined to have more balance in each section. The counts when separated by year is:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Year&lt;/th&gt;
+      &lt;th&gt;Content Count&lt;/th&gt;
+      &lt;th&gt;Highlight Count&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2012&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2011&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2010&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2009&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2008&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2007&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2006&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2005&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2004&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2003&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Combining 2008, 2009 and 2010 into one section, and 2003, 2004, 2005 and 2006 into a separate section would balance out the content distribution:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Section&lt;/th&gt;
+      &lt;th&gt;Content Count&lt;/th&gt;
+      &lt;th&gt;Highlight Count&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2012&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2011&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2008 - 2010&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2007&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2003 - 2006&lt;/td&gt;
+      &lt;td&gt;14&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;content-templates&quot;&gt;Content Templates&lt;/h3&gt;
+
+&lt;p&gt;A piece of content should contain at least:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Year - the year the project was completed&lt;/li&gt;
+  &lt;li&gt;Organization - the company I was working for during the project&lt;/li&gt;
+  &lt;li&gt;Position - the position I held while doing the project&lt;/li&gt;
+  &lt;li&gt;Tags - relevant categories&lt;/li&gt;
+  &lt;li&gt;Highlighted - yes or no, depending on desire to display this piece of content prominently&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Depending on the piece of content, it may also contain:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Teaser - a short description of the project that conveys a desired message&lt;/li&gt;
+  &lt;li&gt;Description - a longer description of the project listing my contributions, background, results, etc&lt;/li&gt;
+  &lt;li&gt;Link - to support material like a live site&lt;/li&gt;
+  &lt;li&gt;Images - screen shots representing the project, often with text captions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;An example piece of content:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Year - 2012&lt;/li&gt;
+  &lt;li&gt;Organization - Baker Hughes&lt;/li&gt;
+  &lt;li&gt;Position - Web Developer&lt;/li&gt;
+  &lt;li&gt;Teaser - Identified the need for a user interface designer and took the role&lt;/li&gt;
+  &lt;li&gt;Tags - Design, Development, Leadership, Teaching&lt;/li&gt;
+  &lt;li&gt;Highlighted - Yes&lt;/li&gt;
+  &lt;li&gt;Description -
+    &lt;ul&gt;
+      &lt;li&gt;Identified the lack of user interface design in our current processes and the issues it was causing like gaps between what the business wanted and the solution developed, and inconsistent interface patterns throughout the application&lt;/li&gt;
+      &lt;li&gt;Set the expectation that screen mockups should be developed and approved by the business prior to development so a common understanding could be established early&lt;/li&gt;
+      &lt;li&gt;Started developing a front-end pattern library to establish standard and reusable ways of interacting with the application&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Link - none&lt;/li&gt;
+  &lt;li&gt;Images - take cropped screenshot of interface designed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;content-creation&quot;&gt;Content Creation&lt;/h3&gt;
+
+&lt;p&gt;Placeholders exist for each content piece already, as they were retrieved from the existing resume. The quality of each piece varies, and each piece should be reviewed and updated to ensure that a desired message is communicated. In order to meet the desired launch date, content creation should be prioritized as:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Write teasers for the highlighted content piece that will be used on the site&lt;/li&gt;
+  &lt;li&gt;Write descriptions and collect links and images for highlight content&lt;/li&gt;
+  &lt;li&gt;Write descriptions and collect links and images for remaining content, starting with the the most recent sections&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The site could launch with only the first task completed, but it would be ideal to complete the second task as well. The third task, while important, provides less value and can be prioritized with other project tasks.&lt;/p&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;http://www.abookapart.com/products/the-elements-of-content-strategy&quot;&gt;The Elements of Content Strategy&lt;/a&gt;&lt;/em&gt; by Erin Kissane for explaining the benefits of defining a content strategy and for direction on what to think about in during process.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 09 Apr 2012 10:00:00 -0700</pubDate>
+        <link>http://tstapleton.github.io//2012/04/09/content-strategy.html</link>
+        <guid isPermaLink="true">http://tstapleton.github.io//2012/04/09/content-strategy.html</guid>
+        
+        <category>resume-site</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Project Definition</title>
+        <description>&lt;p&gt;I find that I learn best through application. In school, I was always good math, largely, I believe, because of the repetition of problems in the homework sets. I was able to learn about a topic, and then practice how that topic is applied to problems. This project, I hope, will give me the opportunity to learn about new ideas in web development, and apply them to a problem.&lt;/p&gt;
+
+&lt;p&gt;My goal is to get a job as a front-end developer. The problem is solving how to demonstrate that I will be valuable to an organization. I will use this project as a way to highlight what I have done in the past, and, possibly more importantly, document how I go about solving a problem.&lt;/p&gt;
+
+&lt;h3 id=&quot;project-goals&quot;&gt;Project Goals&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Get a job as a front-end developer in the Bay Area&lt;/li&gt;
+  &lt;li&gt;Build a website to highlight my projects and accomplishments&lt;/li&gt;
+  &lt;li&gt;Learn about new ideas and technologies in web development&lt;/li&gt;
+  &lt;li&gt;Demonstrate how I can provide value to a new organization&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;project-objectives&quot;&gt;Project Objectives&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Update my resume content to show my accomplishments and projects in an interesting format&lt;/li&gt;
+  &lt;li&gt;Build a website to replace the need for a traditional paginated resume&lt;/li&gt;
+  &lt;li&gt;Provide an outlet for continued writing and projects&lt;/li&gt;
+  &lt;li&gt;Demonstrate my understanding of new ideas and technologies in web development&lt;/li&gt;
+  &lt;li&gt;Document the way I think about solving problems and completing projects&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;victory-conditions&quot;&gt;Victory Conditions&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Accepted a job offer as a front-end web developer by June 1, 2012&lt;/li&gt;
+  &lt;li&gt;Zero requests from potential employers for a standard document resume because my site does not communicate the necessary information&lt;/li&gt;
+  &lt;li&gt;This website is discussed in 100% of my job interviews with potential employers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;requirements&quot;&gt;Requirements&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Launch by April 15, 2012 so I may start applying to jobs&lt;/li&gt;
+  &lt;li&gt;Accept a job offer by June 1, 2012 so I may move to the Bay Area by July 1, 2012&lt;/li&gt;
+  &lt;li&gt;I will complete the website on my own&lt;/li&gt;
+  &lt;li&gt;The website will need to be completed during nights and weekends while I continue working in my present position&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;http://www.abookapart.com/products/the-elements-of-content-strategy&quot;&gt;The Elements of Content Strategy&lt;/a&gt;&lt;/em&gt; by Erin Kissane for the ideas on how to structure project planning information.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 08 Apr 2012 10:00:00 -0700</pubDate>
+        <link>http://tstapleton.github.io//2012/04/08/project-definition.html</link>
+        <guid isPermaLink="true">http://tstapleton.github.io//2012/04/08/project-definition.html</guid>
+        
+        <category>resume-site</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Ideas from The Elements of Content Strategy</title>
+        <description>&lt;p&gt;I just finished reading &lt;em&gt;&lt;a href=&quot;http://www.abookapart.com/products/the-elements-of-content-strategy&quot;&gt;The Elements of Content Strategy&lt;/a&gt;&lt;/em&gt; by Erin Kissane. The main takeways for my personal website are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Summarizing, good content is appropriate, useful, user-centric, clear, consistent, concise, and supported&lt;/li&gt;
+  &lt;li&gt;Content should tell a story, use the three kinds of rhetorical approaches&lt;/li&gt;
+  &lt;li&gt;Outlined a good process for determining how to build the content for my site, which I’ll implement as the next part of the project&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
+
+&lt;p&gt;Content strategy should:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Help companies understand and produce the kind of content their target audiences really need&lt;/li&gt;
+  &lt;li&gt;Allow organizations to develop realistic, sustainable, and measurable publishing plans for long term&lt;/li&gt;
+  &lt;li&gt;Cut costs by reducing redundant or extraneous publishing efforts while increasing the effectiveness of existing assets&lt;/li&gt;
+  &lt;li&gt;Align communication across channels all content is working toward the same goals, in channel-appropriate ways&lt;/li&gt;
+  &lt;li&gt;Prevent web projects from being derailed by major delays caused by underestimating the time and effort required to produce great content&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;chapter-1-basic-principles&quot;&gt;Chapter 1: Basic Principles&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Good content is appropriate - publish content that is right for the user and for the business
+    &lt;ul&gt;
+      &lt;li&gt;Right for the user and context - we should present content that is exactly what they need, when they need it and in the right form. Understanding this perfectly is difficult, so always give the option of seeing more information if desired.&lt;/li&gt;
+      &lt;li&gt;Right for the business - content should help accomplish business goals in a sustainable way.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Good content is useful - define a clear, specific purpose for each piece of content; evaluate content against this purpose
+    &lt;ul&gt;
+      &lt;li&gt;Greater specificity produces better results, e.g. compare “sell products” to “show how this product helps nurse practitioners”&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Good content is user-centered - adopt the cognitive frameworks of your users&lt;/li&gt;
+  &lt;li&gt;Good content is clear - seek clarity in all things&lt;/li&gt;
+  &lt;li&gt;Good content is consistent - mandate consistency, within reason&lt;/li&gt;
+  &lt;li&gt;Good content is concise - omit needless content
+    &lt;ul&gt;
+      &lt;li&gt;Decline in quality often due to misunderstanding that “publishing everything” means “publishing everything we can,” when it should really mean “publishing everything we’ve learned that our users really need.”&lt;/li&gt;
+      &lt;li&gt;After removing unnecessary content at the site-planning level, continue the practice down to the section, page and sentence level&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Good content is supported - publish no content without a supported plan&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;my-thoughts&quot;&gt;My Thoughts&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;If I am defining a purpose for each piece of content, maybe I could organize the content around those purposes, e.g. purposes could be “demonstrate initiative through value-adding projects”, “demonstrate knowledge of jQuery through completed projects”, “demonstrate thinking process through documenting how this site was created”&lt;/li&gt;
+  &lt;li&gt;When collecting information for my site, I’ll need to collect everything, then reduce it to the most important pieces, and look at the relationships between the pieces to make sure they fit together and don’t overlap much&lt;/li&gt;
+  &lt;li&gt;Summarizing, good content is appropriate, useful, user-centric, clear, consistent, concise, and supported&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;chapter-2-the-craft-of-content-strategy&quot;&gt;Chapter 2: The Craft of Content Strategy&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Content strategy, defined as the planning and leadership of content projects and online publishing endeavors&lt;/li&gt;
+  &lt;li&gt;Legacies and shared principles from design and development - design should communicate, elegant code is better than sloppy code.&lt;/li&gt;
+  &lt;li&gt;Four most influential fields for content strategy - editorial work, curatorial work, marketing and persuasion, and information science&lt;/li&gt;
+  &lt;li&gt;Influence 1: The Editor
+    &lt;ul&gt;
+      &lt;li&gt;Editors develop themes and narrative arcs, orchestrate responses to outside events, maintain a balanced variety of content, evaluate and manage content creators, and more.&lt;/li&gt;
+      &lt;li&gt;The reader’s interest and attention is the central, precious thing&lt;/li&gt;
+      &lt;li&gt;“Authors know their subject. Editors specialize in knowing the audience.” ~ Authur Plotnik in &lt;em&gt;The Elements of Editing&lt;/em&gt;&lt;/li&gt;
+      &lt;li&gt;Editors know how to help other people tell the best, most engaging stories they can tell
+        &lt;ul&gt;
+          &lt;li&gt;Inverted pyramid - classic news story structure where all the most important basic information appears at the beginning of the story, and is followed by less important information&lt;/li&gt;
+          &lt;li&gt;5 Ws and an H - what happened, who is involved, when and where it happened, why it happened and how it happened&lt;/li&gt;
+          &lt;li&gt;Show, don’t tell - show results, statistics, case studies, personal narratives and demonstrations of action&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Can help teams communicate more effectively using clearly documented editorial workflows, editorial calendars and content custom-tuned for specific channels and audiences&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Influence 2: The Curator
+    &lt;ul&gt;
+      &lt;li&gt;Plan for the orderly acquisition, cataloging, and practical maintenance of the content&lt;/li&gt;
+      &lt;li&gt;Must balance an understanding of the context in which content is created with an understanding of the context in which it is read and used, and become immersed in both worlds&lt;/li&gt;
+      &lt;li&gt;Consider the user experience of interacting with content - distraction free, readable, accessible&lt;/li&gt;
+      &lt;li&gt;What information about content sources and types should we record to ease future display, reuse, revision and expansion?&lt;/li&gt;
+      &lt;li&gt;How can we ensure that ongoing, distributed revisions fit within a larger communication strategy?&lt;/li&gt;
+      &lt;li&gt;How can we structure our content to promote reuse in interesting ways?&lt;/li&gt;
+      &lt;li&gt;How might we use analytics and other tools to understand which assets we’re under-using?&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Influence 3: The Marketer
+    &lt;ul&gt;
+      &lt;li&gt;We need to do more than inform and entertain, online content is also intended to intrigue, to persuade and to sell&lt;/li&gt;
+      &lt;li&gt;Three kinds of rhetoric according to Aristotle - the rational argument, the emotional appeal, the appeal grounded in the speaker’s reputation or character&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;Messages&lt;/em&gt; are high-level ideas you want to transmit directly into your users’ brains, and they’re created by combining &lt;em&gt;what&lt;/em&gt; you need to say with &lt;em&gt;how&lt;/em&gt; you need to say it - a rhetorical approach&lt;/li&gt;
+      &lt;li&gt;As an exercise, identify a client and a core idea, then communicate that idea using each of the three kinds of rhetorical appeal&lt;/li&gt;
+      &lt;li&gt;We need to make and execute a solid plan for determining whether or not what you do works&lt;/li&gt;
+      &lt;li&gt;&lt;em&gt;Distribution channel&lt;/em&gt; and &lt;em&gt;channel strategy&lt;/em&gt; refer to the method of getting content to its intended audience via the website, blogs, newsletters, social, webcasts, mobile apps, etc.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Influence 4: The (Info) Scientist
+    &lt;ul&gt;
+      &lt;li&gt;Work on ways of effectively storing, retrieving and disseminating information, much of which has turned into the modern practice of information architecture&lt;/li&gt;
+      &lt;li&gt;Information architecture is the design of structures for information, including navigational structures and content taxonomies&lt;/li&gt;
+      &lt;li&gt;Deliverables like wireframes, site maps, page diagrams, user flows, after doing a lot of user research&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;my-thoughts-1&quot;&gt;My Thoughts&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Would be useful to consider what new content I could be adding to the site, and how that would fit in with the current site design and existing content&lt;/li&gt;
+  &lt;li&gt;How can I treat my resume / my site as a story? Telling a story of my accomplishments?&lt;/li&gt;
+  &lt;li&gt;Perform the exercise described in Influence 3: The Marketer to write content using each kind of rhetorical appeal&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;chapter-3-tools-and-techniques&quot;&gt;Chapter 3: Tools and Techniques&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Content strategy varies from project to project and isn’t clearly visible at the end of the project. Common methodologies tend to reflect the specialization.
+    &lt;ul&gt;
+      &lt;li&gt;Marketing communication - focus on branding and messages, effective cross-channel outreach, creation of persuasive content and development of sustainable publishing processes&lt;/li&gt;
+      &lt;li&gt;Information management - technical analysis, data modeling and large-scale content reuse across multiple systems&lt;/li&gt;
+      &lt;li&gt;Web development teams - search, content taxonomies, CMS requirements, and information architecture, for marketing, educational and technical content&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Work can be categorized into phases of evaluation, design, and execution
+    &lt;ul&gt;
+      &lt;li&gt;Evaluation - happens at beginning and at very end, includes research, usability testing and traffic analysis&lt;/li&gt;
+      &lt;li&gt;Design - high-level communication strategy, proposals for public-facing and back-end features related to content, design of tactical plans for creating and revising content, design of tools and processes for long-term management of content&lt;/li&gt;
+      &lt;li&gt;Execution - writing and revising content, setting up publishing workflows, sourcing and aggregating content, and examples to illustrate recommendations&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The Things We Make
+    &lt;ul&gt;
+      &lt;li&gt;Include - channel strategy, content production workshops, content style guides, content templates, example content, feature descriptions, metadata recommendations, SEO reviews, success metrics, taxonomies, usability tests, user personas, user scenarios, visual presentation recommendations, wireframes (many references can be found at &lt;a href=&quot;http://incisive.nu/elements&quot;&gt;http://incisive.nu/elements&lt;/a&gt;)&lt;/li&gt;
+      &lt;li&gt;Every deliverable you create and every meeting you lead deals with two kinds of strategy: the one you’re developing for the project, and the one you’re using to guide your own communication with your colleagues, employers and clients. These people usually won’t be your target audience for the &lt;em&gt;project&lt;/em&gt;, but they are the audience for your &lt;em&gt;deliverables&lt;/em&gt;.&lt;/li&gt;
+      &lt;li&gt;When dealing with a team that isn’t familiar with content strategy, one good way to begin is with the function or purpose of your content strategy deliverables&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Project Definition
+    &lt;ul&gt;
+      &lt;li&gt;Take the time to clarify what the project is meant to accomplish&lt;/li&gt;
+      &lt;li&gt;Business goals are the overarching aims that an entire organization tries to achieve, e.g. don’t be evil&lt;/li&gt;
+      &lt;li&gt;Tactics are all the detailed, specific requests, e.g. clarify navigation and improve search&lt;/li&gt;
+      &lt;li&gt;Requirements are the project’s immovable objects, e.g. launch date, budget, resources&lt;/li&gt;
+      &lt;li&gt;Project objectives are things that can actually be accomplished, below business goals and above tactics, e.g. change our website to reflect our new organizational focus on education&lt;/li&gt;
+      &lt;li&gt;Define success metrics (victory conditions) as something that can be measured&lt;/li&gt;
+      &lt;li&gt;Collect all project definition information in one place&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Research and Assessment
+    &lt;ul&gt;
+      &lt;li&gt;Purpose of user research is to move beyond assumptions, guesses, and stereotypes to discover what your human readers, viewers, and listeners really want and need&lt;/li&gt;
+      &lt;li&gt;After user research, develop &lt;em&gt;user proxies&lt;/em&gt;, e.g. personas, user scenarios, use cases, and activity flows&lt;/li&gt;
+      &lt;li&gt;Content inventory - create an extremely detailed site map that represents every piece of existing content, with title, format (text, video, PDF, etc), URL or location, content type (landing page, article, support page, contact page, etc), and owner&lt;/li&gt;
+      &lt;li&gt;Plan to have user research complete and a few personas developed before evaluating content quality - Is it appropriate? Useful and user-centered? Clear, consistent, and concise? Has it been properly supported, or is it outdated and inaccurate?&lt;/li&gt;
+      &lt;li&gt;Once done, write up a short summary describing your process, criteria for evaluation and major findings.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Strategy and Design
+    &lt;ul&gt;
+      &lt;li&gt;Now ready to begin the strategy part of content strategy - developing a set of concepts, plans, and guidelines for creating and maintaining content that meets user needs and project goals.&lt;/li&gt;
+      &lt;li&gt;Messages - document the main ideas, which you will convey to your users. Each separate audience will probably have its own subset of messages that lives under the umbrella of site-wide messages.&lt;/li&gt;
+      &lt;li&gt;Big concepts - introduce big changes as &lt;em&gt;strategies&lt;/em&gt; with rationale for the proposed change, e.g. shifts in target audience, new content-related features (blogs, podcasts, wikis, etc), changes in voice and tone. Begin to assemble plans and recommendations for actual contents, e.g. detailed set of guidelines and content needs for each site section and delivery channel or brief written guidelines combined with content templates and examples of good and bad content&lt;/li&gt;
+      &lt;li&gt;Structural design - decide what’s going to be on the website and what’s going to be included on other channels, often resulting in a sitemap, wireframes, user flows, etc&lt;/li&gt;
+      &lt;li&gt;Site-level content recommendations - messages to be communicated in each section’s content, audiences to be served by each section’s content, notes on the integration of major new content related features into the site, recommendations on voice and tone, discussion of how each of the site’s major audiences will be served by the content, recommendations on delivery channels for the various kinds of content you’re working with&lt;/li&gt;
+      &lt;li&gt;Page-level content guidelines - strategies for cross-linking content, content style guide for images and social media, deviations from standard style guide&lt;/li&gt;
+      &lt;li&gt;Content templates - contains information about a specific kind of page
+        &lt;ul&gt;
+          &lt;li&gt;List each piece of information that must be on the page, followed by optional pieces of information&lt;/li&gt;
+          &lt;li&gt;After the name of each chunk of content, note what the content is supposed to accomplish&lt;/li&gt;
+          &lt;li&gt;List your specifications for each piece of content, e.g. ideal word count, capitalization style, list vs paragraph vs heading&lt;/li&gt;
+          &lt;li&gt;Provide example content for each piece of content on the template&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Planning for Content Creation&lt;/li&gt;
+  &lt;li&gt;Planning for Content Management&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;my-thoughts-2&quot;&gt;My Thoughts&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;My site would be categorized as marketing communication, and as part of a (solo) web development team&lt;/li&gt;
+  &lt;li&gt;I should take a step back and identify high-level goals for the project, explicitly listed&lt;/li&gt;
+  &lt;li&gt;Possible success metrics for this project: job offer received before May 31, 0 requests from potential employers for a standard document resume, this site is discussed in 100% of job interviews&lt;/li&gt;
+  &lt;li&gt;I can do user research by reading job posts to understand what potential employers are looking for&lt;/li&gt;
+  &lt;li&gt;I’m now rethinking the approach of writing up book notes and documenting my thoughts on the sections. Perhaps a better approach would be to have a documentation area of the site to collect all these artifacts in a more structured format, rather than a series of blog posts.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sat, 07 Apr 2012 10:00:00 -0700</pubDate>
+        <link>http://tstapleton.github.io//2012/04/07/ideas-from-the-elements-of-content-strategy.html</link>
+        <guid isPermaLink="true">http://tstapleton.github.io//2012/04/07/ideas-from-the-elements-of-content-strategy.html</guid>
+        
+        <category>resume-site</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Development Environment Setup</title>
+        <description>&lt;p&gt;I need a new development environment. Actually, I &lt;em&gt;want&lt;/em&gt; a new development environment, and I &lt;em&gt;need&lt;/em&gt; a better development workflow. I code most things by hand and use a variety of text editors to accomplish that:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://macromates.com/&quot;&gt;TextMate&lt;/a&gt; for &lt;a href=&quot;http://www.shopify.com/&quot;&gt;Shopify&lt;/a&gt; themes due to the excellent &lt;a href=&quot;http://wiki.shopify.com/Shopify_Textmate_Bundle&quot;&gt;Shopify bundle&lt;/a&gt; that makes pushing code incredibly easy&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.panic.com/coda/&quot;&gt;Coda&lt;/a&gt; for when I am developing code on a remote server due to the excellent FTP integration and integrated SSH terminal&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://notepad-plus-plus.org/&quot;&gt;Notepad++&lt;/a&gt; for when I am at work because I can easily work out of my DropBox folder and it isn’t as heavy as &lt;a href=&quot;http://www.eclipse.org/&quot;&gt;Eclipse&lt;/a&gt; (and I have to use a Windows PC)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Given all the time I spend at work, I’d like to have a similar setup at home on my Mac and at the office on my PC. I think it would be easier to learn one editor, and then I can make an effort to learn how to use it optimally - e.g. shortcuts, configuration, packages, etc. So I’m going to give &lt;a href=&quot;http://www.sublimetext.com/&quot;&gt;Sublime Text&lt;/a&gt; a shot.&lt;/p&gt;
+
+&lt;p&gt;Right now, I have some blog posts written about this project, but no code yet. So I’ll focus on getting my environment setup to write &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;markdown&lt;/a&gt; and getting those files into &lt;a href=&quot;https://github.com/&quot;&gt;github&lt;/a&gt;. If I have time tonight, I’d also like to explore setting up &lt;a href=&quot;http://octopress.org&quot;&gt;Octopress&lt;/a&gt; as I am thinking I’ll use that for my blogging platform. Then I’ll revisit my development environment to find tools for better handling development.&lt;/p&gt;
+
+&lt;p&gt;I’ll treat this post as instructions on how to setup Sublime on Mac OS X (10.7.3) to write markdown files and check them into github.&lt;/p&gt;
+
+&lt;p&gt;First, let’s get Sublime setup for handling markdown files.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Download &lt;a href=&quot;http://www.sublimetext.com/&quot;&gt;Sublime Text&lt;/a&gt; from their &lt;a href=&quot;http://www.sublimetext.com/2&quot;&gt;downloads page&lt;/a&gt; and copy it to your &lt;code&gt;Applications&lt;/code&gt; folder.&lt;/li&gt;
+  &lt;li&gt;To easily add extra features to Sublime, we’ll use &lt;a href=&quot;http://wbond.net/sublime_packages/package_control&quot;&gt;Sublime Package Control&lt;/a&gt;. Installing this requires entering a command into the console of Sublime, accessed by the &lt;code&gt;ctrl+`&lt;/code&gt;, and to make sure the latest command is used, you can copy it from their &lt;a href=&quot;http://wbond.net/sublime_packages/package_control/installation&quot;&gt;installation page&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Restart Sublime to finish the installation.&lt;/li&gt;
+  &lt;li&gt;We’ll use the &lt;a href=&quot;https://github.com/revolunet/sublimetext-markdown-preview&quot;&gt;SublimeText Markdown Preview&lt;/a&gt; plugin available on github. Installation instructions are available in their README file.&lt;/li&gt;
+  &lt;li&gt;Activating the preview can be done by pressing &lt;code&gt;cmd+shift+P&lt;/code&gt; then typing &lt;code&gt;MarkdownPreview&lt;/code&gt;. But it would be nice to setup a keybinding so this can be done easier and faster.&lt;/li&gt;
+  &lt;li&gt;To set a keybinding, go to the &lt;code&gt;Preferences&lt;/code&gt; menu, then select &lt;code&gt;Keybindings - User&lt;/code&gt;. A new tab will open in Sublime Text, then paste the code below inside square brackets so the resulting file looks like:&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-json&quot; data-lang=&quot;json&quot;&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;nt&quot;&gt;&amp;quot;keys&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;ctrl+j&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;],&lt;/span&gt;
+		&lt;span class=&quot;nt&quot;&gt;&amp;quot;command&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;markdown_preview&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;
+		&lt;span class=&quot;nt&quot;&gt;&amp;quot;args&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+			&lt;span class=&quot;nt&quot;&gt;&amp;quot;target&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;browser&amp;quot;&lt;/span&gt;
+		&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Save the file. Now the markdown preview can be activated using the shortcut &lt;code&gt;ctrl+j&lt;/code&gt;.&lt;/li&gt;
+  &lt;li&gt;Now let’s associate &lt;code&gt;.mdown&lt;/code&gt; files to Sublime Text so it can be our default editor for markdown files. Right click on a &lt;code&gt;.md&lt;/code&gt; file in the &lt;code&gt;Finder&lt;/code&gt;, and select &lt;code&gt;Get Info&lt;/code&gt;. In the &lt;code&gt;Open with&lt;/code&gt; section, select the application &lt;code&gt;Sublime Text 2&lt;/code&gt; from the drop down. Click on the &lt;code&gt;Change All...&lt;/code&gt; button, then click &lt;code&gt;Continue&lt;/code&gt; in the dialog box.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Next, let’s get Sublime Text to communicate with github. I already have a github account and github has excellent &lt;a href=&quot;http://help.github.com/&quot;&gt;documentation&lt;/a&gt; on setting up and using git. As much of the instructions in this section would be about how to setup a repository on github and how to use git, I’ll just briefly describe the steps I took.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Use Sublime Package Control again to install &lt;a href=&quot;https://github.com/kemayo/sublime-text-2-git&quot;&gt;Sublime Text 2 plugin: git&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;Create a repository in github, and configure the local system to communicate with the repository.&lt;/li&gt;
+  &lt;li&gt;Using a file within the local github directory, we can use the Sublime git plugin to interact with the hosted repository.&lt;/li&gt;
+  &lt;li&gt;Select &lt;code&gt;Git: Add Current File&lt;/code&gt; from the Sublime Command Palette to add the file to the local repository.&lt;/li&gt;
+  &lt;li&gt;Select &lt;code&gt;Git: Commit&lt;/code&gt; from the Sublime Command Palette to commit to the local repository.&lt;/li&gt;
+  &lt;li&gt;Select &lt;code&gt;Git: Push&lt;/code&gt; from the Sublime Command Palette to push the changes to the hosted repository.&lt;/li&gt;
+  &lt;li&gt;Check the update on github.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Now I have a text editor that I am reasonably happy with and my work is being saved to github. I’ll still need to do some tweaking on my environment as I work more, and I’m already thinking I’d like to add more plugins to Sublime. But this is good enough to continue on the project.&lt;/p&gt;
+
+&lt;h2 id=&quot;next-steps&quot;&gt;Next Steps&lt;/h2&gt;
+
+&lt;p&gt;Feels like the next thing to do is work on the content of the site, starting with reading &lt;em&gt;&lt;a href=&quot;http://www.abookapart.com/products/the-elements-of-content-strategy&quot;&gt;The Elements of Content Strategy&lt;/a&gt;&lt;/em&gt; by Erin Kissane.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 02 Apr 2012 10:00:00 -0700</pubDate>
+        <link>http://tstapleton.github.io//2012/04/02/development-environment-setup.html</link>
+        <guid isPermaLink="true">http://tstapleton.github.io//2012/04/02/development-environment-setup.html</guid>
+        
+        <category>resume-site</category>
+        
+        <category>development</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Ideas from Responsive Web Design</title>
+        <description>&lt;p&gt;I just finished reading &lt;em&gt;&lt;a href=&quot;http://www.abookapart.com/products/responsive-web-design&quot;&gt;Responsive Web Design&lt;/a&gt;&lt;/em&gt; by Ethan Marcotte. The main takeways for my personal website are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Use target / context = result to get relative sizes&lt;/li&gt;
+  &lt;li&gt;Many technical details about how to implement a responsive site and what considerations need to be made&lt;/li&gt;
+  &lt;li&gt;Serving the same content to every device isn’t the best solution in all cases, and the goals of the user should be considered first to&lt;/li&gt;
+  &lt;li&gt;A responsible approach to responsive design would mean building our stylesheet with mobile first in mind, then progressively enhancing it as the resolution increases&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;chapter-1-our-responsive-web&quot;&gt;Chapter 1: Our Responsive Web&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;“The ingredients: a flexible grid-based layout, flexible images and media, and media queries”&lt;/li&gt;
+  &lt;li&gt;“We’ll have created a design that can adapt to the constraints of the browser window or device that renders it, creating a design that almost &lt;em&gt;responds&lt;/em&gt; to the user’s needs”&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;my-thoughts&quot;&gt;My Thoughts&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Responsive design is about better meeting the user’s needs. The user can interact with our content from a variety of devices, so the design produced should make that always a good experience for the user.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;chapter-2-the-flexible-grid&quot;&gt;Chapter 2: The Flexible Grid&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Flexible typesetting
+    &lt;ul&gt;
+      &lt;li&gt;Relative type sizes can be calculated with the formula target / context = result, e.g. 24px / 16px = 1.5em&lt;/li&gt;
+      &lt;li&gt;Don’t round relative sizes computed, browsers can handle that better&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Creating a flexible grid
+    &lt;ul&gt;
+      &lt;li&gt;Using the same formula to compute width, convert fixed element widths to percentages using the parent container as the context&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Flexible margins and padding
+    &lt;ul&gt;
+      &lt;li&gt;Need a flexible gutter so content aligns with the rest of the fluid grid, reusing the formula&lt;/li&gt;
+      &lt;li&gt;When setting flexible margins, the context is the width of the element’s container&lt;/li&gt;
+      &lt;li&gt;When setting flexible padding, the context is the width of the element itself&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;chapter-3-flexible-images&quot;&gt;Chapter 3: Flexible Images&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Fluid images
+    &lt;ul&gt;
+      &lt;li&gt;Images larger than their container will overflow, which can be prevented with &lt;code&gt;max-width: 100%&lt;/code&gt;, then as the flexible container resizes itself, the image will respond appropriately&lt;/li&gt;
+      &lt;li&gt;Can apply &lt;code&gt;max-width: 100%&lt;/code&gt; to &lt;code&gt;img&lt;/code&gt;, &lt;code&gt;embed&lt;/code&gt;, &lt;code&gt;object&lt;/code&gt; and &lt;code&gt;video&lt;/code&gt;, and it will work in modern browsers and IE7+&lt;/li&gt;
+      &lt;li&gt;Resized images suffer from poor quality in IE7, but are fine in modern browsers and IE8+&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Negotiate that content
+    &lt;ul&gt;
+      &lt;li&gt;Simply scaling and cropping might be less than desirable for some images, instead could use multiple images suitable for various devices and server side solutions to server the most appropriate image (which is beyond the scope of the book, see http://bkaprt.com/rwd/23)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;my-thoughts-1&quot;&gt;My Thoughts&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;My focus, at this time, is not IE and as it is important to me that I can use a Mac at my next job, I will assume that someone reading this will also be using a Mac, for better or worse&lt;/li&gt;
+  &lt;li&gt;Didn’t read anything about sending full sized images to mobile devices, so I will need to investigate solutions for that elsewhere&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;chapter-4-media-queries&quot;&gt;Chapter 4: Media Queries&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;CSS2 spec included media types for handling styles for different media, which didn’t work very well and never caught on&lt;/li&gt;
+  &lt;li&gt;CSS3 spec introduced media queries for inspecting the physical characteristics of the devices and browsers
+    &lt;ul&gt;
+      &lt;li&gt;e.g. &lt;code&gt;@media screen and (min-width: 1024px) { body { font-size: 100%; } }&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Includes media type - &lt;code&gt;screen&lt;/code&gt;, query of a feature and a value - &lt;code&gt;(min-width: 1024px)&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;If the browser meets both criteria, then the styles will be rendered, otherwise they will be ignored&lt;/li&gt;
+      &lt;li&gt;Can include the rule in a stylesheet, or like &lt;code&gt;&amp;lt;link rel=&quot;stylesheet&quot; href=&quot;wide.css&quot; media=&quot;screen and (min-width: 1024px)&quot; /&amp;gt;&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;In spec, display area refers to the browser window and rendering surface refers to the entire screen&lt;/li&gt;
+      &lt;li&gt;Can use prefixes of &lt;code&gt;min-&lt;/code&gt; and &lt;code&gt;max-&lt;/code&gt; to test above and below thresholds&lt;/li&gt;
+      &lt;li&gt;Some important feature names: &lt;code&gt;width&lt;/code&gt;, &lt;code&gt;height&lt;/code&gt;, &lt;code&gt;device-width&lt;/code&gt;, &lt;code&gt;device-height&lt;/code&gt;, &lt;code&gt;orientation&lt;/code&gt;, &lt;code&gt;resolution&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Can chain multiple queries like &lt;code&gt;@media screen and (min-device-width: 480px) and (orientation: landscape) { ... }&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The idea is to “use media queries to optimize the display of our content to best meet the needs of the device, creating alternate layouts tailored to the different resolution ranges”
+    &lt;ul&gt;
+      &lt;li&gt;Flexible layouts and media queries combine to make the site responsive&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Mobile Safari has a display size of 320x480 but actually displays web pages at a width of 980px, shrunken to fit on the display
+    &lt;ul&gt;
+      &lt;li&gt;Apple created a new attribute value, &lt;code&gt;viewport&lt;/code&gt;, to control the size of the canvas and override the default behavior&lt;/li&gt;
+      &lt;li&gt;e.g. &lt;code&gt;&amp;lt;meta name=&quot;viewport&quot; content=&quot;width=320&quot; /&amp;gt;&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;To handle various resolutions, use &lt;code&gt;&amp;lt;meta name=&quot;viewport&quot; content=&quot;initial-scale=1.0, width=device-width&quot; /&amp;gt;&lt;/code&gt; to set the zoom level to 100% and width of the browser’s viewport equal to the width of the device’s screen&lt;/li&gt;
+      &lt;li&gt;now &lt;code&gt;min-width&lt;/code&gt; and &lt;code&gt;max-width&lt;/code&gt; can be used to conditionally load CSS&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Media queries in action, using &lt;code&gt;max-width&lt;/code&gt; for smaller screens
+    &lt;ul&gt;
+      &lt;li&gt;For text, consider using media queries to decrease the font size and changing the font family to something more readable at smaller sizes&lt;/li&gt;
+      &lt;li&gt;For the container, consider decreasing the margins and increasing the width to fill the entire smaller screen&lt;/li&gt;
+      &lt;li&gt;For the content areas, disabling the horizontal margins and making them occupy the full width of the container will linearize the page’s layout so it is more readable&lt;/li&gt;
+      &lt;li&gt;For logo inline with navigation, consider moving logo above navigation and centering navigation elements below or moving navigation elements into a grid layout to prevent wrapping&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Media queries in action, using &lt;code&gt;min-width&lt;/code&gt; for larger screens
+    &lt;ul&gt;
+      &lt;li&gt;Consider taking the opposite approach of making content linear for smaller screens, instead bring elements up and inline to keep line lengths reasonable and make content more accessible&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Compatibility
+    &lt;ul&gt;
+      &lt;li&gt;Media queries have a broad range of support in modern desktop browsers and IE9+, and in many mobile browsers&lt;/li&gt;
+      &lt;li&gt;Will have issues in IE8 and below, IE mobile and older blackberries&lt;/li&gt;
+      &lt;li&gt;JavaScript libraries like &lt;code&gt;css3-mediaqueries.js&lt;/code&gt; and &lt;code&gt;respond.js&lt;/code&gt; can be used to provide support, though no guarantee that JavaScript is enabled on all browsers&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;my-thoughts-2&quot;&gt;My Thoughts&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Reminder that I should consider a print stylesheet to convert my resume into a printable version&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;chapter-5-becoming-responsive&quot;&gt;Chapter 5: Becoming Responsive&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A matter of context
+    &lt;ul&gt;
+      &lt;li&gt;An argument against responsive web design reasons that mobile users might want quicker access to different tasks than if they were on a desktop or laptop&lt;/li&gt;
+      &lt;li&gt;An argument against responsive web design reasons that if the user’s priorities and goals do indeed differ between contexts, then they should not be served the same HTML in all contexts&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Serving the same content to every device isn’t the best solution in all cases, and the goals of the user should be considered first to determine the best approach
+    &lt;ul&gt;
+      &lt;li&gt;It is wasteful to serve all content to all devices but hide some depending on device using &lt;code&gt;display: none;&lt;/code&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Toward a responsive workflow
+    &lt;ul&gt;
+      &lt;li&gt;Ask, how does this content or feature benefit our mobile users?&lt;/li&gt;
+      &lt;li&gt;Example breakpoints for most commonly used resolutions: 320px, 480px, 600px, 768px, 1024px, 1200px&lt;/li&gt;
+      &lt;li&gt;Designers and developers need to be working together to build the prototypes iteratively and test them on a variety of devices&lt;/li&gt;
+      &lt;li&gt;Responsive design is about starting from a reference resolution, and using media queries to adapt it to other contexts&lt;/li&gt;
+      &lt;li&gt;A more responsible approach to responsive design would mean building our stylesheet with mobile first in mind, then progressively enhancing it as the resolution increases&lt;/li&gt;
+      &lt;li&gt;To handle users without JavaScript, elements that are applicable only when JavaScript is present can be loaded using JavaScript, e.g. all slides besides the first of an image slideshow&lt;/li&gt;
+      &lt;li&gt;And can use &lt;code&gt;$.get()&lt;/code&gt; to open HTML snippets so markup doesn’t need to be storied in JavaScript strings&lt;/li&gt;
+      &lt;li&gt;Or can make the script resolution dependent to prevent JavaScript from loading on smaller screen, e.g. &lt;code&gt;if(screen.width &amp;gt; 480) { ... }&lt;/code&gt;&lt;/li&gt;
+      &lt;li&gt;Filament Group has a responsive image library at http://bkaprt.com/rwd/56 that can be used to serve lighter images to smaller displays&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;my-thoughts-3&quot;&gt;My Thoughts&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;It feels like the correct approach to buidlding my site would be to build the stylesheet with mobile first in mind, then progressively enhance as the resolution increases, like he recommended&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;next-steps&quot;&gt;Next Steps&lt;/h2&gt;
+
+&lt;p&gt;It feels like I have a better understanding of how to approach the site design, where to start and what I need to consider. Both Luke and Ethan stressed the importance of iteration during development so I should start building and learn more as I proceed. The next major aspect of the site will be the content, so before I jump into that, I’ll read &lt;em&gt;&lt;a href=&quot;http://www.abookapart.com/products/the-elements-of-content-strategy&quot;&gt;The Elements of Content Strategy&lt;/a&gt;&lt;/em&gt; by Erin Kissane. And I still need to get my environment setup - github, and environments for writing and development.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 01 Apr 2012 10:00:00 -0700</pubDate>
+        <link>http://tstapleton.github.io//2012/04/01/ideas-from-responsive-web-design.html</link>
+        <guid isPermaLink="true">http://tstapleton.github.io//2012/04/01/ideas-from-responsive-web-design.html</guid>
+        
+        <category>resume-site</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

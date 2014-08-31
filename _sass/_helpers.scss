@@ -1,0 +1,118 @@
+// heading
+@function adjust1($color) {
+	@return tint(saturate($color, 15%), 80%);
+}
+// subheading
+@function adjust2($color) {
+	@return shade(desaturate($color, 40%), 40%);
+}
+// paragraph
+@function adjust3($color) {
+	@return shade($color, 70%);
+}
+// link normal
+@function adjust4($color) {
+	@return shade(complement($color), 20%);
+}
+// link highlight
+@function adjust5($color) {
+	@return complement($color);
+}
+
+// Add percentage of white to a color
+@function tint($color, $percent) {
+	@return mix(white, $color, $percent);
+}
+
+// Add percentage of black to a color
+@function shade($color, $percent) {
+	@return mix(black, $color, $percent);
+}
+
+@mixin underline($color) {
+	background-image: linear-gradient(to bottom, transparent 50%, $color 100%);
+	background-size: 2px 2px;
+	//background-position: 0 18px;
+	background-repeat: repeat-x;
+}
+
+@mixin colorize ($color) {
+	background-color: $color-white;
+
+	&.dark {
+		background-color: $color;
+
+		h1,
+		h2,
+		h3 {
+			color: adjust1($color);
+		}
+		h3 {
+			a,
+			a:visited {
+				color: adjust1($color);
+				@include underline(adjust1($color));
+			}
+			a:active,
+			a:hover {
+				color: adjust5($color);
+				@include underline(adjust5($color));
+			}
+		}
+		.circle {
+			border-color: adjust1($color);
+		}
+	}
+	h1,
+	h2,
+	h3 {
+		color: $color;
+	}
+	h3 {
+		a,
+		a:visited {
+			color: $color;
+			@include underline($color);
+		}
+		a:active,
+		a:hover {
+			color: adjust5($color);
+			@include underline(adjust5($color));
+		}
+	}
+	h4,
+	h5,
+	h6 {
+		color: adjust2($color);
+	}
+	span {
+		color: adjust2($color);
+	}
+	p {
+		color: adjust3($color);
+	}
+	a,
+	em > a,
+	li > a,
+	p > a,
+	span > a,
+	strong > a {
+		&,
+		&:visited {
+			color: adjust4($color);
+			@include underline(adjust4($color));
+		}
+		&.hover,
+		&:active,
+		&:hover {
+			color: adjust5($color);
+			@include underline(adjust5($color));
+		}
+	}
+	article li:before {
+		color: adjust2($color);
+	}
+	.circle {
+		border-color: $color;
+	}
+}

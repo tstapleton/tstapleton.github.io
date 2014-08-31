@@ -1,0 +1,682 @@
+/*
+	HTML5 Reset :: style.css
+	----------------------------------------------------------
+	We have learned much from/been inspired by/taken code where offered from:
+
+	Eric Meyer                  :: http://ericmeyer.com
+	HTML5 Doctor                :: http://html5doctor.com
+	and the HTML5 Boilerplate   :: http://html5boilerplate.com
+
+-------------------------------------------------------------------------------*/
+/* Let's default this puppy out
+-------------------------------------------------------------------------------*/
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+article, aside, figure, footer, header, hgroup, nav, section {
+  display: block; }
+
+/* Responsive images and other embedded objects
+   Note: keeping IMG here will cause problems if you're using foreground images as sprites.
+   If this default setting for images is causing issues, you might want to replace it with a .responsive class instead. */
+img,
+object,
+embed {
+  max-width: 100%; }
+
+/* force a vertical scrollbar to prevent a jumpy page */
+html {
+  overflow-y: scroll; }
+
+/* we use a lot of ULs that aren't bulleted.
+	don't forget to restore the bullets within content. */
+ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted #000;
+  cursor: help; }
+
+/* tables still need cellspacing="0" in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+th {
+  font-weight: bold;
+  vertical-align: bottom; }
+
+td {
+  font-weight: normal;
+  vertical-align: top; }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+pre {
+  white-space: pre;
+  /* CSS2 */
+  white-space: pre-wrap;
+  /* CSS 2.1 */
+  white-space: pre-line;
+  /* CSS 3 (and 2.1 as well, actually) */
+  word-wrap: break-word;
+  /* IE */ }
+
+input[type="radio"] {
+  vertical-align: text-bottom; }
+
+input[type="checkbox"] {
+  vertical-align: bottom;
+  *vertical-align: baseline; }
+
+.ie6 input {
+  vertical-align: text-bottom; }
+
+select, input, textarea {
+  font: 99% sans-serif; }
+
+table {
+  font-size: inherit;
+  font: 100%; }
+
+/* Accessible focus treatment
+	people.opera.com/patrickl/experiments/keyboard/test */
+a:hover, a:active {
+  outline: none; }
+
+small {
+  font-size: 85%; }
+
+strong, th {
+  font-weight: bold; }
+
+td, td img {
+  vertical-align: top; }
+
+/* Make sure sup and sub don't screw with your line-heights
+	gist.github.com/413930 */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* standardize any monospaced elements */
+pre, code, kbd, samp {
+  font-family: monospace, sans-serif; }
+
+/* hand cursor on clickable elements */
+.clickable,
+label,
+input[type=button],
+input[type=submit],
+button {
+  cursor: pointer; }
+
+/* Webkit browsers add a 2px margin outside the chrome of form elements */
+button, input, select, textarea {
+  margin: 0; }
+
+/* make buttons play nice in IE */
+button {
+  width: auto;
+  overflow: visible; }
+
+/* scale images in IE7 more attractively */
+.ie7 img {
+  -ms-interpolation-mode: bicubic; }
+
+/* prevent BG image flicker upon hover */
+.ie6 html {
+  filter: expression(document.execCommand("BackgroundImageCache", false, true)); }
+
+/* let's clear some floats */
+.clearfix:before, .clearfix:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden; }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  zoom: 1; }
+
+/* Define default styles for the style tile, these shouldn't be changed
+-----------------------------------------------------------------------------*/
+/* apply a natural box layout model to all elements */
+/* http://paulirish.com/2012/box-sizing-border-box-ftw/ */
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  background: #fff;
+  margin: 40px auto;
+  width: 962px; }
+
+h4 {
+  color: #a1a1a1;
+  font: normal 18px/1.2 "Helvetica", sans-serif; }
+
+header .title {
+  float: left;
+  padding: 10px;
+  width: 800px; }
+
+.info {
+  color: #a1a1a1;
+  float: left;
+  font-size: 14px;
+  padding: 10px;
+  text-align: right;
+  width: 160px; }
+
+.info em {
+  font: italic 14px/1.5 "Helvetica", sans-serif; }
+
+.info a {
+  color: #a1a1a1;
+  font: normal 14px/1.2 "Helvetica", sans-serif;
+  border-bottom: none;
+  text-decoration: underline; }
+
+.text, .swatches {
+  float: left;
+  padding: 10px; }
+
+.text {
+  margin-right: 20px;
+  width: 440px; }
+
+.swatches {
+  width: 500px; }
+
+.color, .swatch {
+  float: left;
+  margin: 10px; }
+
+.color {
+  height: 40px;
+  width: 40px; }
+
+.swatch {
+  height: 75px;
+  width: 75px; }
+
+h4 {
+  margin-top: 10px; }
+
+.tile0 h1 {
+  font: normal 40px/1.2 "Helvetica", sans-serif; }
+.tile0 h2 {
+  font: normal 28px/1.2 "Helvetica", sans-serif;
+  margin-bottom: 8px; }
+.tile0 h3 {
+  font: normal 24px/1.2 "Helvetica", sans-serif;
+  margin-bottom: 8px; }
+.tile0 p {
+  font: normal 16px/1.5 "Helvetica", sans-serif;
+  margin-bottom: 8px; }
+.tile0 p + h3 {
+  margin-top: 24px; }
+.tile0 ul {
+  margin-left: 0;
+  padding-left: 12px;
+  text-indent: -12px; }
+.tile0 li {
+  margin-bottom: 4px; }
+.tile0 li > ul {
+  margin-top: 4px; }
+.tile0 li:before {
+  content: "\00BB \0020"; }
+.tile0 .container {
+  background: #fff;
+  border: 1px solid #a1a1a1;
+  margin: 20px 0 20px 10px;
+  padding: 20px;
+  width: 442px; }
+.tile0 .tile {
+  background: #fff; }
+.tile0 div.swatch-0 {
+  background: #a1a1a1; }
+.tile0 div.swatch-1 {
+  background: #a1a1a1; }
+.tile0 div.swatch-2 {
+  background: #a1a1a1; }
+.tile0 div.swatch-3 {
+  background: #a1a1a1; }
+.tile0 div.swatch-4 {
+  background: #a1a1a1; }
+.tile0 div.swatch-5 {
+  background: #a1a1a1; }
+.tile0 div.swatch-6 {
+  background: #a1a1a1; }
+.tile0 div.swatch-7 {
+  background: #a1a1a1; }
+.tile0 div.swatch-8 {
+  background: #a1a1a1; }
+.tile0 div.swatch-9 {
+  background: #a1a1a1; }
+
+.tile1 {
+  background: url(http://subtlepatterns.com/patterns/grid_noise.png) 0 0;
+  font: 300 normal 16px/1.5 "Open Sans"; }
+  .tile1 h2,
+  .tile1 h3,
+  .tile1 p,
+  .tile1 ul {
+    margin-bottom: 8px; }
+  .tile1 p + h3 {
+    margin-top: 24px; }
+  .tile1 ul {
+    margin-left: 0;
+    padding-left: 12px;
+    text-indent: -12px; }
+  .tile1 li {
+    margin-bottom: 4px; }
+  .tile1 li > ul {
+    margin: 4px 0; }
+  .tile1 li:before {
+    content: "\00BB \0020"; }
+  .tile1 .container {
+    background: url(http://subtlepatterns.com/patterns/furley_bg.png) 0 0;
+    border: 1px solid #0052a5;
+    box-shadow: 0 0 4px 1px #10b6ff;
+    margin: 10px auto 20px;
+    padding: 20px;
+    width: 442px; }
+  .tile1 .tile,
+  .tile1 .swatch,
+  .tile1 .container img {
+    box-shadow: 0 0 0 4px #ffffff, 0 0 4px 4px #696969; }
+  .tile1 .tags span {
+    text-transform: lowercase; }
+  .tile1 .line,
+  .tile1 .period {
+    display: inline-block; }
+  .tile1 .line {
+    background: #e6f344;
+    height: 3px;
+    margin-bottom: 12px;
+    width: 188px; }
+  .tile1 .period {
+    margin: 0 14px; }
+  .tile1 div.swatch-0 {
+    background: #0052a5; }
+  .tile1 div.swatch-1 {
+    background: #0b76a5; }
+  .tile1 div.swatch-2 {
+    background: #10b6ff; }
+  .tile1 div.swatch-3 {
+    background: #a5540b; }
+  .tile1 div.swatch-4 {
+    background: #e6f344; }
+  .tile1 div.swatch-5 {
+    background: #696969; }
+  .tile1 div.swatch-6 {
+    background: #ffffff; }
+  .tile1 div.swatch-7 {
+    background: url(http://subtlepatterns.com/patterns/furley_bg.png) 0 0; }
+  .tile1 div.swatch-8 {
+    background: url(http://subtlepatterns.com/patterns/grid_noise.png) 0 0; }
+  .tile1 div.swatch-9 {
+    background: #ffffff; }
+  .tile1 strong {
+    font: 600 normal 16px/1.5 "Open Sans"; }
+  .tile1 em {
+    font: 300 italic 16px/1.5 "Open Sans"; }
+  .tile1 h1 {
+    font: 700 normal 40px/1.2 "Open Sans Condensed"; }
+  .tile1 h2 {
+    font: 700 normal 28px/1.2 "Open Sans Condensed"; }
+  .tile1 h3 {
+    font: 700 normal 22px/1.2 "Open Sans Condensed"; }
+  .tile1 .tags {
+    font: 300 italic 13px/1.5 "Open Sans"; }
+  .tile1 .slogan p {
+    font: 600 italic 18px/1.5 "Open Sans"; }
+  .tile1 .period {
+    font: 700 normal 40px/1.2 "Open Sans Condensed"; }
+  .tile1 p, .tile1 li {
+    color: #696969; }
+  .tile1 a {
+    color: #10b6ff; }
+  .tile1 h1 {
+    color: #0b76a5; }
+  .tile1 h2 {
+    color: #0b76a5; }
+  .tile1 h3 {
+    color: #0052a5; }
+  .tile1 .tags {
+    color: #a5540b; }
+  .tile1 .slogan p {
+    color: #0052a5; }
+  .tile1 .period {
+    color: #0b76a5; }
+
+.tile2 {
+  background: #f2f1e7;
+  font: 400 normal 16px/1.5 "PT Sans"; }
+  .tile2 h2,
+  .tile2 h3 {
+    margin-bottom: 8px; }
+  .tile2 p {
+    margin-bottom: 8px; }
+  .tile2 p + h3 {
+    margin-top: 24px; }
+  .tile2 ul {
+    list-style: disc inside;
+    margin-left: 0;
+    padding-left: 12px;
+    text-indent: -12px; }
+  .tile2 li {
+    margin-bottom: 4px; }
+  .tile2 li > ul {
+    margin-top: 4px; }
+  .tile2 .container {
+    background: url(http://subtlepatterns.com/patterns/grid_noise.png) 0 0;
+    box-shadow: 0 0 4px 1px #83827e;
+    margin: 20px auto;
+    padding: 20px;
+    width: 442px; }
+  .tile2 .tile,
+  .tile2 .swatch,
+  .tile2 .container img {
+    box-shadow: 0 0 0 4px #fff, 0 0 4px 4px #83827e; }
+  .tile2 .period {
+    margin-top: 20px;
+    text-align: center; }
+  .tile2 .tags {
+    margin-bottom: 0;
+    text-align: right; }
+  .tile2 div.swatch-0 {
+    background: #f2f1e7; }
+  .tile2 div.swatch-1 {
+    background: #27729a; }
+  .tile2 div.swatch-2 {
+    background: #2c5a72; }
+  .tile2 div.swatch-3 {
+    background: #193a3f; }
+  .tile2 div.swatch-4 {
+    background: #83827e; }
+  .tile2 div.swatch-5 {
+    background: #0c1a37; }
+  .tile2 div.swatch-6 {
+    background: #ffffff; }
+  .tile2 div.swatch-7 {
+    background: url(http://subtlepatterns.com/patterns/grid_noise.png) 0 0; }
+  .tile2 div.swatch-8 {
+    background: #ffffff; }
+  .tile2 div.swatch-9 {
+    background: #ffffff; }
+  .tile2 strong {
+    font: 700 normal 16px/1.5 "PT Sans"; }
+  .tile2 em {
+    font: 400 italic 16px/1.5 "PT Sans"; }
+  .tile2 h1 {
+    font: 700 normal 40px/1.2 "PT Serif Caption"; }
+  .tile2 h2 {
+    font: 400 normal 28px/1.2 "PT Serif Caption"; }
+  .tile2 h3 {
+    font: 400 normal 24px/1.2 "PT Serif Caption"; }
+  .tile2 .tags {
+    font: 400 normal 12px/1.2 "PT Serif Caption"; }
+  .tile2 .period {
+    font: 400 normal 30px/1.2 "PT Serif Caption"; }
+  .tile2 .slogan p {
+    font: 700 normal 20px/1.2 "PT Sans Caption"; }
+  .tile2 p, .tile2 li {
+    color: #0c1a37; }
+  .tile2 a {
+    color: #27729a; }
+  .tile2 h1 {
+    color: #2c5a72; }
+  .tile2 h2 {
+    color: #193a3f; }
+  .tile2 h3 {
+    color: #193a3f; }
+  .tile2 .tags {
+    color: #27729a; }
+  .tile2 .period {
+    color: #27729a; }
+
+.tile3 {
+  background: url(http://subtlepatterns.com/patterns/cross_scratches.png) 0 0;
+  font: 400 normal 16px/1.5 "Cabin"; }
+  .tile3 h2, .tile3 h3, .tile3 p, .tile3 ul {
+    margin-bottom: 8px; }
+  .tile3 p + h3 {
+    margin-top: 24px; }
+  .tile3 ul {
+    list-style: circle inside;
+    margin-left: 0;
+    padding-left: 12px;
+    text-indent: -12px; }
+  .tile3 li {
+    margin-bottom: 4px; }
+  .tile3 li > ul {
+    margin: 4px 0; }
+  .tile3 a {
+    text-decoration: none;
+    border-bottom: 1px solid #64a1fe; }
+  .tile3 .container {
+    background: #fff;
+    box-shadow: 0 0 4px 1px #fbe977;
+    margin: 20px auto;
+    padding: 20px;
+    width: 442px; }
+  .tile3 .tile,
+  .tile3 .swatch,
+  .tile3 .container img {
+    box-shadow: 0 0 0 4px #fff, 0 0 2px 4px #737c87; }
+  .tile3 .line,
+  .tile3 .period {
+    display: inline-block; }
+  .tile3 .line {
+    background: #737c87;
+    height: 2px;
+    margin-bottom: 12px;
+    width: 178px; }
+  .tile3 .period {
+    margin: 0 14px; }
+  .tile3 .tags {
+    margin-bottom: -8px;
+    text-align: right; }
+  .tile3 div.swatch-0 {
+    background: #325b87; }
+  .tile3 div.swatch-1 {
+    background: #48698d; }
+  .tile3 div.swatch-2 {
+    background: #64a1fe; }
+  .tile3 div.swatch-3 {
+    background: #fbe977; }
+  .tile3 div.swatch-4 {
+    background: #8d7873; }
+  .tile3 div.swatch-5 {
+    background: #1f111d; }
+  .tile3 div.swatch-6 {
+    background: #737c87; }
+  .tile3 div.swatch-7 {
+    background: #ffffff; }
+  .tile3 div.swatch-8 {
+    background: url(http://subtlepatterns.com/patterns/cross_scratches.png) 0 0; }
+  .tile3 div.swatch-9 {
+    background: #ffffff; }
+  .tile3 strong {
+    font: 700 normal 16px/1.5 "Cabin"; }
+  .tile3 em {
+    font: 400 italic 16px/1.5 "Cabin"; }
+  .tile3 h1 {
+    font: 700 normal 40px/1.2 "Bitter"; }
+  .tile3 h2 {
+    font: 700 normal 28px/1.2 "Bitter"; }
+  .tile3 h3 {
+    font: 400 normal 22px/1.2 "Bitter"; }
+  .tile3 .tags {
+    font: normal 30px/1.0 "Pictos Custom";
+    -webkit-font-smoothing: antialiased; }
+  .tile3 .slogan p {
+    font: 500 normal 22px/1.5 "Cabin"; }
+  .tile3 .period {
+    font: 700 normal 40px/1.2 "Bitter"; }
+  .tile3 p, .tile3 li {
+    color: #1f111d; }
+  .tile3 a {
+    color: #64a1fe; }
+  .tile3 h1 {
+    color: #48698d; }
+  .tile3 h2 {
+    color: #325b87; }
+  .tile3 h3 {
+    color: #325b87; }
+  .tile3 .tags {
+    color: #8d7873; }
+  .tile3 .slogan p {
+    color: #737c87; }
+  .tile3 .period {
+    color: #48698d; }
+
+.tile4 {
+  background: url(http://subtlepatterns.com/patterns/cross_scratches.png) 0 0;
+  font: 400 normal 16px/1.5 "Cabin"; }
+  .tile4 h2, .tile4 h3, .tile4 p, .tile4 ul {
+    margin-bottom: 8px; }
+  .tile4 p + h3 {
+    margin-top: 24px; }
+  .tile4 ul {
+    list-style: circle inside;
+    margin-left: 0;
+    padding-left: 12px;
+    text-indent: -12px; }
+  .tile4 li {
+    margin-bottom: 4px; }
+  .tile4 li > ul {
+    margin: 4px 0; }
+  .tile4 a {
+    text-decoration: none;
+    border-bottom: 1px solid #64a1fe; }
+  .tile4 .container {
+    background: #fff;
+    box-shadow: 0 0 4px 1px #fbe977;
+    margin: 20px auto;
+    padding: 20px;
+    width: 442px; }
+  .tile4 .tile,
+  .tile4 .swatch,
+  .tile4 .container img {
+    box-shadow: 0 0 0 4px #fff, 0 0 2px 4px #737c87; }
+  .tile4 .line,
+  .tile4 .period {
+    display: inline-block; }
+  .tile4 .line {
+    background: #737c87;
+    height: 2px;
+    margin-bottom: 12px;
+    width: 176px; }
+  .tile4 .period {
+    margin: 0 14px; }
+  .tile4 .tags {
+    margin-bottom: -8px;
+    text-align: right; }
+  .tile4 .tag {
+    margin-left: 8px; }
+  .tile4 div.swatch-0 {
+    background: #325b87; }
+  .tile4 div.swatch-1 {
+    background: #48698d; }
+  .tile4 div.swatch-2 {
+    background: #64a1fe; }
+  .tile4 div.swatch-3 {
+    background: #fbe977; }
+  .tile4 div.swatch-4 {
+    background: #8d7873; }
+  .tile4 div.swatch-5 {
+    background: #1f111d; }
+  .tile4 div.swatch-6 {
+    background: #737c87; }
+  .tile4 div.swatch-7 {
+    background: #ffffff; }
+  .tile4 div.swatch-8 {
+    background: url(http://subtlepatterns.com/patterns/cross_scratches.png) 0 0; }
+  .tile4 div.swatch-9 {
+    background: #ffffff; }
+  .tile4 strong {
+    font: 700 normal 16px/1.5 "Cabin"; }
+  .tile4 em {
+    font: 400 italic 16px/1.5 "Cabin"; }
+  .tile4 h1 {
+    font: 400 normal 40px/1.2 "PT Serif Caption"; }
+  .tile4 h2 {
+    font: 400 normal 28px/1.2 "PT Serif Caption"; }
+  .tile4 h3 {
+    font: 400 normal 22px/1.2 "PT Serif Caption"; }
+  .tile4 .tag {
+    font: normal 30px/1.0 "Pictos Custom";
+    -webkit-font-smoothing: antialiased; }
+  .tile4 .resize {
+    font-size: 41px;
+    line-height: 30px;
+    vertical-align: top; }
+  .tile4 .slogan p {
+    font: 500 normal 22px/1.5 "Cabin"; }
+  .tile4 .period {
+    font: 400 normal 40px/1.2 "PT Serif Caption"; }
+  .tile4 p, .tile4 li {
+    color: #1f111d; }
+  .tile4 a {
+    color: #64a1fe; }
+  .tile4 h1 {
+    color: #48698d; }
+  .tile4 h2 {
+    color: #325b87; }
+  .tile4 h3 {
+    color: #325b87; }
+  .tile4 .tag {
+    color: #8d7873; }
+  .tile4 .slogan p {
+    color: #737c87; }
+  .tile4 .period {
+    color: #48698d; }

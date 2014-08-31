@@ -1,0 +1,11 @@
+---
+layout: listing
+title: Writing
+permalink: /writing/
+section: writing
+---
+<ul class="post-list">
+	{% for post in site.posts %}
+		<li>{% include item_post.html excerpt = true %}</li>
+	{% endfor %}
+</ul>

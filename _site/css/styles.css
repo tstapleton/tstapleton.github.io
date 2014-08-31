@@ -1,0 +1,813 @@
+/*
+	HTML5 Reset :: style.css
+	----------------------------------------------------------
+	We have learned much from/been inspired by/taken code where offered from:
+
+	Eric Meyer					:: http://meyerweb.com
+	HTML5 Doctor				:: http://html5doctor.com
+	and the HTML5 Boilerplate	:: http://html5boilerplate.com
+
+-------------------------------------------------------------------------------*/
+/* Let's default this puppy out
+-------------------------------------------------------------------------------*/
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent; }
+
+article, aside, figure, footer, header, nav, section, details, summary {
+  display: block; }
+
+/* Handle box-sizing while better addressing child elements:
+	 http://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+html {
+  box-sizing: border-box; }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit; }
+
+/* consider resetting the default cursor: https://gist.github.com/murtaugh/5247154 */
+/* Responsive images and other embedded objects
+	 Note: keeping IMG here will cause problems if you're using foreground images as sprites.
+	 If this default setting for images is causing issues, you might want to replace it with a .responsive class instead. */
+img,
+object,
+embed {
+  max-width: 100%; }
+
+/* force a vertical scrollbar to prevent a jumpy page */
+html {
+  overflow-y: scroll; }
+
+/* we use a lot of ULs that aren't bulleted.
+	don't forget to restore the bullets within content. */
+ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted #000;
+  cursor: help; }
+
+/* tables still need cellspacing="0" in the markup */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+th {
+  font-weight: bold;
+  vertical-align: bottom; }
+
+td {
+  font-weight: normal;
+  vertical-align: top; }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+pre {
+  white-space: pre;
+  /* CSS2 */
+  white-space: pre-wrap;
+  /* CSS 2.1 */
+  white-space: pre-line;
+  /* CSS 3 (and 2.1 as well, actually) */
+  word-wrap: break-word;
+  /* IE */ }
+
+input[type="radio"] {
+  vertical-align: text-bottom; }
+
+input[type="checkbox"] {
+  vertical-align: bottom; }
+
+.ie7 input[type="checkbox"] {
+  vertical-align: baseline; }
+
+.ie6 input {
+  vertical-align: text-bottom; }
+
+select, input, textarea {
+  font: 99% sans-serif; }
+
+table {
+  font-size: inherit;
+  font: 100%; }
+
+small {
+  font-size: 85%; }
+
+strong {
+  font-weight: bold; }
+
+td, td img {
+  vertical-align: top; }
+
+/* Make sure sup and sub don't mess with your line-heights http://gist.github.com/413930 */
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative; }
+
+sup {
+  top: -0.5em; }
+
+sub {
+  bottom: -0.25em; }
+
+/* standardize any monospaced elements */
+pre, code, kbd, samp {
+  font-family: monospace, sans-serif; }
+
+/* hand cursor on clickable elements */
+.clickable,
+label,
+input[type=button],
+input[type=submit],
+input[type=file],
+button {
+  cursor: pointer; }
+
+/* Webkit browsers add a 2px margin outside the chrome of form elements */
+button, input, select, textarea {
+  margin: 0; }
+
+/* make buttons play nice in IE */
+button,
+input[type=button] {
+  width: auto;
+  overflow: visible; }
+
+/* scale images in IE7 more attractively */
+.ie7 img {
+  -ms-interpolation-mode: bicubic; }
+
+/* prevent BG image flicker upon hover
+	 (commented out as usage is rare, and the filter syntax messes with some pre-processors)
+.ie6 html {filter: expression(document.execCommand("BackgroundImageCache", false, true));}
+*/
+/* let's clear some floats */
+.clearfix:before, .clearfix:after {
+  content: "\0020";
+  display: block;
+  height: 0;
+  overflow: hidden; }
+
+.clearfix:after {
+  clear: both; }
+
+.clearfix {
+  zoom: 1; }
+
+/* Custom text-selection colors (remove any text shadows: http://twitter.com/miketaylr/status/12228805301) */
+::-moz-selection {
+  background: #fcd700;
+  color: #fff;
+  text-shadow: none; }
+
+::selection {
+  background: #fcd700;
+  color: #fff;
+  text-shadow: none; }
+
+/*	j.mp/webkit-tap-highlight-color */
+a:link {
+  -webkit-tap-highlight-color: #fcd700; }
+
+ins {
+  background-color: #fcd700;
+  color: #000;
+  text-decoration: none; }
+
+mark {
+  background-color: #fcd700;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+/* Mozilla dosen't style place holders by default */
+input:-moz-placeholder {
+  color: #a9a9a9; }
+
+textarea:-moz-placeholder {
+  color: #a9a9a9; }
+
+html {
+  background-color: white; }
+
+body {
+  font-family: "Source Sans Pro", "Helvetica Neue", "Lucida Grande", "Segoe UI", "Ubuntu", "Droid Sans", sans-serif; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  margin-bottom: 12px; }
+
+h1 {
+  font-size: 48px;
+  line-height: 60px; }
+  h1 > a {
+    background-position: 0 48px; }
+
+h2 {
+  font-size: 32px;
+  line-height: 48px; }
+  h2 > a {
+    background-position: 0 32px; }
+
+h3 {
+  font-size: 24px;
+  line-height: 36px; }
+  h3 > a {
+    background-position: 0 24px; }
+
+h4, h5, h6 {
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase; }
+  h4 > a, h5 > a, h6 > a {
+    background-position: 0 18px; }
+
+p {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 24px; }
+  p > a,
+  p em a,
+  p strong a {
+    background-position: 0 18px; }
+
+ul {
+  list-style: none; }
+
+li {
+  font-size: 18px;
+  line-height: 24px; }
+
+article ul {
+  margin: 0 0 24px;
+  padding-left: 12px; }
+article li {
+  margin-left: 6px;
+  text-indent: -14px; }
+  article li:before {
+    color: blue;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    vertical-align: bottom;
+    padding: 0 6px 0 0;
+    content: '\00b7'; }
+  article li > a {
+    background-position: 0 18px; }
+  article li > ul {
+    margin: 0; }
+
+strong {
+  font-weight: 600; }
+
+a {
+  text-decoration: none; }
+
+.wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 24px; }
+
+.site-header {
+  height: 72px; }
+  .site-header .wrapper {
+    padding: 12px; }
+
+.site-title {
+  display: inline-block; }
+  .site-title .circle {
+    height: 48px;
+    width: 48px;
+    border-color: #2e4259;
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 4px;
+    overflow: hidden;
+    background: #03c8fa; }
+    .site-title .circle.logo:before {
+      content: 'TS';
+      position: relative;
+      color: #2e4259;
+      line-height: 40px;
+      font-size: 32px;
+      margin-left: 3px;
+      font-weight: 700;
+      letter-spacing: -3px;
+      font-family: 'Source Code Pro'; }
+
+.site-nav {
+  align-self: flex-end;
+  margin-left: auto; }
+  .site-nav a {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 48px;
+    padding: 0 12px;
+    text-transform: uppercase; }
+
+.listing,
+.post {
+  margin: 0 auto;
+  width: 600px; }
+
+.post-meta {
+  display: block;
+  font-size: 14px;
+  line-height: 24px;
+  margin: -12px 0 12px; }
+  .post-meta > a {
+    background-position: 0 14px; }
+
+.post-list li {
+  margin-bottom: 48px; }
+
+.site-nav a {
+  color: #148fcc; }
+.site-nav .about.active {
+  color: #14ccad; }
+.site-nav .about:hover {
+  color: #cc1433; }
+.site-nav .projects.active {
+  color: #5114cc; }
+.site-nav .projects:hover {
+  color: #8fcc14; }
+.site-nav .writing.active {
+  color: #14cc51; }
+.site-nav .writing:hover {
+  color: #cc148f; }
+
+.intro {
+  background-color: white; }
+  .intro.dark {
+    background-color: #148fcc; }
+    .intro.dark h1,
+    .intro.dark h2,
+    .intro.dark h3 {
+      color: #cce9f8; }
+    .intro.dark h3 a,
+    .intro.dark h3 a:visited {
+      color: #cce9f8;
+      background-image: linear-gradient(to bottom, transparent 50%, #cce9f8 100%);
+      background-size: 2px 2px;
+      background-repeat: repeat-x; }
+    .intro.dark h3 a:active,
+    .intro.dark h3 a:hover {
+      color: #cc5114;
+      background-image: linear-gradient(to bottom, transparent 50%, #cc5114 100%);
+      background-size: 2px 2px;
+      background-repeat: repeat-x; }
+    .intro.dark .circle {
+      border-color: #cce9f8; }
+  .intro h1,
+  .intro h2,
+  .intro h3 {
+    color: #148fcc; }
+  .intro h3 a,
+  .intro h3 a:visited {
+    color: #148fcc;
+    background-image: linear-gradient(to bottom, transparent 50%, #148fcc 100%);
+    background-size: 2px 2px;
+    background-repeat: repeat-x; }
+  .intro h3 a:active,
+  .intro h3 a:hover {
+    color: #cc5114;
+    background-image: linear-gradient(to bottom, transparent 50%, #cc5114 100%);
+    background-size: 2px 2px;
+    background-repeat: repeat-x; }
+  .intro h4,
+  .intro h5,
+  .intro h6 {
+    color: #274c5f; }
+  .intro span {
+    color: #274c5f; }
+  .intro p {
+    color: #062a3d; }
+  .intro a, .intro a:visited,
+  .intro em > a,
+  .intro em > a:visited,
+  .intro li > a,
+  .intro li > a:visited,
+  .intro p > a,
+  .intro p > a:visited,
+  .intro span > a,
+  .intro span > a:visited,
+  .intro strong > a,
+  .intro strong > a:visited {
+    color: #a34010;
+    background-image: linear-gradient(to bottom, transparent 50%, #a34010 100%);
+    background-size: 2px 2px;
+    background-repeat: repeat-x; }
+  .intro a.hover, .intro a:active, .intro a:hover,
+  .intro em > a.hover,
+  .intro em > a:active,
+  .intro em > a:hover,
+  .intro li > a.hover,
+  .intro li > a:active,
+  .intro li > a:hover,
+  .intro p > a.hover,
+  .intro p > a:active,
+  .intro p > a:hover,
+  .intro span > a.hover,
+  .intro span > a:active,
+  .intro span > a:hover,
+  .intro strong > a.hover,
+  .intro strong > a:active,
+  .intro strong > a:hover {
+    color: #cc5114;
+    background-image: linear-gradient(to bottom, transparent 50%, #cc5114 100%);
+    background-size: 2px 2px;
+    background-repeat: repeat-x; }
+  .intro article li:before {
+    color: #274c5f; }
+  .intro .circle {
+    border-color: #148fcc; }
+
+.about {
+  background-color: white; }
+  .about.dark {
+    background-color: #14ccad; }
+    .about.dark h1,
+    .about.dark h2,
+    .about.dark h3 {
+      color: #ccf8f0; }
+    .about.dark h3 a,
+    .about.dark h3 a:visited {
+      color: #ccf8f0;
+      background-image: linear-gradient(to bottom, transparent 50%, #ccf8f0 100%);
+      background-size: 2px 2px;
+      background-repeat: repeat-x; }
+    .about.dark h3 a:active,
+    .about.dark h3 a:hover {
+      color: #cc1433;
+      background-image: linear-gradient(to bottom, transparent 50%, #cc1433 100%);
+      background-size: 2px 2px;
+      background-repeat: repeat-x; }
+    .about.dark .circle {
+      border-color: #ccf8f0; }
+  .about h1,
+  .about h2,
+  .about h3 {
+    color: #14ccad; }
+  .about h3 a,
+  .about h3 a:visited {
+    color: #14ccad;
+    background-image: linear-gradient(to bottom, transparent 50%, #14ccad 100%);
+    background-size: 2px 2px;
+    background-repeat: repeat-x; }
+  .about h3 a:active,
+  .about h3 a:hover {
+    color: #cc1433;
+    background-image: linear-gradient(to bottom, transparent 50%, #cc1433 100%);
+    background-size: 2px 2px;
+    background-repeat: repeat-x; }
+  .about h4,
+  .about h5,
+  .about h6 {
+    color: #275f55; }
+  .about span {
+    color: #275f55; }
+  .about p {
+    color: #063d33; }
+  .about a, .about a:visited,
+  .about em > a,
+  .about em > a:visited,
+  .about li > a,
+  .about li > a:visited,
+  .about p > a,
+  .about p > a:visited,
+  .about span > a,
+  .about span > a:visited,
+  .about strong > a,
+  .about strong > a:visited {
+    color: #a31028;
+    background-image: linear-gradient(to bottom, transparent 50%, #a31028 100%);
+    background-size: 2px 2px;
+    background-repeat: repeat-x; }
+  .about a.hover, .about a:active, .about a:hover,
+  .about em > a.hover,
+  .about em > a:active,
+  .about em > a:hover,
+  .about li > a.hover,
+  .about li > a:active,
+  .about li > a:hover,
+  .about p > a.hover,
+  .about p > a:active,
+  .about p > a:hover,
+  .about span > a.hover,
+  .about span > a:active,
+  .about span > a:hover,
+  .about strong > a.hover,
+  .about strong > a:active,
+  .about strong > a:hover {
+    color: #cc1433;
+    background-image: linear-gradient(to bottom, transparent 50%, #cc1433 100%);
+    background-size: 2px 2px;
+    background-repeat: repeat-x; }
+  .about article li:before {
+    color: #275f55; }
+  .about .circle {
+    border-color: #14ccad; }
+
+.projects {
+  background-color: white; }
+  .projects.dark {
+    background-color: #5114cc; }
+    .projects.dark h1,
+    .projects.dark h2,
+    .projects.dark h3 {
+      color: #dbccf8; }
+    .projects.dark h3 a,
+    .projects.dark h3 a:visited {
+      color: #dbccf8;
+      background-image: linear-gradient(to bottom, transparent 50%, #dbccf8 100%);
+      background-size: 2px 2px;
+      background-repeat: repeat-x; }
+    .projects.dark h3 a:active,
+    .projects.dark h3 a:hover {
+      color: #8fcc14;
+      background-image: linear-gradient(to bottom, transparent 50%, #8fcc14 100%);
+      background-size: 2px 2px;
+      background-repeat: repeat-x; }
+    .projects.dark .circle {
+      border-color: #dbccf8; }
+  .projects h1,
+  .projects h2,
+  .projects h3 {
+    color: #5114cc; }
+  .projects h3 a,
+  .projects h3 a:visited {
+    color: #5114cc;
+    background-image: linear-gradient(to bottom, transparent 50%, #5114cc 100%);
+    background-size: 2px 2px;
+    background-repeat: repeat-x; }
+  .projects h3 a:active,
+  .projects h3 a:hover {
+    color: #8fcc14;
+    background-image: linear-gradient(to bottom, transparent 50%, #8fcc14 100%);
+    background-size: 2px 2px;
+    background-repeat: repeat-x; }
+  .projects h4,
+  .projects h5,
+  .projects h6 {
+    color: #39275f; }
+  .projects span {
+    color: #39275f; }
+  .projects p {
+    color: #18063d; }
+  .projects a, .projects a:visited,
+  .projects em > a,
+  .projects em > a:visited,
+  .projects li > a,
+  .projects li > a:visited,
+  .projects p > a,
+  .projects p > a:visited,
+  .projects span > a,
+  .projects span > a:visited,
+  .projects strong > a,
+  .projects strong > a:visited {
+    color: #72a310;
+    background-image: linear-gradient(to bottom, transparent 50%, #72a310 100%);
+    background-size: 2px 2px;
+    background-repeat: repeat-x; }
+  .projects a.hover, .projects a:active, .projects a:hover,
+  .projects em > a.hover,
+  .projects em > a:active,
+  .projects em > a:hover,
+  .projects li > a.hover,
+  .projects li > a:active,
+  .projects li > a:hover,
+  .projects p > a.hover,
+  .projects p > a:active,
+  .projects p > a:hover,
+  .projects span > a.hover,
+  .projects span > a:active,
+  .projects span > a:hover,
+  .projects strong > a.hover,
+  .projects strong > a:active,
+  .projects strong > a:hover {
+    color: #8fcc14;
+    background-image: linear-gradient(to bottom, transparent 50%, #8fcc14 100%);
+    background-size: 2px 2px;
+    background-repeat: repeat-x; }
+  .projects article li:before {
+    color: #39275f; }
+  .projects .circle {
+    border-color: #5114cc; }
+
+.writing {
+  background-color: white; }
+  .writing.dark {
+    background-color: #14cc51; }
+    .writing.dark h1,
+    .writing.dark h2,
+    .writing.dark h3 {
+      color: #ccf8db; }
+    .writing.dark h3 a,
+    .writing.dark h3 a:visited {
+      color: #ccf8db;
+      background-image: linear-gradient(to bottom, transparent 50%, #ccf8db 100%);
+      background-size: 2px 2px;
+      background-repeat: repeat-x; }
+    .writing.dark h3 a:active,
+    .writing.dark h3 a:hover {
+      color: #cc148f;
+      background-image: linear-gradient(to bottom, transparent 50%, #cc148f 100%);
+      background-size: 2px 2px;
+      background-repeat: repeat-x; }
+    .writing.dark .circle {
+      border-color: #ccf8db; }
+  .writing h1,
+  .writing h2,
+  .writing h3 {
+    color: #14cc51; }
+  .writing h3 a,
+  .writing h3 a:visited {
+    color: #14cc51;
+    background-image: linear-gradient(to bottom, transparent 50%, #14cc51 100%);
+    background-size: 2px 2px;
+    background-repeat: repeat-x; }
+  .writing h3 a:active,
+  .writing h3 a:hover {
+    color: #cc148f;
+    background-image: linear-gradient(to bottom, transparent 50%, #cc148f 100%);
+    background-size: 2px 2px;
+    background-repeat: repeat-x; }
+  .writing h4,
+  .writing h5,
+  .writing h6 {
+    color: #275f39; }
+  .writing span {
+    color: #275f39; }
+  .writing p {
+    color: #063d18; }
+  .writing a, .writing a:visited,
+  .writing em > a,
+  .writing em > a:visited,
+  .writing li > a,
+  .writing li > a:visited,
+  .writing p > a,
+  .writing p > a:visited,
+  .writing span > a,
+  .writing span > a:visited,
+  .writing strong > a,
+  .writing strong > a:visited {
+    color: #a31072;
+    background-image: linear-gradient(to bottom, transparent 50%, #a31072 100%);
+    background-size: 2px 2px;
+    background-repeat: repeat-x; }
+  .writing a.hover, .writing a:active, .writing a:hover,
+  .writing em > a.hover,
+  .writing em > a:active,
+  .writing em > a:hover,
+  .writing li > a.hover,
+  .writing li > a:active,
+  .writing li > a:hover,
+  .writing p > a.hover,
+  .writing p > a:active,
+  .writing p > a:hover,
+  .writing span > a.hover,
+  .writing span > a:active,
+  .writing span > a:hover,
+  .writing strong > a.hover,
+  .writing strong > a:active,
+  .writing strong > a:hover {
+    color: #cc148f;
+    background-image: linear-gradient(to bottom, transparent 50%, #cc148f 100%);
+    background-size: 2px 2px;
+    background-repeat: repeat-x; }
+  .writing article li:before {
+    color: #275f39; }
+  .writing .circle {
+    border-color: #14cc51; }
+
+.home .slide {
+  position: relative; }
+  .home .slide .scroll {
+    left: 0;
+    position: absolute;
+    top: 0; }
+.home .wrapper {
+  align-content: stretch;
+  height: 100%;
+  padding: 0 48px; }
+.home .column {
+  flex: 1; }
+.home .intro {
+  overflow: hidden;
+  position: relative; }
+  .home .intro .column {
+    z-index: 10; }
+  .home .intro h1,
+  .home .intro h2 {
+    line-height: 1; }
+  .home .intro h1 {
+    margin-bottom: 0; }
+  .home .intro .lead {
+    font-weight: 500;
+    font-size: 24px; }
+    .home .intro .lead > a {
+      background-position: 0 24px; }
+  .home .intro .circle {
+    float: right;
+    height: 300px;
+    width: 300px; }
+.home .writing .column {
+  padding: 0 24px; }
+.home .writing .post-list li {
+  margin-bottom: 24px; }
+.home .projects .column {
+  padding: 0 24px; }
+
+.separator {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 0px;
+  vertical-align: sub;
+  padding: 0 6px; }
+  .separator:before {
+    content: '\00b7'; }
+
+.site-footer {
+  height: 240px;
+  padding-top: 48px; }
+  .site-footer .wrapper {
+    align-items: flex-start; }
+  .site-footer li {
+    font-size: 14px; }
+    .site-footer li > a {
+      background-position: 0 14px; }
+  .site-footer p {
+    font-size: 14px;
+    margin-bottom: 0; }
+    .site-footer p > a {
+      background-position: 0 14px; }
+  .site-footer .contact {
+    align-content: flex-end;
+    margin-left: auto;
+    text-align: right; }
+
+.icon > svg {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle; }
+  .icon > svg path {
+    fill: white; }
+
+.circle {
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 12px;
+  overflow: hidden;
+  position: relative;
+  z-index: 10; }
+  .circle.dot {
+    border-width: 0;
+    position: absolute;
+    z-index: 5;
+    opacity: 0.2;
+    background-color: #148fcc;
+    height: 0;
+    width: 0;
+    transition: all 1s ease 1s; }

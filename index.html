@@ -1,1 +1,71 @@
-Hello World
+---
+layout: index
+section: intro
+---
+<div class="home">
+	<div class="slide intro dark js-slide">
+		<div class="wrapper">
+			<div class="column">
+				<h1>Hello.</h1>
+				<h2>My name is Tom Stapleton.</h2>
+				<p class="lead">Learn <a data-scroll href="#about">about</a> me, explore my <a data-scroll href="#projects">projects</a> or read my <a data-scroll href="#writing">writings</a>.</p>
+			</div>
+			<div class="column">
+				<div class="circle">
+					<img src="http://placehold.it/300x300" />
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="slide about dark js-slide">
+		<span id="about" class="scroll"></span>
+		<div class="wrapper">
+			<h4>About</h4>
+		</div>
+	</div>
+	<div class="slide writing dark js-slide">
+		<span id="writing" class="scroll"></span>
+		<div class="wrapper">
+			<div class="column">
+				<h4>Latest Writing</h4>
+				{% assign post = site.posts.first %}
+				{% include item_post.html excerpt = true %}
+			</div>
+			<div class="column">
+				<h4>Featured</h4>
+				<ul class="post-list">
+					{% for post in site.posts limit: 3 offset: 1 %}
+						<li>{% include item_post.html excerpt = false %}</li>
+					{% endfor %}
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="slide projects dark js-slide">
+		<span id="projects" class="scroll"></span>
+		<div class="wrapper">
+			<div class="column first">
+				<h4>Projects</h4>
+				{% assign max_projects = 2 %}
+				{% assign i = '' %}
+				{% for project in site.projects %}
+					{% if project.highlight and i.size < max_projects %}
+						{% include item_project.html %}
+						{% capture i %}{{ i }}*{% endcapture %}
+					{% endif %}
+				{% endfor %}
+			</div>
+			<div class="column second">
+				<h4>&nbsp;</h4>
+				{% assign max_projects = 4 %}
+				{% assign offset = i.size %}
+				{% for project in site.projects offset: i.size %}
+					{% if project.highlight and i.size < max_projects %}
+						{% include item_project.html %}
+						{% capture i %}{{ i }}*{% endcapture %}
+					{% endif %}
+				{% endfor %}
+			</div>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,54 @@
+$unit: 24px;
+$unit-quarter: $unit / 4;
+$unit-half: $unit / 2;
+$unit-double: $unit * 2;
+$unit-triple: $unit * 3;
+
+$unit-negative: $unit * -1;
+$unit-quarter-negative: $unit-quarter * -1;
+$unit-half-negative: $unit-half * -1;
+$unit-double-negative: $unit-double * -1;
+$unit-triple-negative: $unit-triple * -1;
+
+$height-header: $unit-triple;
+$header-height: $unit-triple;
+$width-max: $unit * 40;
+
+// TODO: convert to rem based fonts
+$rem-base: 12;
+
+$font-size-small: 12px;
+$line-height-small: 12px;
+$font-size-medium: 14px;
+$line-height-medium: 18px;
+$font-size: 18px;
+$line-height: 24px;
+$font-size-big: 24px;
+$line-height-big: 36px;
+$font-size-xbig: 32px;
+$line-height-xbig: 36px;
+$font-size-xxbig: 48px;
+$line-height-xxbig: 72px;
+$font-size-icon: 20px;
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-ultrabold: 900;
+
+$font-stack-sans: 'Source Sans Pro', 'Helvetica Neue', 'Lucida Grande', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif;
+$font-stack-mono: 'Source Code Pro', 'Consolas', 'Andale Mono WT', 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Liberation Mono', 'Nimbus Mono L', 'Monaco', 'Courier New', 'Courier', monospace;
+
+$color-first: rgb(20, 143, 204);
+$color-second: rgb(20, 204, 173);
+$color-third: rgb(20, 204, 81);
+$color-fourth: rgb(20, 51, 204);
+$color-fifth: rgb(81, 20, 204);
+// $color-primary-alt: complement($color-primary);
+// $color-secondary-alt: complement($color-secondary);
+// $color-tertiary-alt: complement($color-tertiary);
+$color-white: rgb(255, 255, 255);
+
+$transition-duration: 1s;
+$transition-delay: 1s;
