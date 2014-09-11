@@ -4,7 +4,7 @@ title: "Ideas from The Elements of Content Strategy"
 date: 2012-04-07 17:00:00
 tags: [resume-site]
 ---
-I just finished reading *[The Elements of Content Strategy](http://www.abookapart.com/products/the-elements-of-content-strategy)* by Erin Kissane. The main takeways for my personal website are:
+I just finished reading *[The Elements of Content Strategy](http://www.abookapart.com/products/the-elements-of-content-strategy)* by Erin Kissane. The main takeaways for my personal website are:
 
 * Summarizing, good content is appropriate, useful, user-centric, clear, consistent, concise, and supported
 * Content should tell a story, use the three kinds of rhetorical approaches

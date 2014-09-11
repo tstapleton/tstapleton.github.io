@@ -46,23 +46,17 @@ section: intro
 		<div class="wrapper">
 			<div class="column first">
 				<h4>Projects</h4>
-				{% assign max_projects = 2 %}
-				{% assign i = '' %}
-				{% for project in site.projects %}
-					{% if project.highlight and i.size < max_projects %}
+				{% for project in site.projects reversed %}
+					{% if project.primary %}
 						{% include item_project.html %}
-						{% capture i %}{{ i }}*{% endcapture %}
 					{% endif %}
 				{% endfor %}
 			</div>
 			<div class="column second">
 				<h4>&nbsp;</h4>
-				{% assign max_projects = 4 %}
-				{% assign offset = i.size %}
-				{% for project in site.projects offset: i.size %}
-					{% if project.highlight and i.size < max_projects %}
+				{% for project in site.projects reversed %}
+					{% if project.secondary %}
 						{% include item_project.html %}
-						{% capture i %}{{ i }}*{% endcapture %}
 					{% endif %}
 				{% endfor %}
 			</div>

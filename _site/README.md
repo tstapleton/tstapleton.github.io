@@ -2,40 +2,45 @@
 
 ### Configuration and Deployment
 
-* Push latest code to GitHub
 * Minimize and compress for GitHub deployment
 * Pretty URLs (no .html)
-* Register stapleton.io and point to GitHub pages
+* Point tstapleton.me to Github pages
+* Develop better deploy process to push source to gh-pages and _site/* to master
+* Push version 1 to GitHub @done
 
 ### Design
 
 * Set off-white background color
-* Theme wide color per section
 * Solution for retina images
 * Clean up existing CSS files
 * Convert theme to mobile first design
 * Figure out CSS for faux tilt shift images
 * Sticky footer
+* Fix tags listing page
+* Style blockquote @done
+* Style code sample @done
+* Theme wide color per section @done
 
 ### Home Page
 
-* Home page has sections for posts, projects, about
-* Blog posts home section has title, date, lede, topics
-* Projects home section has title, description, demo link, source link
-* Home page design background color per section
-* Better single page scroll to position
+* Home page has sections for posts, projects, about @done
+* Blog posts home section has title, date, lede, topics @done
+* Home page design background color per section @done
+* Better single page scroll to position @done
 
-### Move over Existing Content
+### Existing Blog Posts
 
 * Add Clean Code presentation as blog post
-* Add Tradeshift Pirate Ship Days logo as blog post
 * Add Tradeshift Pirate Sail Days blog post with code samples
-* Create Projects collection
-* Convert v1 resume site to more Jekyll-ish
-* Switch over pictos url to github / stapleton.io
-* Create project for v1 resume site
-* Create project for CBM app
-* Move files from old site - resume and content inventory
+* Add Tradeshift Pirate Ship Days logo as blog post @done
+
+### Existing Projects
+
+* Projects home section has title, description, demo link, source link
+* Listen Later
+* CBM app
+* Convert v1 resume site to be hosted on GitHub pages @done
+* Create Projects collection @done
 
 ### Future Projects
 

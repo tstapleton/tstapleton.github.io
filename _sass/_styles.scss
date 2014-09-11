@@ -92,6 +92,18 @@ a {
 	text-decoration: none;
 }
 
+blockquote {
+	border-left-style: solid;
+	border-left-width: $unit-quarter;
+	padding-left: $unit-half;
+	margin-bottom: $unit;
+
+	> :last-child {
+		margin-bottom: 0;
+	}
+}
+
+
 .wrapper {
 	align-items: center;
 	display: flex;
@@ -150,7 +162,7 @@ a {
 .listing,
 .post {
 	margin: 0 auto;
-	width: 600px;
+	width: $width-content;
 }
 .post-meta {
 	display: block;
@@ -346,4 +358,13 @@ a {
 		width: 0;
 		transition: all $transition-duration ease $transition-delay;
 	}
+}
+
+/* standardize any monospaced elements */
+pre,
+code,
+kbd,
+samp {
+	font-family: $font-stack-mono;
+	font-size: 16px;
 }

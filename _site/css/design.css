@@ -301,6 +301,14 @@ strong {
 a {
   text-decoration: none; }
 
+blockquote {
+  border-left-style: solid;
+  border-left-width: 6px;
+  padding-left: 12px;
+  margin-bottom: 24px; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
 .wrapper {
   align-items: center;
   display: flex;
@@ -379,42 +387,25 @@ a {
 
 .intro {
   background-color: white; }
-  .intro.dark {
-    background-color: #148fcc; }
-    .intro.dark h1,
-    .intro.dark h2,
-    .intro.dark h3 {
-      color: #cce9f8; }
-    .intro.dark h3 a,
-    .intro.dark h3 a:visited {
-      color: #cce9f8;
-      background-image: linear-gradient(to bottom, transparent 50%, #cce9f8 100%);
-      background-size: 2px 2px;
-      background-repeat: repeat-x; }
-    .intro.dark h3 a:active,
-    .intro.dark h3 a:hover {
-      color: #cc5114;
-      background-image: linear-gradient(to bottom, transparent 50%, #cc5114 100%);
-      background-size: 2px 2px;
-      background-repeat: repeat-x; }
-    .intro.dark .circle {
-      border-color: #cce9f8; }
-  .intro h1,
-  .intro h2,
-  .intro h3 {
-    color: #148fcc; }
-  .intro h3 a,
-  .intro h3 a:visited {
-    color: #148fcc;
-    background-image: linear-gradient(to bottom, transparent 50%, #148fcc 100%);
+  .intro a, .intro a:visited {
+    color: #a34010;
+    background-image: linear-gradient(to bottom, transparent 50%, #a34010 100%);
     background-size: 2px 2px;
     background-repeat: repeat-x; }
-  .intro h3 a:active,
-  .intro h3 a:hover {
+  .intro a.hover, .intro a:active, .intro a:hover {
     color: #cc5114;
     background-image: linear-gradient(to bottom, transparent 50%, #cc5114 100%);
     background-size: 2px 2px;
     background-repeat: repeat-x; }
+  .intro article li:before {
+    color: #274c5f; }
+  .intro blockquote {
+    border-left-color: #148fcc;
+    color: #707070; }
+  .intro h1,
+  .intro h2,
+  .intro h3 {
+    color: #148fcc; }
   .intro h4,
   .intro h5,
   .intro h6 {
@@ -423,84 +414,58 @@ a {
     color: #274c5f; }
   .intro p {
     color: #062a3d; }
-  .intro a, .intro a:visited,
-  .intro em > a,
-  .intro em > a:visited,
-  .intro li > a,
-  .intro li > a:visited,
-  .intro p > a,
-  .intro p > a:visited,
-  .intro span > a,
-  .intro span > a:visited,
-  .intro strong > a,
-  .intro strong > a:visited {
-    color: #a34010;
-    background-image: linear-gradient(to bottom, transparent 50%, #a34010 100%);
+  .intro h3 a, .intro h3 a:visited {
+    color: #148fcc;
+    background-image: linear-gradient(to bottom, transparent 50%, #148fcc 100%);
     background-size: 2px 2px;
     background-repeat: repeat-x; }
-  .intro a.hover, .intro a:active, .intro a:hover,
-  .intro em > a.hover,
-  .intro em > a:active,
-  .intro em > a:hover,
-  .intro li > a.hover,
-  .intro li > a:active,
-  .intro li > a:hover,
-  .intro p > a.hover,
-  .intro p > a:active,
-  .intro p > a:hover,
-  .intro span > a.hover,
-  .intro span > a:active,
-  .intro span > a:hover,
-  .intro strong > a.hover,
-  .intro strong > a:active,
-  .intro strong > a:hover {
+  .intro h3 a:active, .intro h3 a:hover {
     color: #cc5114;
     background-image: linear-gradient(to bottom, transparent 50%, #cc5114 100%);
     background-size: 2px 2px;
     background-repeat: repeat-x; }
-  .intro article li:before {
-    color: #274c5f; }
+  .intro.dark {
+    background-color: #148fcc; }
+    .intro.dark h1,
+    .intro.dark h2,
+    .intro.dark h3 {
+      color: #cce9f8; }
+    .intro.dark h3 a, .intro.dark h3 a:visited {
+      color: #cce9f8;
+      background-image: linear-gradient(to bottom, transparent 50%, #cce9f8 100%);
+      background-size: 2px 2px;
+      background-repeat: repeat-x; }
+    .intro.dark h3 a:active, .intro.dark h3 a:hover {
+      color: #cc5114;
+      background-image: linear-gradient(to bottom, transparent 50%, #cc5114 100%);
+      background-size: 2px 2px;
+      background-repeat: repeat-x; }
+    .intro.dark .circle {
+      border-color: #cce9f8; }
   .intro .circle {
     border-color: #148fcc; }
 
 .about {
   background-color: white; }
-  .about.dark {
-    background-color: #14ccad; }
-    .about.dark h1,
-    .about.dark h2,
-    .about.dark h3 {
-      color: #ccf8f0; }
-    .about.dark h3 a,
-    .about.dark h3 a:visited {
-      color: #ccf8f0;
-      background-image: linear-gradient(to bottom, transparent 50%, #ccf8f0 100%);
-      background-size: 2px 2px;
-      background-repeat: repeat-x; }
-    .about.dark h3 a:active,
-    .about.dark h3 a:hover {
-      color: #cc1433;
-      background-image: linear-gradient(to bottom, transparent 50%, #cc1433 100%);
-      background-size: 2px 2px;
-      background-repeat: repeat-x; }
-    .about.dark .circle {
-      border-color: #ccf8f0; }
-  .about h1,
-  .about h2,
-  .about h3 {
-    color: #14ccad; }
-  .about h3 a,
-  .about h3 a:visited {
-    color: #14ccad;
-    background-image: linear-gradient(to bottom, transparent 50%, #14ccad 100%);
+  .about a, .about a:visited {
+    color: #a31028;
+    background-image: linear-gradient(to bottom, transparent 50%, #a31028 100%);
     background-size: 2px 2px;
     background-repeat: repeat-x; }
-  .about h3 a:active,
-  .about h3 a:hover {
+  .about a.hover, .about a:active, .about a:hover {
     color: #cc1433;
     background-image: linear-gradient(to bottom, transparent 50%, #cc1433 100%);
     background-size: 2px 2px;
     background-repeat: repeat-x; }
+  .about article li:before {
+    color: #275f55; }
+  .about blockquote {
+    border-left-color: #14ccad;
+    color: #707070; }
+  .about h1,
+  .about h2,
+  .about h3 {
+    color: #14ccad; }
   .about h4,
   .about h5,
   .about h6 {
@@ -509,84 +474,58 @@ a {
     color: #275f55; }
   .about p {
     color: #063d33; }
-  .about a, .about a:visited,
-  .about em > a,
-  .about em > a:visited,
-  .about li > a,
-  .about li > a:visited,
-  .about p > a,
-  .about p > a:visited,
-  .about span > a,
-  .about span > a:visited,
-  .about strong > a,
-  .about strong > a:visited {
-    color: #a31028;
-    background-image: linear-gradient(to bottom, transparent 50%, #a31028 100%);
+  .about h3 a, .about h3 a:visited {
+    color: #14ccad;
+    background-image: linear-gradient(to bottom, transparent 50%, #14ccad 100%);
     background-size: 2px 2px;
     background-repeat: repeat-x; }
-  .about a.hover, .about a:active, .about a:hover,
-  .about em > a.hover,
-  .about em > a:active,
-  .about em > a:hover,
-  .about li > a.hover,
-  .about li > a:active,
-  .about li > a:hover,
-  .about p > a.hover,
-  .about p > a:active,
-  .about p > a:hover,
-  .about span > a.hover,
-  .about span > a:active,
-  .about span > a:hover,
-  .about strong > a.hover,
-  .about strong > a:active,
-  .about strong > a:hover {
+  .about h3 a:active, .about h3 a:hover {
     color: #cc1433;
     background-image: linear-gradient(to bottom, transparent 50%, #cc1433 100%);
     background-size: 2px 2px;
     background-repeat: repeat-x; }
-  .about article li:before {
-    color: #275f55; }
+  .about.dark {
+    background-color: #14ccad; }
+    .about.dark h1,
+    .about.dark h2,
+    .about.dark h3 {
+      color: #ccf8f0; }
+    .about.dark h3 a, .about.dark h3 a:visited {
+      color: #ccf8f0;
+      background-image: linear-gradient(to bottom, transparent 50%, #ccf8f0 100%);
+      background-size: 2px 2px;
+      background-repeat: repeat-x; }
+    .about.dark h3 a:active, .about.dark h3 a:hover {
+      color: #cc1433;
+      background-image: linear-gradient(to bottom, transparent 50%, #cc1433 100%);
+      background-size: 2px 2px;
+      background-repeat: repeat-x; }
+    .about.dark .circle {
+      border-color: #ccf8f0; }
   .about .circle {
     border-color: #14ccad; }
 
 .projects {
   background-color: white; }
-  .projects.dark {
-    background-color: #5114cc; }
-    .projects.dark h1,
-    .projects.dark h2,
-    .projects.dark h3 {
-      color: #dbccf8; }
-    .projects.dark h3 a,
-    .projects.dark h3 a:visited {
-      color: #dbccf8;
-      background-image: linear-gradient(to bottom, transparent 50%, #dbccf8 100%);
-      background-size: 2px 2px;
-      background-repeat: repeat-x; }
-    .projects.dark h3 a:active,
-    .projects.dark h3 a:hover {
-      color: #8fcc14;
-      background-image: linear-gradient(to bottom, transparent 50%, #8fcc14 100%);
-      background-size: 2px 2px;
-      background-repeat: repeat-x; }
-    .projects.dark .circle {
-      border-color: #dbccf8; }
-  .projects h1,
-  .projects h2,
-  .projects h3 {
-    color: #5114cc; }
-  .projects h3 a,
-  .projects h3 a:visited {
-    color: #5114cc;
-    background-image: linear-gradient(to bottom, transparent 50%, #5114cc 100%);
+  .projects a, .projects a:visited {
+    color: #72a310;
+    background-image: linear-gradient(to bottom, transparent 50%, #72a310 100%);
     background-size: 2px 2px;
     background-repeat: repeat-x; }
-  .projects h3 a:active,
-  .projects h3 a:hover {
+  .projects a.hover, .projects a:active, .projects a:hover {
     color: #8fcc14;
     background-image: linear-gradient(to bottom, transparent 50%, #8fcc14 100%);
     background-size: 2px 2px;
     background-repeat: repeat-x; }
+  .projects article li:before {
+    color: #39275f; }
+  .projects blockquote {
+    border-left-color: #5114cc;
+    color: #707070; }
+  .projects h1,
+  .projects h2,
+  .projects h3 {
+    color: #5114cc; }
   .projects h4,
   .projects h5,
   .projects h6 {
@@ -595,84 +534,58 @@ a {
     color: #39275f; }
   .projects p {
     color: #18063d; }
-  .projects a, .projects a:visited,
-  .projects em > a,
-  .projects em > a:visited,
-  .projects li > a,
-  .projects li > a:visited,
-  .projects p > a,
-  .projects p > a:visited,
-  .projects span > a,
-  .projects span > a:visited,
-  .projects strong > a,
-  .projects strong > a:visited {
-    color: #72a310;
-    background-image: linear-gradient(to bottom, transparent 50%, #72a310 100%);
+  .projects h3 a, .projects h3 a:visited {
+    color: #5114cc;
+    background-image: linear-gradient(to bottom, transparent 50%, #5114cc 100%);
     background-size: 2px 2px;
     background-repeat: repeat-x; }
-  .projects a.hover, .projects a:active, .projects a:hover,
-  .projects em > a.hover,
-  .projects em > a:active,
-  .projects em > a:hover,
-  .projects li > a.hover,
-  .projects li > a:active,
-  .projects li > a:hover,
-  .projects p > a.hover,
-  .projects p > a:active,
-  .projects p > a:hover,
-  .projects span > a.hover,
-  .projects span > a:active,
-  .projects span > a:hover,
-  .projects strong > a.hover,
-  .projects strong > a:active,
-  .projects strong > a:hover {
+  .projects h3 a:active, .projects h3 a:hover {
     color: #8fcc14;
     background-image: linear-gradient(to bottom, transparent 50%, #8fcc14 100%);
     background-size: 2px 2px;
     background-repeat: repeat-x; }
-  .projects article li:before {
-    color: #39275f; }
+  .projects.dark {
+    background-color: #5114cc; }
+    .projects.dark h1,
+    .projects.dark h2,
+    .projects.dark h3 {
+      color: #dbccf8; }
+    .projects.dark h3 a, .projects.dark h3 a:visited {
+      color: #dbccf8;
+      background-image: linear-gradient(to bottom, transparent 50%, #dbccf8 100%);
+      background-size: 2px 2px;
+      background-repeat: repeat-x; }
+    .projects.dark h3 a:active, .projects.dark h3 a:hover {
+      color: #8fcc14;
+      background-image: linear-gradient(to bottom, transparent 50%, #8fcc14 100%);
+      background-size: 2px 2px;
+      background-repeat: repeat-x; }
+    .projects.dark .circle {
+      border-color: #dbccf8; }
   .projects .circle {
     border-color: #5114cc; }
 
 .writing {
   background-color: white; }
-  .writing.dark {
-    background-color: #14cc51; }
-    .writing.dark h1,
-    .writing.dark h2,
-    .writing.dark h3 {
-      color: #ccf8db; }
-    .writing.dark h3 a,
-    .writing.dark h3 a:visited {
-      color: #ccf8db;
-      background-image: linear-gradient(to bottom, transparent 50%, #ccf8db 100%);
-      background-size: 2px 2px;
-      background-repeat: repeat-x; }
-    .writing.dark h3 a:active,
-    .writing.dark h3 a:hover {
-      color: #cc148f;
-      background-image: linear-gradient(to bottom, transparent 50%, #cc148f 100%);
-      background-size: 2px 2px;
-      background-repeat: repeat-x; }
-    .writing.dark .circle {
-      border-color: #ccf8db; }
-  .writing h1,
-  .writing h2,
-  .writing h3 {
-    color: #14cc51; }
-  .writing h3 a,
-  .writing h3 a:visited {
-    color: #14cc51;
-    background-image: linear-gradient(to bottom, transparent 50%, #14cc51 100%);
+  .writing a, .writing a:visited {
+    color: #a31072;
+    background-image: linear-gradient(to bottom, transparent 50%, #a31072 100%);
     background-size: 2px 2px;
     background-repeat: repeat-x; }
-  .writing h3 a:active,
-  .writing h3 a:hover {
+  .writing a.hover, .writing a:active, .writing a:hover {
     color: #cc148f;
     background-image: linear-gradient(to bottom, transparent 50%, #cc148f 100%);
     background-size: 2px 2px;
     background-repeat: repeat-x; }
+  .writing article li:before {
+    color: #275f39; }
+  .writing blockquote {
+    border-left-color: #14cc51;
+    color: #707070; }
+  .writing h1,
+  .writing h2,
+  .writing h3 {
+    color: #14cc51; }
   .writing h4,
   .writing h5,
   .writing h6 {
@@ -681,43 +594,34 @@ a {
     color: #275f39; }
   .writing p {
     color: #063d18; }
-  .writing a, .writing a:visited,
-  .writing em > a,
-  .writing em > a:visited,
-  .writing li > a,
-  .writing li > a:visited,
-  .writing p > a,
-  .writing p > a:visited,
-  .writing span > a,
-  .writing span > a:visited,
-  .writing strong > a,
-  .writing strong > a:visited {
-    color: #a31072;
-    background-image: linear-gradient(to bottom, transparent 50%, #a31072 100%);
+  .writing h3 a, .writing h3 a:visited {
+    color: #14cc51;
+    background-image: linear-gradient(to bottom, transparent 50%, #14cc51 100%);
     background-size: 2px 2px;
     background-repeat: repeat-x; }
-  .writing a.hover, .writing a:active, .writing a:hover,
-  .writing em > a.hover,
-  .writing em > a:active,
-  .writing em > a:hover,
-  .writing li > a.hover,
-  .writing li > a:active,
-  .writing li > a:hover,
-  .writing p > a.hover,
-  .writing p > a:active,
-  .writing p > a:hover,
-  .writing span > a.hover,
-  .writing span > a:active,
-  .writing span > a:hover,
-  .writing strong > a.hover,
-  .writing strong > a:active,
-  .writing strong > a:hover {
+  .writing h3 a:active, .writing h3 a:hover {
     color: #cc148f;
     background-image: linear-gradient(to bottom, transparent 50%, #cc148f 100%);
     background-size: 2px 2px;
     background-repeat: repeat-x; }
-  .writing article li:before {
-    color: #275f39; }
+  .writing.dark {
+    background-color: #14cc51; }
+    .writing.dark h1,
+    .writing.dark h2,
+    .writing.dark h3 {
+      color: #ccf8db; }
+    .writing.dark h3 a, .writing.dark h3 a:visited {
+      color: #ccf8db;
+      background-image: linear-gradient(to bottom, transparent 50%, #ccf8db 100%);
+      background-size: 2px 2px;
+      background-repeat: repeat-x; }
+    .writing.dark h3 a:active, .writing.dark h3 a:hover {
+      color: #cc148f;
+      background-image: linear-gradient(to bottom, transparent 50%, #cc148f 100%);
+      background-size: 2px 2px;
+      background-repeat: repeat-x; }
+    .writing.dark .circle {
+      border-color: #ccf8db; }
   .writing .circle {
     border-color: #14cc51; }
 
@@ -812,6 +716,14 @@ a {
     width: 0;
     transition: all 1s ease 1s; }
 
+/* standardize any monospaced elements */
+pre,
+code,
+kbd,
+samp {
+  font-family: "Source Code Pro", "Consolas", "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Monaco", "Courier New", "Courier", monospace;
+  font-size: 16px; }
+
 .wrapper {
   align-items: center;
   display: flex;
@@ -905,42 +817,25 @@ a {
       padding: 12px; }
     .wrapper.sample .a {
       background-color: white; }
-      .wrapper.sample .a.dark {
-        background-color: #148fcc; }
-        .wrapper.sample .a.dark h1,
-        .wrapper.sample .a.dark h2,
-        .wrapper.sample .a.dark h3 {
-          color: #cce9f8; }
-        .wrapper.sample .a.dark h3 a,
-        .wrapper.sample .a.dark h3 a:visited {
-          color: #cce9f8;
-          background-image: linear-gradient(to bottom, transparent 50%, #cce9f8 100%);
-          background-size: 2px 2px;
-          background-repeat: repeat-x; }
-        .wrapper.sample .a.dark h3 a:active,
-        .wrapper.sample .a.dark h3 a:hover {
-          color: #cc5114;
-          background-image: linear-gradient(to bottom, transparent 50%, #cc5114 100%);
-          background-size: 2px 2px;
-          background-repeat: repeat-x; }
-        .wrapper.sample .a.dark .circle {
-          border-color: #cce9f8; }
-      .wrapper.sample .a h1,
-      .wrapper.sample .a h2,
-      .wrapper.sample .a h3 {
-        color: #148fcc; }
-      .wrapper.sample .a h3 a,
-      .wrapper.sample .a h3 a:visited {
-        color: #148fcc;
-        background-image: linear-gradient(to bottom, transparent 50%, #148fcc 100%);
+      .wrapper.sample .a a, .wrapper.sample .a a:visited {
+        color: #a34010;
+        background-image: linear-gradient(to bottom, transparent 50%, #a34010 100%);
         background-size: 2px 2px;
         background-repeat: repeat-x; }
-      .wrapper.sample .a h3 a:active,
-      .wrapper.sample .a h3 a:hover {
+      .wrapper.sample .a a.hover, .wrapper.sample .a a:active, .wrapper.sample .a a:hover {
         color: #cc5114;
         background-image: linear-gradient(to bottom, transparent 50%, #cc5114 100%);
         background-size: 2px 2px;
         background-repeat: repeat-x; }
+      .wrapper.sample .a article li:before {
+        color: #274c5f; }
+      .wrapper.sample .a blockquote {
+        border-left-color: #148fcc;
+        color: #707070; }
+      .wrapper.sample .a h1,
+      .wrapper.sample .a h2,
+      .wrapper.sample .a h3 {
+        color: #148fcc; }
       .wrapper.sample .a h4,
       .wrapper.sample .a h5,
       .wrapper.sample .a h6 {
@@ -949,83 +844,57 @@ a {
         color: #274c5f; }
       .wrapper.sample .a p {
         color: #062a3d; }
-      .wrapper.sample .a a, .wrapper.sample .a a:visited,
-      .wrapper.sample .a em > a,
-      .wrapper.sample .a em > a:visited,
-      .wrapper.sample .a li > a,
-      .wrapper.sample .a li > a:visited,
-      .wrapper.sample .a p > a,
-      .wrapper.sample .a p > a:visited,
-      .wrapper.sample .a span > a,
-      .wrapper.sample .a span > a:visited,
-      .wrapper.sample .a strong > a,
-      .wrapper.sample .a strong > a:visited {
-        color: #a34010;
-        background-image: linear-gradient(to bottom, transparent 50%, #a34010 100%);
+      .wrapper.sample .a h3 a, .wrapper.sample .a h3 a:visited {
+        color: #148fcc;
+        background-image: linear-gradient(to bottom, transparent 50%, #148fcc 100%);
         background-size: 2px 2px;
         background-repeat: repeat-x; }
-      .wrapper.sample .a a.hover, .wrapper.sample .a a:active, .wrapper.sample .a a:hover,
-      .wrapper.sample .a em > a.hover,
-      .wrapper.sample .a em > a:active,
-      .wrapper.sample .a em > a:hover,
-      .wrapper.sample .a li > a.hover,
-      .wrapper.sample .a li > a:active,
-      .wrapper.sample .a li > a:hover,
-      .wrapper.sample .a p > a.hover,
-      .wrapper.sample .a p > a:active,
-      .wrapper.sample .a p > a:hover,
-      .wrapper.sample .a span > a.hover,
-      .wrapper.sample .a span > a:active,
-      .wrapper.sample .a span > a:hover,
-      .wrapper.sample .a strong > a.hover,
-      .wrapper.sample .a strong > a:active,
-      .wrapper.sample .a strong > a:hover {
+      .wrapper.sample .a h3 a:active, .wrapper.sample .a h3 a:hover {
         color: #cc5114;
         background-image: linear-gradient(to bottom, transparent 50%, #cc5114 100%);
         background-size: 2px 2px;
         background-repeat: repeat-x; }
-      .wrapper.sample .a article li:before {
-        color: #274c5f; }
+      .wrapper.sample .a.dark {
+        background-color: #148fcc; }
+        .wrapper.sample .a.dark h1,
+        .wrapper.sample .a.dark h2,
+        .wrapper.sample .a.dark h3 {
+          color: #cce9f8; }
+        .wrapper.sample .a.dark h3 a, .wrapper.sample .a.dark h3 a:visited {
+          color: #cce9f8;
+          background-image: linear-gradient(to bottom, transparent 50%, #cce9f8 100%);
+          background-size: 2px 2px;
+          background-repeat: repeat-x; }
+        .wrapper.sample .a.dark h3 a:active, .wrapper.sample .a.dark h3 a:hover {
+          color: #cc5114;
+          background-image: linear-gradient(to bottom, transparent 50%, #cc5114 100%);
+          background-size: 2px 2px;
+          background-repeat: repeat-x; }
+        .wrapper.sample .a.dark .circle {
+          border-color: #cce9f8; }
       .wrapper.sample .a .circle {
         border-color: #148fcc; }
     .wrapper.sample .b {
       background-color: white; }
-      .wrapper.sample .b.dark {
-        background-color: #14ccad; }
-        .wrapper.sample .b.dark h1,
-        .wrapper.sample .b.dark h2,
-        .wrapper.sample .b.dark h3 {
-          color: #ccf8f0; }
-        .wrapper.sample .b.dark h3 a,
-        .wrapper.sample .b.dark h3 a:visited {
-          color: #ccf8f0;
-          background-image: linear-gradient(to bottom, transparent 50%, #ccf8f0 100%);
-          background-size: 2px 2px;
-          background-repeat: repeat-x; }
-        .wrapper.sample .b.dark h3 a:active,
-        .wrapper.sample .b.dark h3 a:hover {
-          color: #cc1433;
-          background-image: linear-gradient(to bottom, transparent 50%, #cc1433 100%);
-          background-size: 2px 2px;
-          background-repeat: repeat-x; }
-        .wrapper.sample .b.dark .circle {
-          border-color: #ccf8f0; }
-      .wrapper.sample .b h1,
-      .wrapper.sample .b h2,
-      .wrapper.sample .b h3 {
-        color: #14ccad; }
-      .wrapper.sample .b h3 a,
-      .wrapper.sample .b h3 a:visited {
-        color: #14ccad;
-        background-image: linear-gradient(to bottom, transparent 50%, #14ccad 100%);
+      .wrapper.sample .b a, .wrapper.sample .b a:visited {
+        color: #a31028;
+        background-image: linear-gradient(to bottom, transparent 50%, #a31028 100%);
         background-size: 2px 2px;
         background-repeat: repeat-x; }
-      .wrapper.sample .b h3 a:active,
-      .wrapper.sample .b h3 a:hover {
+      .wrapper.sample .b a.hover, .wrapper.sample .b a:active, .wrapper.sample .b a:hover {
         color: #cc1433;
         background-image: linear-gradient(to bottom, transparent 50%, #cc1433 100%);
         background-size: 2px 2px;
         background-repeat: repeat-x; }
+      .wrapper.sample .b article li:before {
+        color: #275f55; }
+      .wrapper.sample .b blockquote {
+        border-left-color: #14ccad;
+        color: #707070; }
+      .wrapper.sample .b h1,
+      .wrapper.sample .b h2,
+      .wrapper.sample .b h3 {
+        color: #14ccad; }
       .wrapper.sample .b h4,
       .wrapper.sample .b h5,
       .wrapper.sample .b h6 {
@@ -1034,83 +903,57 @@ a {
         color: #275f55; }
       .wrapper.sample .b p {
         color: #063d33; }
-      .wrapper.sample .b a, .wrapper.sample .b a:visited,
-      .wrapper.sample .b em > a,
-      .wrapper.sample .b em > a:visited,
-      .wrapper.sample .b li > a,
-      .wrapper.sample .b li > a:visited,
-      .wrapper.sample .b p > a,
-      .wrapper.sample .b p > a:visited,
-      .wrapper.sample .b span > a,
-      .wrapper.sample .b span > a:visited,
-      .wrapper.sample .b strong > a,
-      .wrapper.sample .b strong > a:visited {
-        color: #a31028;
-        background-image: linear-gradient(to bottom, transparent 50%, #a31028 100%);
+      .wrapper.sample .b h3 a, .wrapper.sample .b h3 a:visited {
+        color: #14ccad;
+        background-image: linear-gradient(to bottom, transparent 50%, #14ccad 100%);
         background-size: 2px 2px;
         background-repeat: repeat-x; }
-      .wrapper.sample .b a.hover, .wrapper.sample .b a:active, .wrapper.sample .b a:hover,
-      .wrapper.sample .b em > a.hover,
-      .wrapper.sample .b em > a:active,
-      .wrapper.sample .b em > a:hover,
-      .wrapper.sample .b li > a.hover,
-      .wrapper.sample .b li > a:active,
-      .wrapper.sample .b li > a:hover,
-      .wrapper.sample .b p > a.hover,
-      .wrapper.sample .b p > a:active,
-      .wrapper.sample .b p > a:hover,
-      .wrapper.sample .b span > a.hover,
-      .wrapper.sample .b span > a:active,
-      .wrapper.sample .b span > a:hover,
-      .wrapper.sample .b strong > a.hover,
-      .wrapper.sample .b strong > a:active,
-      .wrapper.sample .b strong > a:hover {
+      .wrapper.sample .b h3 a:active, .wrapper.sample .b h3 a:hover {
         color: #cc1433;
         background-image: linear-gradient(to bottom, transparent 50%, #cc1433 100%);
         background-size: 2px 2px;
         background-repeat: repeat-x; }
-      .wrapper.sample .b article li:before {
-        color: #275f55; }
+      .wrapper.sample .b.dark {
+        background-color: #14ccad; }
+        .wrapper.sample .b.dark h1,
+        .wrapper.sample .b.dark h2,
+        .wrapper.sample .b.dark h3 {
+          color: #ccf8f0; }
+        .wrapper.sample .b.dark h3 a, .wrapper.sample .b.dark h3 a:visited {
+          color: #ccf8f0;
+          background-image: linear-gradient(to bottom, transparent 50%, #ccf8f0 100%);
+          background-size: 2px 2px;
+          background-repeat: repeat-x; }
+        .wrapper.sample .b.dark h3 a:active, .wrapper.sample .b.dark h3 a:hover {
+          color: #cc1433;
+          background-image: linear-gradient(to bottom, transparent 50%, #cc1433 100%);
+          background-size: 2px 2px;
+          background-repeat: repeat-x; }
+        .wrapper.sample .b.dark .circle {
+          border-color: #ccf8f0; }
       .wrapper.sample .b .circle {
         border-color: #14ccad; }
     .wrapper.sample .c {
       background-color: white; }
-      .wrapper.sample .c.dark {
-        background-color: #14cc51; }
-        .wrapper.sample .c.dark h1,
-        .wrapper.sample .c.dark h2,
-        .wrapper.sample .c.dark h3 {
-          color: #ccf8db; }
-        .wrapper.sample .c.dark h3 a,
-        .wrapper.sample .c.dark h3 a:visited {
-          color: #ccf8db;
-          background-image: linear-gradient(to bottom, transparent 50%, #ccf8db 100%);
-          background-size: 2px 2px;
-          background-repeat: repeat-x; }
-        .wrapper.sample .c.dark h3 a:active,
-        .wrapper.sample .c.dark h3 a:hover {
-          color: #cc148f;
-          background-image: linear-gradient(to bottom, transparent 50%, #cc148f 100%);
-          background-size: 2px 2px;
-          background-repeat: repeat-x; }
-        .wrapper.sample .c.dark .circle {
-          border-color: #ccf8db; }
-      .wrapper.sample .c h1,
-      .wrapper.sample .c h2,
-      .wrapper.sample .c h3 {
-        color: #14cc51; }
-      .wrapper.sample .c h3 a,
-      .wrapper.sample .c h3 a:visited {
-        color: #14cc51;
-        background-image: linear-gradient(to bottom, transparent 50%, #14cc51 100%);
+      .wrapper.sample .c a, .wrapper.sample .c a:visited {
+        color: #a31072;
+        background-image: linear-gradient(to bottom, transparent 50%, #a31072 100%);
         background-size: 2px 2px;
         background-repeat: repeat-x; }
-      .wrapper.sample .c h3 a:active,
-      .wrapper.sample .c h3 a:hover {
+      .wrapper.sample .c a.hover, .wrapper.sample .c a:active, .wrapper.sample .c a:hover {
         color: #cc148f;
         background-image: linear-gradient(to bottom, transparent 50%, #cc148f 100%);
         background-size: 2px 2px;
         background-repeat: repeat-x; }
+      .wrapper.sample .c article li:before {
+        color: #275f39; }
+      .wrapper.sample .c blockquote {
+        border-left-color: #14cc51;
+        color: #707070; }
+      .wrapper.sample .c h1,
+      .wrapper.sample .c h2,
+      .wrapper.sample .c h3 {
+        color: #14cc51; }
       .wrapper.sample .c h4,
       .wrapper.sample .c h5,
       .wrapper.sample .c h6 {
@@ -1119,83 +962,57 @@ a {
         color: #275f39; }
       .wrapper.sample .c p {
         color: #063d18; }
-      .wrapper.sample .c a, .wrapper.sample .c a:visited,
-      .wrapper.sample .c em > a,
-      .wrapper.sample .c em > a:visited,
-      .wrapper.sample .c li > a,
-      .wrapper.sample .c li > a:visited,
-      .wrapper.sample .c p > a,
-      .wrapper.sample .c p > a:visited,
-      .wrapper.sample .c span > a,
-      .wrapper.sample .c span > a:visited,
-      .wrapper.sample .c strong > a,
-      .wrapper.sample .c strong > a:visited {
-        color: #a31072;
-        background-image: linear-gradient(to bottom, transparent 50%, #a31072 100%);
+      .wrapper.sample .c h3 a, .wrapper.sample .c h3 a:visited {
+        color: #14cc51;
+        background-image: linear-gradient(to bottom, transparent 50%, #14cc51 100%);
         background-size: 2px 2px;
         background-repeat: repeat-x; }
-      .wrapper.sample .c a.hover, .wrapper.sample .c a:active, .wrapper.sample .c a:hover,
-      .wrapper.sample .c em > a.hover,
-      .wrapper.sample .c em > a:active,
-      .wrapper.sample .c em > a:hover,
-      .wrapper.sample .c li > a.hover,
-      .wrapper.sample .c li > a:active,
-      .wrapper.sample .c li > a:hover,
-      .wrapper.sample .c p > a.hover,
-      .wrapper.sample .c p > a:active,
-      .wrapper.sample .c p > a:hover,
-      .wrapper.sample .c span > a.hover,
-      .wrapper.sample .c span > a:active,
-      .wrapper.sample .c span > a:hover,
-      .wrapper.sample .c strong > a.hover,
-      .wrapper.sample .c strong > a:active,
-      .wrapper.sample .c strong > a:hover {
+      .wrapper.sample .c h3 a:active, .wrapper.sample .c h3 a:hover {
         color: #cc148f;
         background-image: linear-gradient(to bottom, transparent 50%, #cc148f 100%);
         background-size: 2px 2px;
         background-repeat: repeat-x; }
-      .wrapper.sample .c article li:before {
-        color: #275f39; }
+      .wrapper.sample .c.dark {
+        background-color: #14cc51; }
+        .wrapper.sample .c.dark h1,
+        .wrapper.sample .c.dark h2,
+        .wrapper.sample .c.dark h3 {
+          color: #ccf8db; }
+        .wrapper.sample .c.dark h3 a, .wrapper.sample .c.dark h3 a:visited {
+          color: #ccf8db;
+          background-image: linear-gradient(to bottom, transparent 50%, #ccf8db 100%);
+          background-size: 2px 2px;
+          background-repeat: repeat-x; }
+        .wrapper.sample .c.dark h3 a:active, .wrapper.sample .c.dark h3 a:hover {
+          color: #cc148f;
+          background-image: linear-gradient(to bottom, transparent 50%, #cc148f 100%);
+          background-size: 2px 2px;
+          background-repeat: repeat-x; }
+        .wrapper.sample .c.dark .circle {
+          border-color: #ccf8db; }
       .wrapper.sample .c .circle {
         border-color: #14cc51; }
     .wrapper.sample .d {
       background-color: white; }
-      .wrapper.sample .d.dark {
-        background-color: #1433cc; }
-        .wrapper.sample .d.dark h1,
-        .wrapper.sample .d.dark h2,
-        .wrapper.sample .d.dark h3 {
-          color: #ccd4f8; }
-        .wrapper.sample .d.dark h3 a,
-        .wrapper.sample .d.dark h3 a:visited {
-          color: #ccd4f8;
-          background-image: linear-gradient(to bottom, transparent 50%, #ccd4f8 100%);
-          background-size: 2px 2px;
-          background-repeat: repeat-x; }
-        .wrapper.sample .d.dark h3 a:active,
-        .wrapper.sample .d.dark h3 a:hover {
-          color: #ccad14;
-          background-image: linear-gradient(to bottom, transparent 50%, #ccad14 100%);
-          background-size: 2px 2px;
-          background-repeat: repeat-x; }
-        .wrapper.sample .d.dark .circle {
-          border-color: #ccd4f8; }
-      .wrapper.sample .d h1,
-      .wrapper.sample .d h2,
-      .wrapper.sample .d h3 {
-        color: #1433cc; }
-      .wrapper.sample .d h3 a,
-      .wrapper.sample .d h3 a:visited {
-        color: #1433cc;
-        background-image: linear-gradient(to bottom, transparent 50%, #1433cc 100%);
+      .wrapper.sample .d a, .wrapper.sample .d a:visited {
+        color: #a38a10;
+        background-image: linear-gradient(to bottom, transparent 50%, #a38a10 100%);
         background-size: 2px 2px;
         background-repeat: repeat-x; }
-      .wrapper.sample .d h3 a:active,
-      .wrapper.sample .d h3 a:hover {
+      .wrapper.sample .d a.hover, .wrapper.sample .d a:active, .wrapper.sample .d a:hover {
         color: #ccad14;
         background-image: linear-gradient(to bottom, transparent 50%, #ccad14 100%);
         background-size: 2px 2px;
         background-repeat: repeat-x; }
+      .wrapper.sample .d article li:before {
+        color: #27305f; }
+      .wrapper.sample .d blockquote {
+        border-left-color: #1433cc;
+        color: #707070; }
+      .wrapper.sample .d h1,
+      .wrapper.sample .d h2,
+      .wrapper.sample .d h3 {
+        color: #1433cc; }
       .wrapper.sample .d h4,
       .wrapper.sample .d h5,
       .wrapper.sample .d h6 {
@@ -1204,83 +1021,57 @@ a {
         color: #27305f; }
       .wrapper.sample .d p {
         color: #060f3d; }
-      .wrapper.sample .d a, .wrapper.sample .d a:visited,
-      .wrapper.sample .d em > a,
-      .wrapper.sample .d em > a:visited,
-      .wrapper.sample .d li > a,
-      .wrapper.sample .d li > a:visited,
-      .wrapper.sample .d p > a,
-      .wrapper.sample .d p > a:visited,
-      .wrapper.sample .d span > a,
-      .wrapper.sample .d span > a:visited,
-      .wrapper.sample .d strong > a,
-      .wrapper.sample .d strong > a:visited {
-        color: #a38a10;
-        background-image: linear-gradient(to bottom, transparent 50%, #a38a10 100%);
+      .wrapper.sample .d h3 a, .wrapper.sample .d h3 a:visited {
+        color: #1433cc;
+        background-image: linear-gradient(to bottom, transparent 50%, #1433cc 100%);
         background-size: 2px 2px;
         background-repeat: repeat-x; }
-      .wrapper.sample .d a.hover, .wrapper.sample .d a:active, .wrapper.sample .d a:hover,
-      .wrapper.sample .d em > a.hover,
-      .wrapper.sample .d em > a:active,
-      .wrapper.sample .d em > a:hover,
-      .wrapper.sample .d li > a.hover,
-      .wrapper.sample .d li > a:active,
-      .wrapper.sample .d li > a:hover,
-      .wrapper.sample .d p > a.hover,
-      .wrapper.sample .d p > a:active,
-      .wrapper.sample .d p > a:hover,
-      .wrapper.sample .d span > a.hover,
-      .wrapper.sample .d span > a:active,
-      .wrapper.sample .d span > a:hover,
-      .wrapper.sample .d strong > a.hover,
-      .wrapper.sample .d strong > a:active,
-      .wrapper.sample .d strong > a:hover {
+      .wrapper.sample .d h3 a:active, .wrapper.sample .d h3 a:hover {
         color: #ccad14;
         background-image: linear-gradient(to bottom, transparent 50%, #ccad14 100%);
         background-size: 2px 2px;
         background-repeat: repeat-x; }
-      .wrapper.sample .d article li:before {
-        color: #27305f; }
+      .wrapper.sample .d.dark {
+        background-color: #1433cc; }
+        .wrapper.sample .d.dark h1,
+        .wrapper.sample .d.dark h2,
+        .wrapper.sample .d.dark h3 {
+          color: #ccd4f8; }
+        .wrapper.sample .d.dark h3 a, .wrapper.sample .d.dark h3 a:visited {
+          color: #ccd4f8;
+          background-image: linear-gradient(to bottom, transparent 50%, #ccd4f8 100%);
+          background-size: 2px 2px;
+          background-repeat: repeat-x; }
+        .wrapper.sample .d.dark h3 a:active, .wrapper.sample .d.dark h3 a:hover {
+          color: #ccad14;
+          background-image: linear-gradient(to bottom, transparent 50%, #ccad14 100%);
+          background-size: 2px 2px;
+          background-repeat: repeat-x; }
+        .wrapper.sample .d.dark .circle {
+          border-color: #ccd4f8; }
       .wrapper.sample .d .circle {
         border-color: #1433cc; }
     .wrapper.sample .e {
       background-color: white; }
-      .wrapper.sample .e.dark {
-        background-color: #5114cc; }
-        .wrapper.sample .e.dark h1,
-        .wrapper.sample .e.dark h2,
-        .wrapper.sample .e.dark h3 {
-          color: #dbccf8; }
-        .wrapper.sample .e.dark h3 a,
-        .wrapper.sample .e.dark h3 a:visited {
-          color: #dbccf8;
-          background-image: linear-gradient(to bottom, transparent 50%, #dbccf8 100%);
-          background-size: 2px 2px;
-          background-repeat: repeat-x; }
-        .wrapper.sample .e.dark h3 a:active,
-        .wrapper.sample .e.dark h3 a:hover {
-          color: #8fcc14;
-          background-image: linear-gradient(to bottom, transparent 50%, #8fcc14 100%);
-          background-size: 2px 2px;
-          background-repeat: repeat-x; }
-        .wrapper.sample .e.dark .circle {
-          border-color: #dbccf8; }
-      .wrapper.sample .e h1,
-      .wrapper.sample .e h2,
-      .wrapper.sample .e h3 {
-        color: #5114cc; }
-      .wrapper.sample .e h3 a,
-      .wrapper.sample .e h3 a:visited {
-        color: #5114cc;
-        background-image: linear-gradient(to bottom, transparent 50%, #5114cc 100%);
+      .wrapper.sample .e a, .wrapper.sample .e a:visited {
+        color: #72a310;
+        background-image: linear-gradient(to bottom, transparent 50%, #72a310 100%);
         background-size: 2px 2px;
         background-repeat: repeat-x; }
-      .wrapper.sample .e h3 a:active,
-      .wrapper.sample .e h3 a:hover {
+      .wrapper.sample .e a.hover, .wrapper.sample .e a:active, .wrapper.sample .e a:hover {
         color: #8fcc14;
         background-image: linear-gradient(to bottom, transparent 50%, #8fcc14 100%);
         background-size: 2px 2px;
         background-repeat: repeat-x; }
+      .wrapper.sample .e article li:before {
+        color: #39275f; }
+      .wrapper.sample .e blockquote {
+        border-left-color: #5114cc;
+        color: #707070; }
+      .wrapper.sample .e h1,
+      .wrapper.sample .e h2,
+      .wrapper.sample .e h3 {
+        color: #5114cc; }
       .wrapper.sample .e h4,
       .wrapper.sample .e h5,
       .wrapper.sample .e h6 {
@@ -1289,43 +1080,34 @@ a {
         color: #39275f; }
       .wrapper.sample .e p {
         color: #18063d; }
-      .wrapper.sample .e a, .wrapper.sample .e a:visited,
-      .wrapper.sample .e em > a,
-      .wrapper.sample .e em > a:visited,
-      .wrapper.sample .e li > a,
-      .wrapper.sample .e li > a:visited,
-      .wrapper.sample .e p > a,
-      .wrapper.sample .e p > a:visited,
-      .wrapper.sample .e span > a,
-      .wrapper.sample .e span > a:visited,
-      .wrapper.sample .e strong > a,
-      .wrapper.sample .e strong > a:visited {
-        color: #72a310;
-        background-image: linear-gradient(to bottom, transparent 50%, #72a310 100%);
+      .wrapper.sample .e h3 a, .wrapper.sample .e h3 a:visited {
+        color: #5114cc;
+        background-image: linear-gradient(to bottom, transparent 50%, #5114cc 100%);
         background-size: 2px 2px;
         background-repeat: repeat-x; }
-      .wrapper.sample .e a.hover, .wrapper.sample .e a:active, .wrapper.sample .e a:hover,
-      .wrapper.sample .e em > a.hover,
-      .wrapper.sample .e em > a:active,
-      .wrapper.sample .e em > a:hover,
-      .wrapper.sample .e li > a.hover,
-      .wrapper.sample .e li > a:active,
-      .wrapper.sample .e li > a:hover,
-      .wrapper.sample .e p > a.hover,
-      .wrapper.sample .e p > a:active,
-      .wrapper.sample .e p > a:hover,
-      .wrapper.sample .e span > a.hover,
-      .wrapper.sample .e span > a:active,
-      .wrapper.sample .e span > a:hover,
-      .wrapper.sample .e strong > a.hover,
-      .wrapper.sample .e strong > a:active,
-      .wrapper.sample .e strong > a:hover {
+      .wrapper.sample .e h3 a:active, .wrapper.sample .e h3 a:hover {
         color: #8fcc14;
         background-image: linear-gradient(to bottom, transparent 50%, #8fcc14 100%);
         background-size: 2px 2px;
         background-repeat: repeat-x; }
-      .wrapper.sample .e article li:before {
-        color: #39275f; }
+      .wrapper.sample .e.dark {
+        background-color: #5114cc; }
+        .wrapper.sample .e.dark h1,
+        .wrapper.sample .e.dark h2,
+        .wrapper.sample .e.dark h3 {
+          color: #dbccf8; }
+        .wrapper.sample .e.dark h3 a, .wrapper.sample .e.dark h3 a:visited {
+          color: #dbccf8;
+          background-image: linear-gradient(to bottom, transparent 50%, #dbccf8 100%);
+          background-size: 2px 2px;
+          background-repeat: repeat-x; }
+        .wrapper.sample .e.dark h3 a:active, .wrapper.sample .e.dark h3 a:hover {
+          color: #8fcc14;
+          background-image: linear-gradient(to bottom, transparent 50%, #8fcc14 100%);
+          background-size: 2px 2px;
+          background-repeat: repeat-x; }
+        .wrapper.sample .e.dark .circle {
+          border-color: #dbccf8; }
       .wrapper.sample .e .circle {
         border-color: #5114cc; }
 

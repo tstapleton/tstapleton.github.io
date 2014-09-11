@@ -15,6 +15,15 @@ highlighter: pygments
 kramdown:
   input: GFM
   smart_quotes: lsquo,rsquo,ldquo,rdquo
+  use_coderay: true
+
+  coderay:
+    coderay_wrap: div
+    coderay_line_numbers: table
+    coderay_line_number_start: 1
+    coderay_tab_width: 2
+    coderay_bold_every: false
+    coderay_css: class
 
 tag_page_layout: tag_page
 tag_page_dir: tags
