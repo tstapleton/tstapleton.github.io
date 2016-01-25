@@ -6,9 +6,9 @@
 </description>
     <link>http://tstapleton.github.io//</link>
     <atom:link href="http://tstapleton.github.io//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 11 Sep 2014 04:55:14 -0700</pubDate>
-    <lastBuildDate>Thu, 11 Sep 2014 04:55:14 -0700</lastBuildDate>
-    <generator>Jekyll v2.3.0</generator>
+    <pubDate>Sun, 24 Jan 2016 16:11:22 -0800</pubDate>
+    <lastBuildDate>Sun, 24 Jan 2016 16:11:22 -0800</lastBuildDate>
+    <generator>Jekyll v3.1.0</generator>
     
       <item>
         <title>Research Turns to Showdown</title>
@@ -196,155 +196,83 @@
 
 &lt;p&gt;My first idea was drawing the Tradeshift logo using SVG. It &lt;a href=&quot;It looked pretty good, but there wasn&#39;t much *code* to it.&quot;&gt;looked pretty good&lt;/a&gt;, but there wasn’t much &lt;em&gt;code&lt;/em&gt; to it.&lt;/p&gt;
 
-&lt;div&gt;&lt;table class=&quot;CodeRay&quot;&gt;&lt;tr&gt;
-  &lt;td class=&quot;line-numbers&quot; title=&quot;double click to toggle&quot; ondblclick=&quot;with (this.firstChild.style) { display = (display == &#39;&#39;) ? &#39;none&#39; : &#39;&#39; }&quot;&gt;&lt;pre&gt;&lt;a href=&quot;#n1&quot; name=&quot;n1&quot;&gt;1&lt;/a&gt;
-&lt;a href=&quot;#n2&quot; name=&quot;n2&quot;&gt;2&lt;/a&gt;
-&lt;a href=&quot;#n3&quot; name=&quot;n3&quot;&gt;3&lt;/a&gt;
-&lt;a href=&quot;#n4&quot; name=&quot;n4&quot;&gt;4&lt;/a&gt;
-&lt;a href=&quot;#n5&quot; name=&quot;n5&quot;&gt;5&lt;/a&gt;
-&lt;/pre&gt;&lt;/td&gt;
-  &lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;svg&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;version&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;1.1&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;baseProfile&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;full&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;width&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;320&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;height&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;320&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;xmlns&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;http://www.w3.org/2000/svg&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;tag&quot;&gt;&amp;lt;circle&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;cx&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;160&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;cy&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;160&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;r&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;160&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;fill&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;#000&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;/&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;tag&quot;&gt;&amp;lt;path&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;d&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;M 25 90 L 153 90 L 153 270 L 105 270 L 105 128 L 25 128&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;fill&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;#fff&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;stroke&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;#fff&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;/&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;tag&quot;&gt;&amp;lt;path&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;d&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;M 167 90 L 167 270 L 215 270 L 215 128 L 295 128 L 295 90&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;fill&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;#20a0e9&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;stroke&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;#20a0e9&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;tag&quot;&gt;&amp;lt;/svg&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
+&lt;p&gt;```html&lt;/p&gt;
+&lt;svg version=&quot;1.1&quot; baseprofile=&quot;full&quot; width=&quot;320&quot; height=&quot;320&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
+	&lt;circle cx=&quot;160&quot; cy=&quot;160&quot; r=&quot;160&quot; fill=&quot;#000&quot; /&gt;
+	&lt;path d=&quot;M 25 90 L 153 90 L 153 270 L 105 270 L 105 128 L 25 128&quot; fill=&quot;#fff&quot; stroke=&quot;#fff&quot; /&gt;
+	&lt;path d=&quot;M 167 90 L 167 270 L 215 270 L 215 128 L 295 128 L 295 90&quot; fill=&quot;#20a0e9&quot; stroke=&quot;#20a0e9&quot;&gt;
 
-&lt;p&gt;Since we write a lot of Javascript, I wrapped up the SVG and added a bit more filler. Ultimately, it felt too forced - and &lt;code&gt;Tradeshift&lt;/code&gt; isn’t even defined!&lt;/p&gt;
+```
 
-&lt;div&gt;&lt;table class=&quot;CodeRay&quot;&gt;&lt;tr&gt;
-  &lt;td class=&quot;line-numbers&quot; title=&quot;double click to toggle&quot; ondblclick=&quot;with (this.firstChild.style) { display = (display == &#39;&#39;) ? &#39;none&#39; : &#39;&#39; }&quot;&gt;&lt;pre&gt;&lt;a href=&quot;#n1&quot; name=&quot;n1&quot;&gt;1&lt;/a&gt;
-&lt;a href=&quot;#n2&quot; name=&quot;n2&quot;&gt;2&lt;/a&gt;
-&lt;a href=&quot;#n3&quot; name=&quot;n3&quot;&gt;3&lt;/a&gt;
-&lt;a href=&quot;#n4&quot; name=&quot;n4&quot;&gt;4&lt;/a&gt;
-&lt;a href=&quot;#n5&quot; name=&quot;n5&quot;&gt;5&lt;/a&gt;
-&lt;a href=&quot;#n6&quot; name=&quot;n6&quot;&gt;6&lt;/a&gt;
-&lt;a href=&quot;#n7&quot; name=&quot;n7&quot;&gt;7&lt;/a&gt;
-&lt;a href=&quot;#n8&quot; name=&quot;n8&quot;&gt;8&lt;/a&gt;
-&lt;a href=&quot;#n9&quot; name=&quot;n9&quot;&gt;9&lt;/a&gt;
-&lt;a href=&quot;#n10&quot; name=&quot;n10&quot;&gt;10&lt;/a&gt;
-&lt;a href=&quot;#n11&quot; name=&quot;n11&quot;&gt;11&lt;/a&gt;
-&lt;a href=&quot;#n12&quot; name=&quot;n12&quot;&gt;12&lt;/a&gt;
-&lt;a href=&quot;#n13&quot; name=&quot;n13&quot;&gt;13&lt;/a&gt;
-&lt;/pre&gt;&lt;/td&gt;
-  &lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;doctype&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;tag&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;tag&quot;&gt;&amp;lt;h1&amp;gt;&lt;/span&gt;Tradeshift Hackathon&lt;span class=&quot;tag&quot;&gt;&amp;lt;/h1&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;tag&quot;&gt;&amp;lt;h2&amp;gt;&lt;/span&gt;Summer 2014&lt;span class=&quot;tag&quot;&gt;&amp;lt;/h2&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;tag&quot;&gt;&amp;lt;svg&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;version&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;1.1&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;baseProfile&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;basic&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;width&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;320&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;height&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;320&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;xmlns&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;http://www.w3.org/2000/svg&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;tag&quot;&gt;&amp;lt;circle&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;cx&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;160&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;cy&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;160&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;r&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;160&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;fill&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;#000&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;/&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;tag&quot;&gt;&amp;lt;path&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;d&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;M 25 90 L 153 90 L 153 270 L 105 270 L 105 128 L 25 128&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;fill&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;#fff&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;stroke&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;#fff&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;tag&quot;&gt;/&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;tag&quot;&gt;&amp;lt;path&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;d&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;M 167 90 L 167 270 L 215 270 L 215 128 L 295 128 L 295 90&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;fill&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;#20a0e9&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;stroke&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;#20a0e9&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;tag&quot;&gt;&amp;lt;/svg&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;tag&quot;&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;inline&quot;&gt;    window.addEventListener(&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&#39;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;HackathonLoaded&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&#39;&lt;/span&gt;&lt;/span&gt;, Tradeshift.code);&lt;/span&gt;
-  &lt;span class=&quot;tag&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;tag&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
+Since we write a lot of Javascript, I wrapped up the SVG and added a bit more filler. Ultimately, it felt too forced - and ```Tradeshift``` isn&#39;t even defined!
 
-&lt;p&gt;So I ditched SVG for canvas so the code could be largely Javascript and interesting enough to fill up a shirt.&lt;/p&gt;
+```html
+&amp;lt;!DOCTYPE html&amp;gt;
+&lt;html&gt;
+  &lt;h1&gt;Tradeshift Hackathon&lt;/h1&gt;
+  &lt;h2&gt;Summer 2014&lt;/h2&gt;
+  &lt;svg version=&quot;1.1&quot; baseprofile=&quot;basic&quot; width=&quot;320&quot; height=&quot;320&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
+    &lt;circle cx=&quot;160&quot; cy=&quot;160&quot; r=&quot;160&quot; fill=&quot;#000&quot; /&gt;
+    &lt;path d=&quot;M 25 90 L 153 90 L 153 270 L 105 270 L 105 128 L 25 128&quot; fill=&quot;#fff&quot; stroke=&quot;#fff&quot; /&gt;
+    &lt;path d=&quot;M 167 90 L 167 270 L 215 270 L 215 128 L 295 128 L 295 90&quot; fill=&quot;#20a0e9&quot; stroke=&quot;#20a0e9&quot;&gt;
+  
+  &lt;script&gt;
+    window.addEventListener(&#39;HackathonLoaded&#39;, Tradeshift.code);
+  &lt;/script&gt;
 
-&lt;div&gt;&lt;table class=&quot;CodeRay&quot;&gt;&lt;tr&gt;
-  &lt;td class=&quot;line-numbers&quot; title=&quot;double click to toggle&quot; ondblclick=&quot;with (this.firstChild.style) { display = (display == &#39;&#39;) ? &#39;none&#39; : &#39;&#39; }&quot;&gt;&lt;pre&gt;&lt;a href=&quot;#n1&quot; name=&quot;n1&quot;&gt;1&lt;/a&gt;
-&lt;a href=&quot;#n2&quot; name=&quot;n2&quot;&gt;2&lt;/a&gt;
-&lt;a href=&quot;#n3&quot; name=&quot;n3&quot;&gt;3&lt;/a&gt;
-&lt;a href=&quot;#n4&quot; name=&quot;n4&quot;&gt;4&lt;/a&gt;
-&lt;a href=&quot;#n5&quot; name=&quot;n5&quot;&gt;5&lt;/a&gt;
-&lt;a href=&quot;#n6&quot; name=&quot;n6&quot;&gt;6&lt;/a&gt;
-&lt;a href=&quot;#n7&quot; name=&quot;n7&quot;&gt;7&lt;/a&gt;
-&lt;a href=&quot;#n8&quot; name=&quot;n8&quot;&gt;8&lt;/a&gt;
-&lt;a href=&quot;#n9&quot; name=&quot;n9&quot;&gt;9&lt;/a&gt;
-&lt;a href=&quot;#n10&quot; name=&quot;n10&quot;&gt;10&lt;/a&gt;
-&lt;a href=&quot;#n11&quot; name=&quot;n11&quot;&gt;11&lt;/a&gt;
-&lt;a href=&quot;#n12&quot; name=&quot;n12&quot;&gt;12&lt;/a&gt;
-&lt;a href=&quot;#n13&quot; name=&quot;n13&quot;&gt;13&lt;/a&gt;
-&lt;a href=&quot;#n14&quot; name=&quot;n14&quot;&gt;14&lt;/a&gt;
-&lt;a href=&quot;#n15&quot; name=&quot;n15&quot;&gt;15&lt;/a&gt;
-&lt;a href=&quot;#n16&quot; name=&quot;n16&quot;&gt;16&lt;/a&gt;
-&lt;a href=&quot;#n17&quot; name=&quot;n17&quot;&gt;17&lt;/a&gt;
-&lt;a href=&quot;#n18&quot; name=&quot;n18&quot;&gt;18&lt;/a&gt;
-&lt;a href=&quot;#n19&quot; name=&quot;n19&quot;&gt;19&lt;/a&gt;
-&lt;a href=&quot;#n20&quot; name=&quot;n20&quot;&gt;20&lt;/a&gt;
-&lt;a href=&quot;#n21&quot; name=&quot;n21&quot;&gt;21&lt;/a&gt;
-&lt;a href=&quot;#n22&quot; name=&quot;n22&quot;&gt;22&lt;/a&gt;
-&lt;a href=&quot;#n23&quot; name=&quot;n23&quot;&gt;23&lt;/a&gt;
-&lt;a href=&quot;#n24&quot; name=&quot;n24&quot;&gt;24&lt;/a&gt;
-&lt;a href=&quot;#n25&quot; name=&quot;n25&quot;&gt;25&lt;/a&gt;
-&lt;a href=&quot;#n26&quot; name=&quot;n26&quot;&gt;26&lt;/a&gt;
-&lt;a href=&quot;#n27&quot; name=&quot;n27&quot;&gt;27&lt;/a&gt;
-&lt;a href=&quot;#n28&quot; name=&quot;n28&quot;&gt;28&lt;/a&gt;
-&lt;a href=&quot;#n29&quot; name=&quot;n29&quot;&gt;29&lt;/a&gt;
-&lt;a href=&quot;#n30&quot; name=&quot;n30&quot;&gt;30&lt;/a&gt;
-&lt;a href=&quot;#n31&quot; name=&quot;n31&quot;&gt;31&lt;/a&gt;
-&lt;a href=&quot;#n32&quot; name=&quot;n32&quot;&gt;32&lt;/a&gt;
-&lt;a href=&quot;#n33&quot; name=&quot;n33&quot;&gt;33&lt;/a&gt;
-&lt;a href=&quot;#n34&quot; name=&quot;n34&quot;&gt;34&lt;/a&gt;
-&lt;a href=&quot;#n35&quot; name=&quot;n35&quot;&gt;35&lt;/a&gt;
-&lt;a href=&quot;#n36&quot; name=&quot;n36&quot;&gt;36&lt;/a&gt;
-&lt;a href=&quot;#n37&quot; name=&quot;n37&quot;&gt;37&lt;/a&gt;
-&lt;a href=&quot;#n38&quot; name=&quot;n38&quot;&gt;38&lt;/a&gt;
-&lt;a href=&quot;#n39&quot; name=&quot;n39&quot;&gt;39&lt;/a&gt;
-&lt;a href=&quot;#n40&quot; name=&quot;n40&quot;&gt;40&lt;/a&gt;
-&lt;a href=&quot;#n41&quot; name=&quot;n41&quot;&gt;41&lt;/a&gt;
-&lt;a href=&quot;#n42&quot; name=&quot;n42&quot;&gt;42&lt;/a&gt;
-&lt;a href=&quot;#n43&quot; name=&quot;n43&quot;&gt;43&lt;/a&gt;
-&lt;a href=&quot;#n44&quot; name=&quot;n44&quot;&gt;44&lt;/a&gt;
-&lt;a href=&quot;#n45&quot; name=&quot;n45&quot;&gt;45&lt;/a&gt;
-&lt;a href=&quot;#n46&quot; name=&quot;n46&quot;&gt;46&lt;/a&gt;
-&lt;/pre&gt;&lt;/td&gt;
-  &lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;doctype&quot;&gt;&amp;lt;!DOCTYPE html&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;tag&quot;&gt;&amp;lt;html&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;tag&quot;&gt;&amp;lt;head&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;tag&quot;&gt;&amp;lt;meta&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;charset&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;UTF-8&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;tag&quot;&gt;&amp;lt;title&amp;gt;&lt;/span&gt;Tradeshift Pirate Ship Days, June 2014&lt;span class=&quot;tag&quot;&gt;&amp;lt;/title&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;tag&quot;&gt;&amp;lt;style&amp;gt;&lt;/span&gt;
-      body {
-        background-color: rgb(0, 0, 0);
-        padding: 22px;
-      }
-    &lt;span class=&quot;tag&quot;&gt;&amp;lt;/style&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;tag&quot;&gt;&amp;lt;script&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;type&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;text/javascript&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;inline&quot;&gt;      &lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;function&quot;&gt;drawLogo&lt;/span&gt;(canvas, capHeight) {
-        &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; context = canvas.getContext(&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&#39;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;2d&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&#39;&lt;/span&gt;&lt;/span&gt;);
-        &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; alley = Math.round(capHeight / &lt;span class=&quot;float&quot;&gt;13.40&lt;/span&gt;);
-        &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; halfGlyphWidth = Math.round(capHeight / &lt;span class=&quot;float&quot;&gt;1.40&lt;/span&gt;);
-        &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; stemWidth = Math.round(capHeight / &lt;span class=&quot;float&quot;&gt;3.72&lt;/span&gt;);
-        &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; armHeight = Math.round(capHeight / &lt;span class=&quot;float&quot;&gt;4.79&lt;/span&gt;);
-        &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; armWidth = halfGlyphWidth - stemWidth;
+```
 
-        (&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;function&quot;&gt;drawLeftSide&lt;/span&gt;(context, start) {
-          context.fillStyle = &lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&#39;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;rgb(255, 255, 255)&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&#39;&lt;/span&gt;&lt;/span&gt;;
-          context.fillRect(start.x, start.y, armWidth, armHeight);
-          context.fillRect(start.x + armWidth, start.y, stemWidth, capHeight);
-        })(context, { &lt;span class=&quot;key&quot;&gt;x&lt;/span&gt;: alley, &lt;span class=&quot;key&quot;&gt;y&lt;/span&gt;: alley });
+So I ditched SVG for canvas so the code could be largely Javascript and interesting enough to fill up a shirt.
 
-        (&lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;function&quot;&gt;drawRightSide&lt;/span&gt;(context, start) {
-          context.fillStyle = &lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&#39;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;rgb(32, 160, 233)&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&#39;&lt;/span&gt;&lt;/span&gt;;
-          context.fillRect(start.x, start.y, stemWidth, capHeight);
-          context.fillRect(start.x + stemWidth, start.y, armWidth, armHeight);
-        })(context, { &lt;span class=&quot;key&quot;&gt;x&lt;/span&gt;: alley + halfGlyphWidth + alley, &lt;span class=&quot;key&quot;&gt;y&lt;/span&gt;: alley });
-      }
+```html
+&amp;lt;!DOCTYPE html&amp;gt;
+&lt;html&gt;
+	&lt;head&gt;
+		&lt;meta charset=&quot;UTF-8&quot; /&gt;
+		&lt;title&gt;Tradeshift Pirate Ship Days, June 2014&lt;/title&gt;
+		&lt;style&gt;
+			body {
+				background-color: rgb(0, 0, 0);
+				padding: 22px;
+			}
+		&lt;/style&gt;
+		&lt;script type=&quot;text/javascript&quot;&gt;
+			function drawLogo(canvas, capHeight) {
+				var context = canvas.getContext(&#39;2d&#39;);
+				var alley = Math.round(capHeight / 13.40);
+				var halfGlyphWidth = Math.round(capHeight / 1.40);
+				var stemWidth = Math.round(capHeight / 3.72);
+				var armHeight = Math.round(capHeight / 4.79);
+				var armWidth = halfGlyphWidth - stemWidth;
 
-      window.addEventListener(&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&#39;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;DOMContentLoaded&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&#39;&lt;/span&gt;&lt;/span&gt;, &lt;span class=&quot;keyword&quot;&gt;function&lt;/span&gt; () {
-        &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; canvas = document.getElementById(&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&#39;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;logo&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&#39;&lt;/span&gt;&lt;/span&gt;);
-        &lt;span class=&quot;keyword&quot;&gt;var&lt;/span&gt; capHeight = &lt;span class=&quot;integer&quot;&gt;360&lt;/span&gt;;
-        &lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (canvas.getContext) {
-          drawLogo(canvas, capHeight);
-        }
-      }, &lt;span class=&quot;predefined-constant&quot;&gt;true&lt;/span&gt;);&lt;/span&gt;
-    &lt;span class=&quot;tag&quot;&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;tag&quot;&gt;&amp;lt;/head&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;tag&quot;&gt;&amp;lt;body&amp;gt;&lt;/span&gt;
-    &lt;span class=&quot;tag&quot;&gt;&amp;lt;canvas&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;id&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;logo&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;height&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;415&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt; &lt;span class=&quot;attribute-name&quot;&gt;width&lt;/span&gt;=&lt;span class=&quot;string&quot;&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;span class=&quot;content&quot;&gt;595&lt;/span&gt;&lt;span class=&quot;delimiter&quot;&gt;&amp;quot;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;gt;&lt;/span&gt;&lt;span class=&quot;tag&quot;&gt;&amp;lt;/canvas&amp;gt;&lt;/span&gt;
-  &lt;span class=&quot;tag&quot;&gt;&amp;lt;/body&amp;gt;&lt;/span&gt;
-&lt;span class=&quot;tag&quot;&gt;&amp;lt;/html&amp;gt;&lt;/span&gt;
-&lt;/pre&gt;&lt;/td&gt;
-&lt;/tr&gt;&lt;/table&gt;
-&lt;/div&gt;
+				(function drawLeftSide(context, start) {
+					context.fillStyle = &#39;rgb(255, 255, 255)&#39;;
+					context.fillRect(start.x, start.y, armWidth, armHeight);
+					context.fillRect(start.x + armWidth, start.y, stemWidth, capHeight);
+				})(context, { x: alley, y: alley });
+
+				(function drawRightSide(context, start) {
+					context.fillStyle = &#39;rgb(32, 160, 233)&#39;;
+					context.fillRect(start.x, start.y, stemWidth, capHeight);
+					context.fillRect(start.x + stemWidth, start.y, armWidth, armHeight);
+				})(context, { x: alley + halfGlyphWidth + alley, y: alley });
+			}
+
+			window.addEventListener(&#39;DOMContentLoaded&#39;, function () {
+				var canvas = document.getElementById(&#39;logo&#39;);
+				var capHeight = 360;
+				if (canvas.getContext) {
+					drawLogo(canvas, capHeight);
+				}
+			}, true);
+		&lt;/script&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;canvas id=&quot;logo&quot; height=&quot;415&quot; width=&quot;595&quot;&gt;&lt;/canvas&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+```
+&lt;/path&gt;&lt;/svg&gt;&lt;/html&gt;&lt;/path&gt;&lt;/svg&gt;
 </description>
         <pubDate>Fri, 13 Jun 2014 09:00:00 -0700</pubDate>
         <link>http://tstapleton.github.io//2014/06/13/coding-the-tradeshift-logo.html</link>

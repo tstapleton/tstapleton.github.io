@@ -7,10 +7,9 @@
 		return Math.floor(Math.random() * (max - min)) + min;
 	}
 
-	console.log('<3 boo');
-
 	var UNIT = 24;
-	var HEADER_HEIGHT = UNIT * 3;
+	//var HEADER_HEIGHT = UNIT * 3;
+	var HEADER_HEIGHT = 0;
 
 	var COLOR_FIRST = 'rgb(20, 143, 204)';
 	var COLOR_SECOND = 'rgb(20, 204, 173)';
@@ -38,8 +37,8 @@
 			_isInitialized = true;
 
 			_setSlideHeight();
-			_addCircles();
-			smoothScroll.init();
+			//_addCircles();
+			//smoothScroll.init();
 		}
 
 		function _setSlideHeight() {
@@ -49,7 +48,7 @@
 			var windowHeight = window.innerHeight;
 			var unit = 24;
 			var height = windowHeight + (unit - (windowHeight % unit));
-			console.log(slides);
+			//console.log(slides);
 			for (i = 0; i < length; i++) {
 
 				slides[i].style.height = (i === 0 ? height - HEADER_HEIGHT : height) + 'px';

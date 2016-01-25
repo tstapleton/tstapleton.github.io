@@ -47,7 +47,7 @@
 		<nav class="site-nav">
 			<a class="about " href="/about">About</a>
 			<a class="projects " href="/projects">Projects</a>
-			<a class="writing active" href="/writing">Writing</a>
+			<a class="writing " href="/writing">Writing</a>
 		</nav>
 	</div>
 </header>
@@ -68,162 +68,90 @@
 
 <p>My first idea was drawing the Tradeshift logo using SVG. It <a href="It looked pretty good, but there wasn't much *code* to it.">looked pretty good</a>, but there wasn’t much <em>code</em> to it.</p>
 
-<div><table class="CodeRay"><tr>
-  <td class="line-numbers" title="double click to toggle" ondblclick="with (this.firstChild.style) { display = (display == '') ? 'none' : '' }"><pre><a href="#n1" name="n1">1</a>
-<a href="#n2" name="n2">2</a>
-<a href="#n3" name="n3">3</a>
-<a href="#n4" name="n4">4</a>
-<a href="#n5" name="n5">5</a>
-</pre></td>
-  <td class="code"><pre><span class="tag">&lt;svg</span> <span class="attribute-name">version</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">1.1</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">baseProfile</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">full</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">width</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">320</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">height</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">320</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">xmlns</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">http://www.w3.org/2000/svg</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
-  <span class="tag">&lt;circle</span> <span class="attribute-name">cx</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">160</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">cy</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">160</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">r</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">160</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">fill</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">#000</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
-  <span class="tag">&lt;path</span> <span class="attribute-name">d</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">M 25 90 L 153 90 L 153 270 L 105 270 L 105 128 L 25 128</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">fill</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">#fff</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">stroke</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">#fff</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
-  <span class="tag">&lt;path</span> <span class="attribute-name">d</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">M 167 90 L 167 270 L 215 270 L 215 128 L 295 128 L 295 90</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">fill</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">#20a0e9</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">stroke</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">#20a0e9</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
-<span class="tag">&lt;/svg&gt;</span>
-</pre></td>
-</tr></table>
-</div>
+<p>```html</p>
+<svg version="1.1" baseprofile="full" width="320" height="320" xmlns="http://www.w3.org/2000/svg">
+	<circle cx="160" cy="160" r="160" fill="#000" />
+	<path d="M 25 90 L 153 90 L 153 270 L 105 270 L 105 128 L 25 128" fill="#fff" stroke="#fff" />
+	<path d="M 167 90 L 167 270 L 215 270 L 215 128 L 295 128 L 295 90" fill="#20a0e9" stroke="#20a0e9">
 
-<p>Since we write a lot of Javascript, I wrapped up the SVG and added a bit more filler. Ultimately, it felt too forced - and <code>Tradeshift</code> isn’t even defined!</p>
+```
 
-<div><table class="CodeRay"><tr>
-  <td class="line-numbers" title="double click to toggle" ondblclick="with (this.firstChild.style) { display = (display == '') ? 'none' : '' }"><pre><a href="#n1" name="n1">1</a>
-<a href="#n2" name="n2">2</a>
-<a href="#n3" name="n3">3</a>
-<a href="#n4" name="n4">4</a>
-<a href="#n5" name="n5">5</a>
-<a href="#n6" name="n6">6</a>
-<a href="#n7" name="n7">7</a>
-<a href="#n8" name="n8">8</a>
-<a href="#n9" name="n9">9</a>
-<a href="#n10" name="n10">10</a>
-<a href="#n11" name="n11">11</a>
-<a href="#n12" name="n12">12</a>
-<a href="#n13" name="n13">13</a>
-</pre></td>
-  <td class="code"><pre><span class="doctype">&lt;!DOCTYPE html&gt;</span>
-<span class="tag">&lt;html&gt;</span>
-  <span class="tag">&lt;h1&gt;</span>Tradeshift Hackathon<span class="tag">&lt;/h1&gt;</span>
-  <span class="tag">&lt;h2&gt;</span>Summer 2014<span class="tag">&lt;/h2&gt;</span>
-  <span class="tag">&lt;svg</span> <span class="attribute-name">version</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">1.1</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">baseProfile</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">basic</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">width</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">320</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">height</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">320</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">xmlns</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">http://www.w3.org/2000/svg</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
-    <span class="tag">&lt;circle</span> <span class="attribute-name">cx</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">160</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">cy</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">160</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">r</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">160</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">fill</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">#000</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
-    <span class="tag">&lt;path</span> <span class="attribute-name">d</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">M 25 90 L 153 90 L 153 270 L 105 270 L 105 128 L 25 128</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">fill</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">#fff</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">stroke</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">#fff</span><span class="delimiter">&quot;</span></span> <span class="tag">/&gt;</span>
-    <span class="tag">&lt;path</span> <span class="attribute-name">d</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">M 167 90 L 167 270 L 215 270 L 215 128 L 295 128 L 295 90</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">fill</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">#20a0e9</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">stroke</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">#20a0e9</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
-  <span class="tag">&lt;/svg&gt;</span>
-  <span class="tag">&lt;script&gt;</span>
-<span class="inline">    window.addEventListener(<span class="string"><span class="delimiter">'</span><span class="content">HackathonLoaded</span><span class="delimiter">'</span></span>, Tradeshift.code);</span>
-  <span class="tag">&lt;/script&gt;</span>
-<span class="tag">&lt;/html&gt;</span>
-</pre></td>
-</tr></table>
-</div>
+Since we write a lot of Javascript, I wrapped up the SVG and added a bit more filler. Ultimately, it felt too forced - and ```Tradeshift``` isn't even defined!
 
-<p>So I ditched SVG for canvas so the code could be largely Javascript and interesting enough to fill up a shirt.</p>
+```html
+&lt;!DOCTYPE html&gt;
+<html>
+  <h1>Tradeshift Hackathon</h1>
+  <h2>Summer 2014</h2>
+  <svg version="1.1" baseprofile="basic" width="320" height="320" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="160" cy="160" r="160" fill="#000" />
+    <path d="M 25 90 L 153 90 L 153 270 L 105 270 L 105 128 L 25 128" fill="#fff" stroke="#fff" />
+    <path d="M 167 90 L 167 270 L 215 270 L 215 128 L 295 128 L 295 90" fill="#20a0e9" stroke="#20a0e9">
+  
+  <script>
+    window.addEventListener('HackathonLoaded', Tradeshift.code);
+  </script>
 
-<div><table class="CodeRay"><tr>
-  <td class="line-numbers" title="double click to toggle" ondblclick="with (this.firstChild.style) { display = (display == '') ? 'none' : '' }"><pre><a href="#n1" name="n1">1</a>
-<a href="#n2" name="n2">2</a>
-<a href="#n3" name="n3">3</a>
-<a href="#n4" name="n4">4</a>
-<a href="#n5" name="n5">5</a>
-<a href="#n6" name="n6">6</a>
-<a href="#n7" name="n7">7</a>
-<a href="#n8" name="n8">8</a>
-<a href="#n9" name="n9">9</a>
-<a href="#n10" name="n10">10</a>
-<a href="#n11" name="n11">11</a>
-<a href="#n12" name="n12">12</a>
-<a href="#n13" name="n13">13</a>
-<a href="#n14" name="n14">14</a>
-<a href="#n15" name="n15">15</a>
-<a href="#n16" name="n16">16</a>
-<a href="#n17" name="n17">17</a>
-<a href="#n18" name="n18">18</a>
-<a href="#n19" name="n19">19</a>
-<a href="#n20" name="n20">20</a>
-<a href="#n21" name="n21">21</a>
-<a href="#n22" name="n22">22</a>
-<a href="#n23" name="n23">23</a>
-<a href="#n24" name="n24">24</a>
-<a href="#n25" name="n25">25</a>
-<a href="#n26" name="n26">26</a>
-<a href="#n27" name="n27">27</a>
-<a href="#n28" name="n28">28</a>
-<a href="#n29" name="n29">29</a>
-<a href="#n30" name="n30">30</a>
-<a href="#n31" name="n31">31</a>
-<a href="#n32" name="n32">32</a>
-<a href="#n33" name="n33">33</a>
-<a href="#n34" name="n34">34</a>
-<a href="#n35" name="n35">35</a>
-<a href="#n36" name="n36">36</a>
-<a href="#n37" name="n37">37</a>
-<a href="#n38" name="n38">38</a>
-<a href="#n39" name="n39">39</a>
-<a href="#n40" name="n40">40</a>
-<a href="#n41" name="n41">41</a>
-<a href="#n42" name="n42">42</a>
-<a href="#n43" name="n43">43</a>
-<a href="#n44" name="n44">44</a>
-<a href="#n45" name="n45">45</a>
-<a href="#n46" name="n46">46</a>
-</pre></td>
-  <td class="code"><pre><span class="doctype">&lt;!DOCTYPE html&gt;</span>
-<span class="tag">&lt;html&gt;</span>
-  <span class="tag">&lt;head&gt;</span>
-    <span class="tag">&lt;meta</span> <span class="attribute-name">charset</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">UTF-8</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
-    <span class="tag">&lt;title&gt;</span>Tradeshift Pirate Ship Days, June 2014<span class="tag">&lt;/title&gt;</span>
-    <span class="tag">&lt;style&gt;</span>
-      body {
-        background-color: rgb(0, 0, 0);
-        padding: 22px;
-      }
-    <span class="tag">&lt;/style&gt;</span>
-    <span class="tag">&lt;script</span> <span class="attribute-name">type</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">text/javascript</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span>
-<span class="inline">      <span class="keyword">function</span> <span class="function">drawLogo</span>(canvas, capHeight) {
-        <span class="keyword">var</span> context = canvas.getContext(<span class="string"><span class="delimiter">'</span><span class="content">2d</span><span class="delimiter">'</span></span>);
-        <span class="keyword">var</span> alley = Math.round(capHeight / <span class="float">13.40</span>);
-        <span class="keyword">var</span> halfGlyphWidth = Math.round(capHeight / <span class="float">1.40</span>);
-        <span class="keyword">var</span> stemWidth = Math.round(capHeight / <span class="float">3.72</span>);
-        <span class="keyword">var</span> armHeight = Math.round(capHeight / <span class="float">4.79</span>);
-        <span class="keyword">var</span> armWidth = halfGlyphWidth - stemWidth;
+```
 
-        (<span class="keyword">function</span> <span class="function">drawLeftSide</span>(context, start) {
-          context.fillStyle = <span class="string"><span class="delimiter">'</span><span class="content">rgb(255, 255, 255)</span><span class="delimiter">'</span></span>;
-          context.fillRect(start.x, start.y, armWidth, armHeight);
-          context.fillRect(start.x + armWidth, start.y, stemWidth, capHeight);
-        })(context, { <span class="key">x</span>: alley, <span class="key">y</span>: alley });
+So I ditched SVG for canvas so the code could be largely Javascript and interesting enough to fill up a shirt.
 
-        (<span class="keyword">function</span> <span class="function">drawRightSide</span>(context, start) {
-          context.fillStyle = <span class="string"><span class="delimiter">'</span><span class="content">rgb(32, 160, 233)</span><span class="delimiter">'</span></span>;
-          context.fillRect(start.x, start.y, stemWidth, capHeight);
-          context.fillRect(start.x + stemWidth, start.y, armWidth, armHeight);
-        })(context, { <span class="key">x</span>: alley + halfGlyphWidth + alley, <span class="key">y</span>: alley });
-      }
+```html
+&lt;!DOCTYPE html&gt;
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Tradeshift Pirate Ship Days, June 2014</title>
+		<style>
+			body {
+				background-color: rgb(0, 0, 0);
+				padding: 22px;
+			}
+		</style>
+		<script type="text/javascript">
+			function drawLogo(canvas, capHeight) {
+				var context = canvas.getContext('2d');
+				var alley = Math.round(capHeight / 13.40);
+				var halfGlyphWidth = Math.round(capHeight / 1.40);
+				var stemWidth = Math.round(capHeight / 3.72);
+				var armHeight = Math.round(capHeight / 4.79);
+				var armWidth = halfGlyphWidth - stemWidth;
 
-      window.addEventListener(<span class="string"><span class="delimiter">'</span><span class="content">DOMContentLoaded</span><span class="delimiter">'</span></span>, <span class="keyword">function</span> () {
-        <span class="keyword">var</span> canvas = document.getElementById(<span class="string"><span class="delimiter">'</span><span class="content">logo</span><span class="delimiter">'</span></span>);
-        <span class="keyword">var</span> capHeight = <span class="integer">360</span>;
-        <span class="keyword">if</span> (canvas.getContext) {
-          drawLogo(canvas, capHeight);
-        }
-      }, <span class="predefined-constant">true</span>);</span>
-    <span class="tag">&lt;/script&gt;</span>
-  <span class="tag">&lt;/head&gt;</span>
-  <span class="tag">&lt;body&gt;</span>
-    <span class="tag">&lt;canvas</span> <span class="attribute-name">id</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">logo</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">height</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">415</span><span class="delimiter">&quot;</span></span> <span class="attribute-name">width</span>=<span class="string"><span class="delimiter">&quot;</span><span class="content">595</span><span class="delimiter">&quot;</span></span><span class="tag">&gt;</span><span class="tag">&lt;/canvas&gt;</span>
-  <span class="tag">&lt;/body&gt;</span>
-<span class="tag">&lt;/html&gt;</span>
-</pre></td>
-</tr></table>
-</div>
+				(function drawLeftSide(context, start) {
+					context.fillStyle = 'rgb(255, 255, 255)';
+					context.fillRect(start.x, start.y, armWidth, armHeight);
+					context.fillRect(start.x + armWidth, start.y, stemWidth, capHeight);
+				})(context, { x: alley, y: alley });
+
+				(function drawRightSide(context, start) {
+					context.fillStyle = 'rgb(32, 160, 233)';
+					context.fillRect(start.x, start.y, stemWidth, capHeight);
+					context.fillRect(start.x + stemWidth, start.y, armWidth, armHeight);
+				})(context, { x: alley + halfGlyphWidth + alley, y: alley });
+			}
+
+			window.addEventListener('DOMContentLoaded', function () {
+				var canvas = document.getElementById('logo');
+				var capHeight = 360;
+				if (canvas.getContext) {
+					drawLogo(canvas, capHeight);
+				}
+			}, true);
+		</script>
+	</head>
+	<body>
+		<canvas id="logo" height="415" width="595"></canvas>
+	</body>
+</html>
+```
+</path></svg></html></path></svg>
 
 	</article>
 </div>
 
 			</div>
 		</div>
-		<footer class="site-footer dark writing">
+		<footer class="site-footer dark ">
 	<div class="wrapper">
 		<div>
 			<p>Learning by doing. Forever a student. The personal website for Thomas Stapleton.

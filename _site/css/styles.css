@@ -748,8 +748,8 @@ blockquote {
 .intro {
   background-color: white; }
   .intro a, .intro a:visited {
-    color: #a34010;
-    background-image: linear-gradient(to bottom, transparent 50%, #a34010 100%);
+    color: #a34110;
+    background-image: linear-gradient(to bottom, transparent 50%, #a34110 100%);
     background-size: 2px 2px;
     background-repeat: repeat-x; }
   .intro a.hover, .intro a:active, .intro a:hover {
@@ -758,7 +758,7 @@ blockquote {
     background-size: 2px 2px;
     background-repeat: repeat-x; }
   .intro article li:before {
-    color: #274c5f; }
+    color: #274d5f; }
   .intro blockquote {
     border-left-color: #148fcc;
     color: #707070; }
@@ -769,11 +769,11 @@ blockquote {
   .intro h4,
   .intro h5,
   .intro h6 {
-    color: #274c5f; }
+    color: #274d5f; }
   .intro span {
-    color: #274c5f; }
+    color: #274d5f; }
   .intro p {
-    color: #062a3d; }
+    color: #062b3d; }
   .intro h3 a, .intro h3 a:visited {
     color: #148fcc;
     background-image: linear-gradient(to bottom, transparent 50%, #148fcc 100%);
@@ -789,10 +789,10 @@ blockquote {
     .intro.dark h1,
     .intro.dark h2,
     .intro.dark h3 {
-      color: #cce9f8; }
+      color: #cdeaf8; }
     .intro.dark h3 a, .intro.dark h3 a:visited {
-      color: #cce9f8;
-      background-image: linear-gradient(to bottom, transparent 50%, #cce9f8 100%);
+      color: #cdeaf8;
+      background-image: linear-gradient(to bottom, transparent 50%, #cdeaf8 100%);
       background-size: 2px 2px;
       background-repeat: repeat-x; }
     .intro.dark h3 a:active, .intro.dark h3 a:hover {
@@ -801,15 +801,15 @@ blockquote {
       background-size: 2px 2px;
       background-repeat: repeat-x; }
     .intro.dark .circle {
-      border-color: #cce9f8; }
+      border-color: #cdeaf8; }
   .intro .circle {
     border-color: #148fcc; }
 
 .about {
   background-color: white; }
   .about a, .about a:visited {
-    color: #a31028;
-    background-image: linear-gradient(to bottom, transparent 50%, #a31028 100%);
+    color: #a31029;
+    background-image: linear-gradient(to bottom, transparent 50%, #a31029 100%);
     background-size: 2px 2px;
     background-repeat: repeat-x; }
   .about a.hover, .about a:active, .about a:hover {
@@ -818,7 +818,7 @@ blockquote {
     background-size: 2px 2px;
     background-repeat: repeat-x; }
   .about article li:before {
-    color: #275f55; }
+    color: #275f56; }
   .about blockquote {
     border-left-color: #14ccad;
     color: #707070; }
@@ -829,11 +829,11 @@ blockquote {
   .about h4,
   .about h5,
   .about h6 {
-    color: #275f55; }
+    color: #275f56; }
   .about span {
-    color: #275f55; }
+    color: #275f56; }
   .about p {
-    color: #063d33; }
+    color: #063d34; }
   .about h3 a, .about h3 a:visited {
     color: #14ccad;
     background-image: linear-gradient(to bottom, transparent 50%, #14ccad 100%);
@@ -849,10 +849,10 @@ blockquote {
     .about.dark h1,
     .about.dark h2,
     .about.dark h3 {
-      color: #ccf8f0; }
+      color: #cdf8f1; }
     .about.dark h3 a, .about.dark h3 a:visited {
-      color: #ccf8f0;
-      background-image: linear-gradient(to bottom, transparent 50%, #ccf8f0 100%);
+      color: #cdf8f1;
+      background-image: linear-gradient(to bottom, transparent 50%, #cdf8f1 100%);
       background-size: 2px 2px;
       background-repeat: repeat-x; }
     .about.dark h3 a:active, .about.dark h3 a:hover {
@@ -861,7 +861,7 @@ blockquote {
       background-size: 2px 2px;
       background-repeat: repeat-x; }
     .about.dark .circle {
-      border-color: #ccf8f0; }
+      border-color: #cdf8f1; }
   .about .circle {
     border-color: #14ccad; }
 
@@ -878,7 +878,7 @@ blockquote {
     background-size: 2px 2px;
     background-repeat: repeat-x; }
   .projects article li:before {
-    color: #39275f; }
+    color: #3a275f; }
   .projects blockquote {
     border-left-color: #5114cc;
     color: #707070; }
@@ -889,9 +889,9 @@ blockquote {
   .projects h4,
   .projects h5,
   .projects h6 {
-    color: #39275f; }
+    color: #3a275f; }
   .projects span {
-    color: #39275f; }
+    color: #3a275f; }
   .projects p {
     color: #18063d; }
   .projects h3 a, .projects h3 a:visited {
@@ -909,10 +909,10 @@ blockquote {
     .projects.dark h1,
     .projects.dark h2,
     .projects.dark h3 {
-      color: #dbccf8; }
+      color: #dbcdf8; }
     .projects.dark h3 a, .projects.dark h3 a:visited {
-      color: #dbccf8;
-      background-image: linear-gradient(to bottom, transparent 50%, #dbccf8 100%);
+      color: #dbcdf8;
+      background-image: linear-gradient(to bottom, transparent 50%, #dbcdf8 100%);
       background-size: 2px 2px;
       background-repeat: repeat-x; }
     .projects.dark h3 a:active, .projects.dark h3 a:hover {
@@ -921,7 +921,7 @@ blockquote {
       background-size: 2px 2px;
       background-repeat: repeat-x; }
     .projects.dark .circle {
-      border-color: #dbccf8; }
+      border-color: #dbcdf8; }
   .projects .circle {
     border-color: #5114cc; }
 
@@ -938,7 +938,7 @@ blockquote {
     background-size: 2px 2px;
     background-repeat: repeat-x; }
   .writing article li:before {
-    color: #275f39; }
+    color: #275f3a; }
   .writing blockquote {
     border-left-color: #14cc51;
     color: #707070; }
@@ -949,9 +949,9 @@ blockquote {
   .writing h4,
   .writing h5,
   .writing h6 {
-    color: #275f39; }
+    color: #275f3a; }
   .writing span {
-    color: #275f39; }
+    color: #275f3a; }
   .writing p {
     color: #063d18; }
   .writing h3 a, .writing h3 a:visited {
@@ -969,10 +969,10 @@ blockquote {
     .writing.dark h1,
     .writing.dark h2,
     .writing.dark h3 {
-      color: #ccf8db; }
+      color: #cdf8db; }
     .writing.dark h3 a, .writing.dark h3 a:visited {
-      color: #ccf8db;
-      background-image: linear-gradient(to bottom, transparent 50%, #ccf8db 100%);
+      color: #cdf8db;
+      background-image: linear-gradient(to bottom, transparent 50%, #cdf8db 100%);
       background-size: 2px 2px;
       background-repeat: repeat-x; }
     .writing.dark h3 a:active, .writing.dark h3 a:hover {
@@ -981,7 +981,7 @@ blockquote {
       background-size: 2px 2px;
       background-repeat: repeat-x; }
     .writing.dark .circle {
-      border-color: #ccf8db; }
+      border-color: #cdf8db; }
   .writing .circle {
     border-color: #14cc51; }
 
@@ -1002,11 +1002,11 @@ blockquote {
   position: relative; }
   .home .intro .column {
     z-index: 10; }
-  .home .intro h1,
+  .home .intro h1 {
+    line-height: 1.5;
+    margin-bottom: 0; }
   .home .intro h2 {
     line-height: 1; }
-  .home .intro h1 {
-    margin-bottom: 0; }
   .home .intro .lead {
     font-weight: 500;
     font-size: 24px; }
@@ -1058,6 +1058,25 @@ blockquote {
   vertical-align: middle; }
   .icon > svg path {
     fill: white; }
+
+.home .icon > svg {
+  height: 48px;
+  width: 48px; }
+  .home .icon > svg path {
+    fill: #cdeaf8; }
+.home .intro li a {
+  background-image: none; }
+  .home .intro li a:active path, .home .intro li a:hover path {
+    fill: #1e1e1e; }
+
+.intro .column {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  text-align: center; }
+  .intro .column li {
+    display: inline-block; }
 
 .circle {
   border-radius: 50%;

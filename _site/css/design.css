@@ -388,8 +388,8 @@ blockquote {
 .intro {
   background-color: white; }
   .intro a, .intro a:visited {
-    color: #a34010;
-    background-image: linear-gradient(to bottom, transparent 50%, #a34010 100%);
+    color: #a34110;
+    background-image: linear-gradient(to bottom, transparent 50%, #a34110 100%);
     background-size: 2px 2px;
     background-repeat: repeat-x; }
   .intro a.hover, .intro a:active, .intro a:hover {
@@ -398,7 +398,7 @@ blockquote {
     background-size: 2px 2px;
     background-repeat: repeat-x; }
   .intro article li:before {
-    color: #274c5f; }
+    color: #274d5f; }
   .intro blockquote {
     border-left-color: #148fcc;
     color: #707070; }
@@ -409,11 +409,11 @@ blockquote {
   .intro h4,
   .intro h5,
   .intro h6 {
-    color: #274c5f; }
+    color: #274d5f; }
   .intro span {
-    color: #274c5f; }
+    color: #274d5f; }
   .intro p {
-    color: #062a3d; }
+    color: #062b3d; }
   .intro h3 a, .intro h3 a:visited {
     color: #148fcc;
     background-image: linear-gradient(to bottom, transparent 50%, #148fcc 100%);
@@ -429,10 +429,10 @@ blockquote {
     .intro.dark h1,
     .intro.dark h2,
     .intro.dark h3 {
-      color: #cce9f8; }
+      color: #cdeaf8; }
     .intro.dark h3 a, .intro.dark h3 a:visited {
-      color: #cce9f8;
-      background-image: linear-gradient(to bottom, transparent 50%, #cce9f8 100%);
+      color: #cdeaf8;
+      background-image: linear-gradient(to bottom, transparent 50%, #cdeaf8 100%);
       background-size: 2px 2px;
       background-repeat: repeat-x; }
     .intro.dark h3 a:active, .intro.dark h3 a:hover {
@@ -441,15 +441,15 @@ blockquote {
       background-size: 2px 2px;
       background-repeat: repeat-x; }
     .intro.dark .circle {
-      border-color: #cce9f8; }
+      border-color: #cdeaf8; }
   .intro .circle {
     border-color: #148fcc; }
 
 .about {
   background-color: white; }
   .about a, .about a:visited {
-    color: #a31028;
-    background-image: linear-gradient(to bottom, transparent 50%, #a31028 100%);
+    color: #a31029;
+    background-image: linear-gradient(to bottom, transparent 50%, #a31029 100%);
     background-size: 2px 2px;
     background-repeat: repeat-x; }
   .about a.hover, .about a:active, .about a:hover {
@@ -458,7 +458,7 @@ blockquote {
     background-size: 2px 2px;
     background-repeat: repeat-x; }
   .about article li:before {
-    color: #275f55; }
+    color: #275f56; }
   .about blockquote {
     border-left-color: #14ccad;
     color: #707070; }
@@ -469,11 +469,11 @@ blockquote {
   .about h4,
   .about h5,
   .about h6 {
-    color: #275f55; }
+    color: #275f56; }
   .about span {
-    color: #275f55; }
+    color: #275f56; }
   .about p {
-    color: #063d33; }
+    color: #063d34; }
   .about h3 a, .about h3 a:visited {
     color: #14ccad;
     background-image: linear-gradient(to bottom, transparent 50%, #14ccad 100%);
@@ -489,10 +489,10 @@ blockquote {
     .about.dark h1,
     .about.dark h2,
     .about.dark h3 {
-      color: #ccf8f0; }
+      color: #cdf8f1; }
     .about.dark h3 a, .about.dark h3 a:visited {
-      color: #ccf8f0;
-      background-image: linear-gradient(to bottom, transparent 50%, #ccf8f0 100%);
+      color: #cdf8f1;
+      background-image: linear-gradient(to bottom, transparent 50%, #cdf8f1 100%);
       background-size: 2px 2px;
       background-repeat: repeat-x; }
     .about.dark h3 a:active, .about.dark h3 a:hover {
@@ -501,7 +501,7 @@ blockquote {
       background-size: 2px 2px;
       background-repeat: repeat-x; }
     .about.dark .circle {
-      border-color: #ccf8f0; }
+      border-color: #cdf8f1; }
   .about .circle {
     border-color: #14ccad; }
 
@@ -518,7 +518,7 @@ blockquote {
     background-size: 2px 2px;
     background-repeat: repeat-x; }
   .projects article li:before {
-    color: #39275f; }
+    color: #3a275f; }
   .projects blockquote {
     border-left-color: #5114cc;
     color: #707070; }
@@ -529,9 +529,9 @@ blockquote {
   .projects h4,
   .projects h5,
   .projects h6 {
-    color: #39275f; }
+    color: #3a275f; }
   .projects span {
-    color: #39275f; }
+    color: #3a275f; }
   .projects p {
     color: #18063d; }
   .projects h3 a, .projects h3 a:visited {
@@ -549,10 +549,10 @@ blockquote {
     .projects.dark h1,
     .projects.dark h2,
     .projects.dark h3 {
-      color: #dbccf8; }
+      color: #dbcdf8; }
     .projects.dark h3 a, .projects.dark h3 a:visited {
-      color: #dbccf8;
-      background-image: linear-gradient(to bottom, transparent 50%, #dbccf8 100%);
+      color: #dbcdf8;
+      background-image: linear-gradient(to bottom, transparent 50%, #dbcdf8 100%);
       background-size: 2px 2px;
       background-repeat: repeat-x; }
     .projects.dark h3 a:active, .projects.dark h3 a:hover {
@@ -561,7 +561,7 @@ blockquote {
       background-size: 2px 2px;
       background-repeat: repeat-x; }
     .projects.dark .circle {
-      border-color: #dbccf8; }
+      border-color: #dbcdf8; }
   .projects .circle {
     border-color: #5114cc; }
 
@@ -578,7 +578,7 @@ blockquote {
     background-size: 2px 2px;
     background-repeat: repeat-x; }
   .writing article li:before {
-    color: #275f39; }
+    color: #275f3a; }
   .writing blockquote {
     border-left-color: #14cc51;
     color: #707070; }
@@ -589,9 +589,9 @@ blockquote {
   .writing h4,
   .writing h5,
   .writing h6 {
-    color: #275f39; }
+    color: #275f3a; }
   .writing span {
-    color: #275f39; }
+    color: #275f3a; }
   .writing p {
     color: #063d18; }
   .writing h3 a, .writing h3 a:visited {
@@ -609,10 +609,10 @@ blockquote {
     .writing.dark h1,
     .writing.dark h2,
     .writing.dark h3 {
-      color: #ccf8db; }
+      color: #cdf8db; }
     .writing.dark h3 a, .writing.dark h3 a:visited {
-      color: #ccf8db;
-      background-image: linear-gradient(to bottom, transparent 50%, #ccf8db 100%);
+      color: #cdf8db;
+      background-image: linear-gradient(to bottom, transparent 50%, #cdf8db 100%);
       background-size: 2px 2px;
       background-repeat: repeat-x; }
     .writing.dark h3 a:active, .writing.dark h3 a:hover {
@@ -621,7 +621,7 @@ blockquote {
       background-size: 2px 2px;
       background-repeat: repeat-x; }
     .writing.dark .circle {
-      border-color: #ccf8db; }
+      border-color: #cdf8db; }
   .writing .circle {
     border-color: #14cc51; }
 
@@ -642,11 +642,11 @@ blockquote {
   position: relative; }
   .home .intro .column {
     z-index: 10; }
-  .home .intro h1,
+  .home .intro h1 {
+    line-height: 1.5;
+    margin-bottom: 0; }
   .home .intro h2 {
     line-height: 1; }
-  .home .intro h1 {
-    margin-bottom: 0; }
   .home .intro .lead {
     font-weight: 500;
     font-size: 24px; }
@@ -699,6 +699,25 @@ blockquote {
   .icon > svg path {
     fill: white; }
 
+.home .icon > svg {
+  height: 48px;
+  width: 48px; }
+  .home .icon > svg path {
+    fill: #cdeaf8; }
+.home .intro li a {
+  background-image: none; }
+  .home .intro li a:active path, .home .intro li a:hover path {
+    fill: #1e1e1e; }
+
+.intro .column {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  text-align: center; }
+  .intro .column li {
+    display: inline-block; }
+
 .circle {
   border-radius: 50%;
   border-style: solid;
@@ -742,13 +761,13 @@ samp {
       .wrapper.colors .a div:nth-of-type(1) {
         background-color: #148fcc; }
       .wrapper.colors .a div:nth-of-type(2) {
-        background-color: #cce9f8; }
+        background-color: #cdeaf8; }
       .wrapper.colors .a div:nth-of-type(3) {
-        background-color: #274c5f; }
+        background-color: #274d5f; }
       .wrapper.colors .a div:nth-of-type(4) {
-        background-color: #062a3d; }
+        background-color: #062b3d; }
       .wrapper.colors .a div:nth-of-type(5) {
-        background-color: #a34010; }
+        background-color: #a34110; }
       .wrapper.colors .a div:nth-of-type(6) {
         background-color: #cc5114; }
     .wrapper.colors .b div {
@@ -757,13 +776,13 @@ samp {
       .wrapper.colors .b div:nth-of-type(1) {
         background-color: #14ccad; }
       .wrapper.colors .b div:nth-of-type(2) {
-        background-color: #ccf8f0; }
+        background-color: #cdf8f1; }
       .wrapper.colors .b div:nth-of-type(3) {
-        background-color: #275f55; }
+        background-color: #275f56; }
       .wrapper.colors .b div:nth-of-type(4) {
-        background-color: #063d33; }
+        background-color: #063d34; }
       .wrapper.colors .b div:nth-of-type(5) {
-        background-color: #a31028; }
+        background-color: #a31029; }
       .wrapper.colors .b div:nth-of-type(6) {
         background-color: #cc1433; }
     .wrapper.colors .c div {
@@ -772,9 +791,9 @@ samp {
       .wrapper.colors .c div:nth-of-type(1) {
         background-color: #14cc51; }
       .wrapper.colors .c div:nth-of-type(2) {
-        background-color: #ccf8db; }
+        background-color: #cdf8db; }
       .wrapper.colors .c div:nth-of-type(3) {
-        background-color: #275f39; }
+        background-color: #275f3a; }
       .wrapper.colors .c div:nth-of-type(4) {
         background-color: #063d18; }
       .wrapper.colors .c div:nth-of-type(5) {
@@ -787,9 +806,9 @@ samp {
       .wrapper.colors .d div:nth-of-type(1) {
         background-color: #1433cc; }
       .wrapper.colors .d div:nth-of-type(2) {
-        background-color: #ccd4f8; }
+        background-color: #cdd4f8; }
       .wrapper.colors .d div:nth-of-type(3) {
-        background-color: #27305f; }
+        background-color: #27315f; }
       .wrapper.colors .d div:nth-of-type(4) {
         background-color: #060f3d; }
       .wrapper.colors .d div:nth-of-type(5) {
@@ -802,9 +821,9 @@ samp {
       .wrapper.colors .e div:nth-of-type(1) {
         background-color: #5114cc; }
       .wrapper.colors .e div:nth-of-type(2) {
-        background-color: #dbccf8; }
+        background-color: #dbcdf8; }
       .wrapper.colors .e div:nth-of-type(3) {
-        background-color: #39275f; }
+        background-color: #3a275f; }
       .wrapper.colors .e div:nth-of-type(4) {
         background-color: #18063d; }
       .wrapper.colors .e div:nth-of-type(5) {
@@ -818,8 +837,8 @@ samp {
     .wrapper.sample .a {
       background-color: white; }
       .wrapper.sample .a a, .wrapper.sample .a a:visited {
-        color: #a34010;
-        background-image: linear-gradient(to bottom, transparent 50%, #a34010 100%);
+        color: #a34110;
+        background-image: linear-gradient(to bottom, transparent 50%, #a34110 100%);
         background-size: 2px 2px;
         background-repeat: repeat-x; }
       .wrapper.sample .a a.hover, .wrapper.sample .a a:active, .wrapper.sample .a a:hover {
@@ -828,7 +847,7 @@ samp {
         background-size: 2px 2px;
         background-repeat: repeat-x; }
       .wrapper.sample .a article li:before {
-        color: #274c5f; }
+        color: #274d5f; }
       .wrapper.sample .a blockquote {
         border-left-color: #148fcc;
         color: #707070; }
@@ -839,11 +858,11 @@ samp {
       .wrapper.sample .a h4,
       .wrapper.sample .a h5,
       .wrapper.sample .a h6 {
-        color: #274c5f; }
+        color: #274d5f; }
       .wrapper.sample .a span {
-        color: #274c5f; }
+        color: #274d5f; }
       .wrapper.sample .a p {
-        color: #062a3d; }
+        color: #062b3d; }
       .wrapper.sample .a h3 a, .wrapper.sample .a h3 a:visited {
         color: #148fcc;
         background-image: linear-gradient(to bottom, transparent 50%, #148fcc 100%);
@@ -859,10 +878,10 @@ samp {
         .wrapper.sample .a.dark h1,
         .wrapper.sample .a.dark h2,
         .wrapper.sample .a.dark h3 {
-          color: #cce9f8; }
+          color: #cdeaf8; }
         .wrapper.sample .a.dark h3 a, .wrapper.sample .a.dark h3 a:visited {
-          color: #cce9f8;
-          background-image: linear-gradient(to bottom, transparent 50%, #cce9f8 100%);
+          color: #cdeaf8;
+          background-image: linear-gradient(to bottom, transparent 50%, #cdeaf8 100%);
           background-size: 2px 2px;
           background-repeat: repeat-x; }
         .wrapper.sample .a.dark h3 a:active, .wrapper.sample .a.dark h3 a:hover {
@@ -871,14 +890,14 @@ samp {
           background-size: 2px 2px;
           background-repeat: repeat-x; }
         .wrapper.sample .a.dark .circle {
-          border-color: #cce9f8; }
+          border-color: #cdeaf8; }
       .wrapper.sample .a .circle {
         border-color: #148fcc; }
     .wrapper.sample .b {
       background-color: white; }
       .wrapper.sample .b a, .wrapper.sample .b a:visited {
-        color: #a31028;
-        background-image: linear-gradient(to bottom, transparent 50%, #a31028 100%);
+        color: #a31029;
+        background-image: linear-gradient(to bottom, transparent 50%, #a31029 100%);
         background-size: 2px 2px;
         background-repeat: repeat-x; }
       .wrapper.sample .b a.hover, .wrapper.sample .b a:active, .wrapper.sample .b a:hover {
@@ -887,7 +906,7 @@ samp {
         background-size: 2px 2px;
         background-repeat: repeat-x; }
       .wrapper.sample .b article li:before {
-        color: #275f55; }
+        color: #275f56; }
       .wrapper.sample .b blockquote {
         border-left-color: #14ccad;
         color: #707070; }
@@ -898,11 +917,11 @@ samp {
       .wrapper.sample .b h4,
       .wrapper.sample .b h5,
       .wrapper.sample .b h6 {
-        color: #275f55; }
+        color: #275f56; }
       .wrapper.sample .b span {
-        color: #275f55; }
+        color: #275f56; }
       .wrapper.sample .b p {
-        color: #063d33; }
+        color: #063d34; }
       .wrapper.sample .b h3 a, .wrapper.sample .b h3 a:visited {
         color: #14ccad;
         background-image: linear-gradient(to bottom, transparent 50%, #14ccad 100%);
@@ -918,10 +937,10 @@ samp {
         .wrapper.sample .b.dark h1,
         .wrapper.sample .b.dark h2,
         .wrapper.sample .b.dark h3 {
-          color: #ccf8f0; }
+          color: #cdf8f1; }
         .wrapper.sample .b.dark h3 a, .wrapper.sample .b.dark h3 a:visited {
-          color: #ccf8f0;
-          background-image: linear-gradient(to bottom, transparent 50%, #ccf8f0 100%);
+          color: #cdf8f1;
+          background-image: linear-gradient(to bottom, transparent 50%, #cdf8f1 100%);
           background-size: 2px 2px;
           background-repeat: repeat-x; }
         .wrapper.sample .b.dark h3 a:active, .wrapper.sample .b.dark h3 a:hover {
@@ -930,7 +949,7 @@ samp {
           background-size: 2px 2px;
           background-repeat: repeat-x; }
         .wrapper.sample .b.dark .circle {
-          border-color: #ccf8f0; }
+          border-color: #cdf8f1; }
       .wrapper.sample .b .circle {
         border-color: #14ccad; }
     .wrapper.sample .c {
@@ -946,7 +965,7 @@ samp {
         background-size: 2px 2px;
         background-repeat: repeat-x; }
       .wrapper.sample .c article li:before {
-        color: #275f39; }
+        color: #275f3a; }
       .wrapper.sample .c blockquote {
         border-left-color: #14cc51;
         color: #707070; }
@@ -957,9 +976,9 @@ samp {
       .wrapper.sample .c h4,
       .wrapper.sample .c h5,
       .wrapper.sample .c h6 {
-        color: #275f39; }
+        color: #275f3a; }
       .wrapper.sample .c span {
-        color: #275f39; }
+        color: #275f3a; }
       .wrapper.sample .c p {
         color: #063d18; }
       .wrapper.sample .c h3 a, .wrapper.sample .c h3 a:visited {
@@ -977,10 +996,10 @@ samp {
         .wrapper.sample .c.dark h1,
         .wrapper.sample .c.dark h2,
         .wrapper.sample .c.dark h3 {
-          color: #ccf8db; }
+          color: #cdf8db; }
         .wrapper.sample .c.dark h3 a, .wrapper.sample .c.dark h3 a:visited {
-          color: #ccf8db;
-          background-image: linear-gradient(to bottom, transparent 50%, #ccf8db 100%);
+          color: #cdf8db;
+          background-image: linear-gradient(to bottom, transparent 50%, #cdf8db 100%);
           background-size: 2px 2px;
           background-repeat: repeat-x; }
         .wrapper.sample .c.dark h3 a:active, .wrapper.sample .c.dark h3 a:hover {
@@ -989,7 +1008,7 @@ samp {
           background-size: 2px 2px;
           background-repeat: repeat-x; }
         .wrapper.sample .c.dark .circle {
-          border-color: #ccf8db; }
+          border-color: #cdf8db; }
       .wrapper.sample .c .circle {
         border-color: #14cc51; }
     .wrapper.sample .d {
@@ -1005,7 +1024,7 @@ samp {
         background-size: 2px 2px;
         background-repeat: repeat-x; }
       .wrapper.sample .d article li:before {
-        color: #27305f; }
+        color: #27315f; }
       .wrapper.sample .d blockquote {
         border-left-color: #1433cc;
         color: #707070; }
@@ -1016,9 +1035,9 @@ samp {
       .wrapper.sample .d h4,
       .wrapper.sample .d h5,
       .wrapper.sample .d h6 {
-        color: #27305f; }
+        color: #27315f; }
       .wrapper.sample .d span {
-        color: #27305f; }
+        color: #27315f; }
       .wrapper.sample .d p {
         color: #060f3d; }
       .wrapper.sample .d h3 a, .wrapper.sample .d h3 a:visited {
@@ -1036,10 +1055,10 @@ samp {
         .wrapper.sample .d.dark h1,
         .wrapper.sample .d.dark h2,
         .wrapper.sample .d.dark h3 {
-          color: #ccd4f8; }
+          color: #cdd4f8; }
         .wrapper.sample .d.dark h3 a, .wrapper.sample .d.dark h3 a:visited {
-          color: #ccd4f8;
-          background-image: linear-gradient(to bottom, transparent 50%, #ccd4f8 100%);
+          color: #cdd4f8;
+          background-image: linear-gradient(to bottom, transparent 50%, #cdd4f8 100%);
           background-size: 2px 2px;
           background-repeat: repeat-x; }
         .wrapper.sample .d.dark h3 a:active, .wrapper.sample .d.dark h3 a:hover {
@@ -1048,7 +1067,7 @@ samp {
           background-size: 2px 2px;
           background-repeat: repeat-x; }
         .wrapper.sample .d.dark .circle {
-          border-color: #ccd4f8; }
+          border-color: #cdd4f8; }
       .wrapper.sample .d .circle {
         border-color: #1433cc; }
     .wrapper.sample .e {
@@ -1064,7 +1083,7 @@ samp {
         background-size: 2px 2px;
         background-repeat: repeat-x; }
       .wrapper.sample .e article li:before {
-        color: #39275f; }
+        color: #3a275f; }
       .wrapper.sample .e blockquote {
         border-left-color: #5114cc;
         color: #707070; }
@@ -1075,9 +1094,9 @@ samp {
       .wrapper.sample .e h4,
       .wrapper.sample .e h5,
       .wrapper.sample .e h6 {
-        color: #39275f; }
+        color: #3a275f; }
       .wrapper.sample .e span {
-        color: #39275f; }
+        color: #3a275f; }
       .wrapper.sample .e p {
         color: #18063d; }
       .wrapper.sample .e h3 a, .wrapper.sample .e h3 a:visited {
@@ -1095,10 +1114,10 @@ samp {
         .wrapper.sample .e.dark h1,
         .wrapper.sample .e.dark h2,
         .wrapper.sample .e.dark h3 {
-          color: #dbccf8; }
+          color: #dbcdf8; }
         .wrapper.sample .e.dark h3 a, .wrapper.sample .e.dark h3 a:visited {
-          color: #dbccf8;
-          background-image: linear-gradient(to bottom, transparent 50%, #dbccf8 100%);
+          color: #dbcdf8;
+          background-image: linear-gradient(to bottom, transparent 50%, #dbcdf8 100%);
           background-size: 2px 2px;
           background-repeat: repeat-x; }
         .wrapper.sample .e.dark h3 a:active, .wrapper.sample .e.dark h3 a:hover {
@@ -1107,7 +1126,7 @@ samp {
           background-size: 2px 2px;
           background-repeat: repeat-x; }
         .wrapper.sample .e.dark .circle {
-          border-color: #dbccf8; }
+          border-color: #dbcdf8; }
       .wrapper.sample .e .circle {
         border-color: #5114cc; }
 
