@@ -1,0 +1,38 @@
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- Enable responsiveness on mobile devices-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+	<meta name="description" content="{{ site.description }}">
+	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+	<title>
+		{% if page.title == "Home" %}
+			{{ site.title }} &middot; {{ site.tagline }}
+		{% else %}
+			{{ page.title }} &middot; {{ site.title }}
+		{% endif %}
+	</title>
+
+	<!-- CSS -->
+	<!-- <link rel="stylesheet" href="{{ "/css/old.css" | prepend: site.baseurl }}"> -->
+	<link rel="stylesheet" href="{{ "/css/styles.css" | prepend: site.baseurl }}">
+	<!-- <link rel="stylesheet" href="http://basehold.it/12"> -->
+
+	<!-- Icons -->
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ site.baseurl }}public/apple-touch-icon-precomposed.png">
+	<link rel="shortcut icon" href="{{ site.baseurl }}public/favicon.ico">
+
+	<!-- RSS -->
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="{{ site.baseurl }}atom.xml">
+
+	<!-- Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic|Source+Code+Pro:200,300,400,500,600,700,900' rel='stylesheet' type='text/css'>
+
+	<!-- Javascript -->
+	<!-- <script type="text/javascript" src="{{ "/js/bind-polyfill.min.js" | prepend: site.baseurl }}"></script> -->
+	<!-- <script type="text/javascript" src="{{ "/js/smooth-scroll.min.js" | prepend: site.baseurl }}"></script> -->
+	<script type="text/javascript" src="{{ "/js/scripts.js" | prepend: site.baseurl }}"></script>
+</head>

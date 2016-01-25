@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thomas Stapleton</title>
+    <description>Learning by doing. Forever a student. The personal website for Thomas Stapleton.
+</description>
+    <link>http://tstapleton.github.io//</link>
+    <atom:link href="http://tstapleton.github.io//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 24 Jan 2016 16:27:38 -0800</pubDate>
+    <lastBuildDate>Sun, 24 Jan 2016 16:27:38 -0800</lastBuildDate>
+    <generator>Jekyll v3.1.0</generator>
+    
+      <item>
+        <title>Research Turns to Showdown</title>
+        <description>&lt;p&gt;I started doing some research on how to make a great Bloody Mary. I want to figure out how I can make a better Bloody Mary, how I can simplify the process of making a Bloody Mary at home, and some techniques to make my Bloody Mary more interesting.&lt;/p&gt;
+
+&lt;p&gt;The Bloody Mary has so many variations and everyone thinks they have &lt;em&gt;The Best&lt;/em&gt; Bloody Mary. I prefer traditional ones - meaning vodka, tomato juice and some heat. &lt;a href=&quot;http://www.seriouseats.com/2014/06/bloody-mary-good-science-history-what-type-of-vodka-can-it-cure-a-hangover.html&quot; title=&quot;The Bloody Mary: The History and Science of an Oddball Classic&quot;&gt;Serious Eats&lt;/a&gt; identifies the components pretty well:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Base spirit - vodka.&lt;/li&gt;
+  &lt;li&gt;Tomato juice - a savory, sweet and slightly tart base.&lt;/li&gt;
+  &lt;li&gt;Savory additives - salt and savory flavors, like Worcestershire.&lt;/li&gt;
+  &lt;li&gt;Spice - a pepper component, and possibly some herbs.&lt;/li&gt;
+  &lt;li&gt;Burn - hot peppers, chilies, and horseradish.&lt;/li&gt;
+  &lt;li&gt;Acid - lemon and lime juice, likely proportionate to the amount of tomato juice&lt;/li&gt;
+  &lt;li&gt;Aromatic garnish - classically a celery stick.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I was looking for the science behind the drink - what makes a drink &lt;em&gt;great&lt;/em&gt;. &lt;a href=&quot;http://www.acs.org/content/acs/en/pressroom/newsreleases/2011/march/creating-the-perfect-bloody-mary-good-chemistry-of-fresh-ingredients.html&quot; title=&quot;Creating the perfect Bloody Mary: Good chemistry of fresh ingredients&quot;&gt;Research&lt;/a&gt; presented at a meeting of the American Chemical Society listed some factors in a great Bloody Mary:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;Make it fresh. Chemically, the Bloody Mary is a “highly unstable” concoction, and the quality tends to deteriorate quickly.&lt;/li&gt;
+    &lt;li&gt;Ice it up. Serving Bloody Marys on ice helps to slow down the chemical reactions involving acids in tomato juice and other ingredients that degrade the taste.&lt;/li&gt;
+    &lt;li&gt;Mind your mixes. If you use a cocktail mix, add some fresh ingredients to enhance the flavor and aroma.&lt;/li&gt;
+    &lt;li&gt;Splurge on the juice. Tomato juice makes up most of the Bloody Mary’s volume, so use high quality juice that has a deep, rich flavor.&lt;/li&gt;
+    &lt;li&gt;Economize on the vodka. The intense, spicy flavor of a Bloody Mary masks the vodka, and using premium vodka makes little sense.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It seems obvious that fresh ingredients would produce the best product. This doesn’t help for being able to create a bulk mix in advance, but I still hope an partial mix could be created. I imagine a spice mixture created in bulk in advance, then combine it with vodka and tomato juice to produce a quick Bloody Mary.&lt;/p&gt;
+
+&lt;p&gt;I’ve also only used packaged tomato juice and V8. Cambell’s Spicy V8 works pretty well because it contains a lot of flavor in addition to the tomato juice base, but I’m now thinking that finding a good quality tomato juice, and increasing the added components, is worth a try.&lt;/p&gt;
+
+&lt;p&gt;Further research can be categorized into recipes and components.&lt;/p&gt;
+
+&lt;h4 id=&quot;recipes&quot;&gt;Recipes&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.seriouseats.com/recipes/2011/06/the-ultimate-fully-loaded-bloody-mary-recipe.html&quot; title=&quot;The Ultimate Fully-Loaded Bloody Mary&quot;&gt;The Ultimate Fully-Loaded Bloody Mary&lt;/a&gt; - a traditional recipe with ingredient quantities to use as a baseline, and includes soy sauce&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.culicurious.com/the-best-bloody-mary-recipe/&quot; title=&quot;The Best Bloody Mary Recipe&quot;&gt;The Best Bloody Mary Recipe&lt;/a&gt; - a traditional recipe with ingredient quantities to use as a baseline, with a point to rest the ingredients in the refrigerator&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.saveur.com/article/Recipes/Dirty-Mary?cmpid=pin&quot; title=&quot;The Dirty Mary&quot;&gt;The Dirty Mary&lt;/a&gt; - heavy on the pickle, lemon and &lt;em&gt;fresh&lt;/em&gt; horseradish&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://liquor.com/recipes/grey-goose-mediterranean-mary/&quot; title=&quot;Grey Goose Mediterranean Mary&quot;&gt;Grey Goose Mediterranean Mary&lt;/a&gt; - interesting mix with tomato juice, olive tapenade and herbs&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://liquor.com/recipes/elixir-bloody-mary/&quot; title=&quot;Elixir Bloody Mary&quot;&gt;Elixir Bloody Mary&lt;/a&gt; - focus on seasonings, with some spice&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bonappetit.com/recipe/the-best-bloody-mary&quot; title=&quot;The Best Bloody Mary&quot;&gt;The Best Bloody Mary&lt;/a&gt; - homemade tomato juice and mostly fresh ingredients&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://magazine.foxnews.com/food-wellness/10-bloody-mary-recipes-inspired-global-cities&quot; title=&quot;10 Bloody Mary Recipes Inspired By Global Cities&quot;&gt;Chi-Dog Juice&lt;/a&gt; - homemade tomato juice, inspired by a Chicago hot dog&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://magazine.foxnews.com/food-wellness/10-bloody-mary-recipes-inspired-global-cities&quot; title=&quot;10 Bloody Mary Recipes Inspired By Global Cities&quot;&gt;Shanghai Surprise&lt;/a&gt; - lots of heat with an Asian twist&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;components&quot;&gt;Components&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.buzzfeed.com/christinebyrne/spicy-pepper-vodka-and-sriracha-salt#1n2kfqm&quot; title=&quot;How To Make A Spicy Bloody Mary Gift Kit&quot;&gt;Pepper infused vodka&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.foodandwine.com/recipes/tomato-chile-ice-cubes&quot; title=&quot;Tomato-Chile Ice Cubes&quot;&gt;Tomato-chili ice cubes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.mouth.com/collections/all/products/chesapeakles&quot; title=&quot;Old Bay Pickles&quot;&gt;Quality pickles&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.endlesssimmer.com/2011/08/24/endless-poptails-bloody-mary-popsicle/&quot; title=&quot;Endless Poptails: Bloody Mary Popsicles&quot;&gt;Freezing the ingredients&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ellenfork.com/ellenfork/2009/02/a-real-wake-up-call.html&quot; title=&quot;A Real Wake Up Call&quot;&gt;Bloody Mary ice cubes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://speedbumpkitchen.com/homemade-worcestershire-sauce/&quot; title=&quot;Homemade Worcestershire Sauce&quot;&gt;Homemade Worcestershire sauce&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Old Bay Seasoning&lt;/li&gt;
+  &lt;li&gt;Freshly grated horseradish&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.saveur.com/article/Recipes/Dirty-Mary?cmpid=pin&quot; title=&quot;The Dirty Mary&quot;&gt;Pickle infused vodka&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I’m thinking the next step for this project is a showdown between each of the recipes with &lt;a href=&quot;/2014/09/01/origin-of-my-bloody-mary-recipe.html&quot;&gt;my personal recipe&lt;/a&gt;. Since many of the recipes ask for high-quality tomato juice, I’ll need to find that first.&lt;/p&gt;
+
+&lt;p&gt;Then I’ll start tweaking my recipe based on what I discovered during the showdowns.&lt;/p&gt;
+
+</description>
+        <pubDate>Mon, 01 Sep 2014 09:00:00 -0700</pubDate>
+        <link>http://tstapleton.github.io//2014/09/01/research-turns-to-showdown.html</link>
+        <guid isPermaLink="true">http://tstapleton.github.io//2014/09/01/research-turns-to-showdown.html</guid>
+        
+        <category>bloody-mary</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Origin of My Bloody Mary Recipe</title>
+        <description>&lt;p&gt;My dad got me introduced me to The Bloody Mary. He made the first one I ever had during a Christmas vacation at home from college. I was hooked since that first drink, and I even remember making the second round for us shortly after finishing the first.&lt;/p&gt;
+
+&lt;p&gt;My dad’s recipe is traditional. There isn’t anything fancy and it can be made pretty quickly.&lt;/p&gt;
+
+&lt;h3 id=&quot;my-dads-bloody-mary&quot;&gt;My Dad’s Bloody Mary&lt;/h3&gt;
+
+&lt;h4 id=&quot;ingredients&quot;&gt;Ingredients&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cambell’s tomato juice&lt;/li&gt;
+  &lt;li&gt;Stolichnaya vodka&lt;/li&gt;
+  &lt;li&gt;Lemon juice&lt;/li&gt;
+  &lt;li&gt;Worcestershire&lt;/li&gt;
+  &lt;li&gt;Tobasco brand hot sauce&lt;/li&gt;
+  &lt;li&gt;Celery salt&lt;/li&gt;
+  &lt;li&gt;Black pepper&lt;/li&gt;
+  &lt;li&gt;Celery stalk for garnish&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;steps&quot;&gt;Steps&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Add ice to a glass.&lt;/li&gt;
+  &lt;li&gt;Add all ingredients.&lt;/li&gt;
+  &lt;li&gt;Mix with the celery stalk.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;I started building on this recipe to get more flavor and add more heat. After many iterations and adjustments, I’m pretty happy with the resulting drink now.&lt;/p&gt;
+
+&lt;h3 id=&quot;my-bloody-mary-august-2014&quot;&gt;My Bloody Mary, August 2014&lt;/h3&gt;
+
+&lt;h4 id=&quot;ingredients-1&quot;&gt;Ingredients&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cambell’s spicy V8 juice&lt;/li&gt;
+  &lt;li&gt;Stolichnaya or Absolut vodka&lt;/li&gt;
+  &lt;li&gt;Lemon juice or (lime juice if we don’t have lemons)&lt;/li&gt;
+  &lt;li&gt;Worcestershire&lt;/li&gt;
+  &lt;li&gt;Cholula brand hot sauce&lt;/li&gt;
+  &lt;li&gt;Celery salt&lt;/li&gt;
+  &lt;li&gt;Fresh ground black pepper&lt;/li&gt;
+  &lt;li&gt;Horseradish&lt;/li&gt;
+  &lt;li&gt;Pickle brine&lt;/li&gt;
+  &lt;li&gt;Olive brine&lt;/li&gt;
+  &lt;li&gt;Pickle slices or olives soaking in the drink to eat afterwards&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;steps-1&quot;&gt;Steps&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Add lemon, Worcestershire, Cholula, celery salt, black pepper, horseradish, pickle brine, olive brine to a glass. Mix.&lt;/li&gt;
+  &lt;li&gt;Add vodka. Mix.&lt;/li&gt;
+  &lt;li&gt;Add pickle slices or olives.&lt;/li&gt;
+  &lt;li&gt;Add ice cubes.&lt;/li&gt;
+  &lt;li&gt;Fill with spicy V8. Mix.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Although I really like this drink, I still have three complaints:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Almost everything is packaged and store bought. Nothing is home made, and the only fresh ingredient is the lemon or lime, which even then is often packaged.&lt;/li&gt;
+  &lt;li&gt;Assembly is time consuming. Every ingredient is added to each drink independently - and there are a lot of ingredients currently.&lt;/li&gt;
+  &lt;li&gt;The drink is slightly different every time since I don’t measure the ingredients. Which also means that I don’t know the optimal measurement of ingredients.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So I’m going to figure out how to improve it. I want to:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Find ways to make ingredients from scratch for special occasions&lt;/li&gt;
+  &lt;li&gt;Test my variation against other recipes claiming to be &lt;em&gt;the best&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;Find a way to make a drink with less components - either by eliminating unnecessary components or by assembling a mixture of ingredients that can be stored and used as needed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And I’ll be collecting &lt;a href=&quot;/tags/bloody-mary/&quot;&gt;my findings&lt;/a&gt; as I go.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 01 Sep 2014 08:00:00 -0700</pubDate>
+        <link>http://tstapleton.github.io//2014/09/01/origin-of-my-bloody-mary-recipe.html</link>
+        <guid isPermaLink="true">http://tstapleton.github.io//2014/09/01/origin-of-my-bloody-mary-recipe.html</guid>
+        
+        <category>bloody-mary</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Time for a New Website</title>
+        <description>&lt;p&gt;It is time for a new website. I built my last website in April 2012 in order to learn more about front-end development so I could get a new job. It was only a rethinking of what my resume could be in digital form, and didn’t really have a place to continually add content.&lt;/p&gt;
+
+&lt;p&gt;So I’ll start fresh. I’ll be using &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; with &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHubPages&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I hope this becomes a place where I can write more because I learn so much by writing. I want to be able to look back on what I had written in the past to see what I was thinking and how I was solving problems at the time. I’m happy I spent the time &lt;a href=&quot;/tags/resume-site&quot;&gt;documenting my thinking&lt;/a&gt; in building the first version of my site, it was interesting reading it again as I’ve been porting over the content.&lt;/p&gt;
+
+&lt;p&gt;I hope this becomes a place where I can collect my side projects. I used to do a lot of web development on the side - mainly &lt;a href=&quot;http://www.shopify.com/&quot;&gt;Shopify&lt;/a&gt; themes and &lt;a href=&quot;https://www.drupal.org/&quot;&gt;Drupal&lt;/a&gt; websites. I had an outlet to explore new technologies on a variety of different projects, and I was able to showcase them publically. Most of my work now is internal to &lt;a href=&quot;http://tradeshift.com/&quot;&gt;Tradeshift&lt;/a&gt; and I really haven’t spent much time on side projects recently. Rebuilding this site will be the first of the new side projects.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 23 Aug 2014 19:00:00 -0700</pubDate>
+        <link>http://tstapleton.github.io//2014/08/23/time-for-a-new-website.html</link>
+        <guid isPermaLink="true">http://tstapleton.github.io//2014/08/23/time-for-a-new-website.html</guid>
+        
+        <category>development</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Coding the Tradeshift Logo</title>
+        <description>&lt;p&gt;Tradeshift was hosting another hackathon and I was helping to design a shirt for the event. We thought it would be cool to have some code on the shirt. So I got to work.&lt;/p&gt;
+
+&lt;p&gt;My first idea was drawing the Tradeshift logo using SVG. It &lt;a href=&quot;It looked pretty good, but there wasn&#39;t much *code* to it.&quot;&gt;looked pretty good&lt;/a&gt;, but there wasn’t much &lt;em&gt;code&lt;/em&gt; to it.&lt;/p&gt;
+
+&lt;p&gt;```html&lt;/p&gt;
+&lt;svg version=&quot;1.1&quot; baseprofile=&quot;full&quot; width=&quot;320&quot; height=&quot;320&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
+	&lt;circle cx=&quot;160&quot; cy=&quot;160&quot; r=&quot;160&quot; fill=&quot;#000&quot; /&gt;
+	&lt;path d=&quot;M 25 90 L 153 90 L 153 270 L 105 270 L 105 128 L 25 128&quot; fill=&quot;#fff&quot; stroke=&quot;#fff&quot; /&gt;
+	&lt;path d=&quot;M 167 90 L 167 270 L 215 270 L 215 128 L 295 128 L 295 90&quot; fill=&quot;#20a0e9&quot; stroke=&quot;#20a0e9&quot;&gt;
+
+```
+
+Since we write a lot of Javascript, I wrapped up the SVG and added a bit more filler. Ultimately, it felt too forced - and ```Tradeshift``` isn&#39;t even defined!
+
+```html
+&amp;lt;!DOCTYPE html&amp;gt;
+&lt;html&gt;
+  &lt;h1&gt;Tradeshift Hackathon&lt;/h1&gt;
+  &lt;h2&gt;Summer 2014&lt;/h2&gt;
+  &lt;svg version=&quot;1.1&quot; baseprofile=&quot;basic&quot; width=&quot;320&quot; height=&quot;320&quot; xmlns=&quot;http://www.w3.org/2000/svg&quot;&gt;
+    &lt;circle cx=&quot;160&quot; cy=&quot;160&quot; r=&quot;160&quot; fill=&quot;#000&quot; /&gt;
+    &lt;path d=&quot;M 25 90 L 153 90 L 153 270 L 105 270 L 105 128 L 25 128&quot; fill=&quot;#fff&quot; stroke=&quot;#fff&quot; /&gt;
+    &lt;path d=&quot;M 167 90 L 167 270 L 215 270 L 215 128 L 295 128 L 295 90&quot; fill=&quot;#20a0e9&quot; stroke=&quot;#20a0e9&quot;&gt;
+  
+  &lt;script&gt;
+    window.addEventListener(&#39;HackathonLoaded&#39;, Tradeshift.code);
+  &lt;/script&gt;
+
+```
+
+So I ditched SVG for canvas so the code could be largely Javascript and interesting enough to fill up a shirt.
+
+```html
+&amp;lt;!DOCTYPE html&amp;gt;
+&lt;html&gt;
+	&lt;head&gt;
+		&lt;meta charset=&quot;UTF-8&quot; /&gt;
+		&lt;title&gt;Tradeshift Pirate Ship Days, June 2014&lt;/title&gt;
+		&lt;style&gt;
+			body {
+				background-color: rgb(0, 0, 0);
+				padding: 22px;
+			}
+		&lt;/style&gt;
+		&lt;script type=&quot;text/javascript&quot;&gt;
+			function drawLogo(canvas, capHeight) {
+				var context = canvas.getContext(&#39;2d&#39;);
+				var alley = Math.round(capHeight / 13.40);
+				var halfGlyphWidth = Math.round(capHeight / 1.40);
+				var stemWidth = Math.round(capHeight / 3.72);
+				var armHeight = Math.round(capHeight / 4.79);
+				var armWidth = halfGlyphWidth - stemWidth;
+
+				(function drawLeftSide(context, start) {
+					context.fillStyle = &#39;rgb(255, 255, 255)&#39;;
+					context.fillRect(start.x, start.y, armWidth, armHeight);
+					context.fillRect(start.x + armWidth, start.y, stemWidth, capHeight);
+				})(context, { x: alley, y: alley });
+
+				(function drawRightSide(context, start) {
+					context.fillStyle = &#39;rgb(32, 160, 233)&#39;;
+					context.fillRect(start.x, start.y, stemWidth, capHeight);
+					context.fillRect(start.x + stemWidth, start.y, armWidth, armHeight);
+				})(context, { x: alley + halfGlyphWidth + alley, y: alley });
+			}
+
+			window.addEventListener(&#39;DOMContentLoaded&#39;, function () {
+				var canvas = document.getElementById(&#39;logo&#39;);
+				var capHeight = 360;
+				if (canvas.getContext) {
+					drawLogo(canvas, capHeight);
+				}
+			}, true);
+		&lt;/script&gt;
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;canvas id=&quot;logo&quot; height=&quot;415&quot; width=&quot;595&quot;&gt;&lt;/canvas&gt;
+	&lt;/body&gt;
+&lt;/html&gt;
+```
+&lt;/path&gt;&lt;/svg&gt;&lt;/html&gt;&lt;/path&gt;&lt;/svg&gt;
+</description>
+        <pubDate>Fri, 13 Jun 2014 09:00:00 -0700</pubDate>
+        <link>http://tstapleton.github.io//2014/06/13/coding-the-tradeshift-logo.html</link>
+        <guid isPermaLink="true">http://tstapleton.github.io//2014/06/13/coding-the-tradeshift-logo.html</guid>
+        
+        <category>tradeshift</category>
+        
+        <category>development</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Style Tiles</title>
+        <description>&lt;p&gt;Style Tiles are a way to communicate the visual design of a site without locking into a particular page layout. As the layout for a responsive website will change as the device width changes, we need a new way to communicate design that is separated from the layout.&lt;/p&gt;
+
+&lt;p&gt;A &lt;a href=&quot;/styletiles/0&quot;&gt;generic Style Tile template&lt;/a&gt; has been developed, which will be used to communicate the desired design of the site.&lt;/p&gt;
+
+&lt;h3 id=&quot;design-themes&quot;&gt;Design Themes&lt;/h3&gt;
+
+&lt;p&gt;The visual design of the site should complement the site messages:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Provide value, solve problems, deliver results&lt;/li&gt;
+  &lt;li&gt;Trust, reliability&lt;/li&gt;
+  &lt;li&gt;Contribution, ability, action&lt;/li&gt;
+  &lt;li&gt;Diversity, passion&lt;/li&gt;
+  &lt;li&gt;Easy to read, distraction free&lt;/li&gt;
+  &lt;li&gt;Focus on content&lt;/li&gt;
+  &lt;li&gt;Lighthearted, show personality&lt;/li&gt;
+  &lt;li&gt;Clear organization&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The elements of design can be applied to communicate the desired messages.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Line
+    &lt;ul&gt;
+      &lt;li&gt;Straight and thin lines tend to be more refined and smart&lt;/li&gt;
+      &lt;li&gt;Horizontal lines suggest rest, vertical lines suggest grandeur, diagonal lines suggest movement&lt;/li&gt;
+      &lt;li&gt;Combining horizontal and vertical lines communicates stability&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Color
+    &lt;ul&gt;
+      &lt;li&gt;Brown to suggest stability&lt;/li&gt;
+      &lt;li&gt;Light yellow to suggest intellect and freshness&lt;/li&gt;
+      &lt;li&gt;Light blue to suggest health and understanding&lt;/li&gt;
+      &lt;li&gt;Dark blue to suggest knowledge, trust and integrity&lt;/li&gt;
+      &lt;li&gt;White to suggest safety and cleanliness&lt;/li&gt;
+      &lt;li&gt;Black to suggest seriousness, power, formality&lt;/li&gt;
+      &lt;li&gt;Grey to suggest security and practicality&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Shape
+    &lt;ul&gt;
+      &lt;li&gt;Squares communicate security and stability&lt;/li&gt;
+      &lt;li&gt;Curving shapes are more feminine&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Space
+    &lt;ul&gt;
+      &lt;li&gt;White space can give breathing room for the eyes&lt;/li&gt;
+      &lt;li&gt;Less white space can give feelings of claustrophobia&lt;/li&gt;
+      &lt;li&gt;Too much white space can signify unfinished work&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Texture
+    &lt;ul&gt;
+      &lt;li&gt;Textures can bring realism and add visual interest&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;iterating-on-the-design&quot;&gt;Iterating on the Design&lt;/h3&gt;
+
+&lt;p&gt;Three style tiles were developed from the generic template and compared for how they communicate the site messages, &lt;a href=&quot;/styletiles/1&quot;&gt;style tile 1&lt;/a&gt;, &lt;a href=&quot;/styletiles/2&quot;&gt;style tile 2&lt;/a&gt; and &lt;a href=&quot;/styletiles/3&quot;&gt;style tile 3&lt;/a&gt;. The bright colors and light font weight in the &lt;a href=&quot;/styletiles/1&quot;&gt;first style tile&lt;/a&gt; makes it feel too playful to communicate value and reliability. The &lt;a href=&quot;/styletiles/2&quot;&gt;second style tile&lt;/a&gt; goes too far in the other direction, feeling too formal and almost legal-like. The &lt;a href=&quot;/styletiles/3&quot;&gt;third style tile&lt;/a&gt; introduced some of the lighter colors from the first one, but with a heavier paragraph font weight. Icons were introduced in the third one, which makes it look more interesting. But the header font weights look overwhelming.&lt;/p&gt;
+
+&lt;p&gt;I switched the header fonts from the second style tile with those in the third tile and I’m pretty happy with &lt;a href=&quot;/styletiles/4&quot;&gt;style tile 4&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+
+&lt;p&gt;I first heard about using Style Tiles from &lt;a href=&quot;http://badassideas.com/about/&quot;&gt;Samantha Warren&lt;/a&gt;. She has a great explanation of the process in her blog post &lt;a href=&quot;http://badassideas.com/style-tiles-as-a-web-design-process-tool&quot;&gt;Style Tiles as a Web Design Process Tool&lt;/a&gt;, and built a &lt;a href=&quot;http://styletil.es/&quot;&gt;site&lt;/a&gt; explaining the process.&lt;/p&gt;
+
+&lt;p&gt;I learned a bit about design from &lt;a href=&quot;http://www.color-wheel-pro.com/color-meaning.html&quot;&gt;Color Wheel Pro - See Color Theory in Action&lt;/a&gt;, &lt;a href=&quot;http://justcreative.com/2008/06/13/how-to-design-learn-the-basics/&quot;&gt;What to know how to design? Learn The Basics.&lt;/a&gt; and &lt;a href=&quot;http://char.txa.cornell.edu/language/principl/principl.htm&quot;&gt;Principles of Design&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 13 Apr 2012 10:00:00 -0700</pubDate>
+        <link>http://tstapleton.github.io//2012/04/13/style-tiles.html</link>
+        <guid isPermaLink="true">http://tstapleton.github.io//2012/04/13/style-tiles.html</guid>
+        
+        <category>resume-site</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Responsive Framework</title>
+        <description>&lt;p&gt;Following the mobile strategy, the site will be designed for mobile devices first, and progressively enhanced as device resolution increases. The successful combination of a flexible grid-based layout, flexible images and media, and CSS3 media queries will produce a site that responds the user’s device.&lt;/p&gt;
+
+&lt;p&gt;Responsive design is about better meeting the user’s needs. The user can interact with the content from a variety of devices, so the design produced should make that always a good experience for the user.&lt;/p&gt;
+
+&lt;p&gt;There are many existing responsive grid frameworks. After evaluating some, I’ve decided to use the &lt;a href=&quot;http://fluidbaselinegrid.com/&quot;&gt;Fluid Baseline Grid&lt;/a&gt; because it follows the mobile first strategy, the markup is simple, and can be easily customized to my desired design.&lt;/p&gt;
+
+&lt;h3 id=&quot;implementation&quot;&gt;Implementation&lt;/h3&gt;
+
+&lt;p&gt;I’ll update the Fluid Baseline Grid to be based on 4 columns instead of the default 3 since each period has 4 pieces of content to highlight. The grid will display 1 column on mobile devices with content linearized, then switch to a 2 column layout for tablets, and finally switch up to a 4 column layout for large screens. This will keep the content grouped nicely for all devices.&lt;/p&gt;
+
+&lt;p&gt;The same content will be served to every device as there is no reason to think that a user on a mobile device would want less or different content, for this site. Some consideration should be given to make images responsive, starting with serving smaller images to mobile devices rather than allowing the browser to scale down the full image.&lt;/p&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;http://www.abookapart.com/products/responsive-web-design&quot;&gt;Responsive Web Design&lt;/a&gt;&lt;/em&gt; by Ethan Marcotte for the explanation on why and how to implement a responsive website.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 12 Apr 2012 10:00:00 -0700</pubDate>
+        <link>http://tstapleton.github.io//2012/04/12/responsive-framework.html</link>
+        <guid isPermaLink="true">http://tstapleton.github.io//2012/04/12/responsive-framework.html</guid>
+        
+        <category>resume-site</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Mobile Strategy</title>
+        <description>&lt;p&gt;As screen space is reduced on mobile devices, the content displayed should be the most important for the user to know and for the site to communicate. Often the user’s time and attention are limited in mobile situations, but given the common saying that traditional resumes have about 30 seconds to make an impression, competing for the user’s focus is already accepted.&lt;/p&gt;
+
+&lt;p&gt;Focus on the most important pieces, while not removing content from the mobile experience. Consider the possibility of limited bandwidth on mobile devices and implement strategies for improved performance like image sprites, bundle and minify CSS and JavaScript, limit dependencies on heavy CSS frameworks and JavaScript libraries, and use CSS3 properties to reduce the need for images.&lt;/p&gt;
+
+&lt;h3 id=&quot;organization&quot;&gt;Organization&lt;/h3&gt;
+
+&lt;p&gt;Collecting all experience on a single page will make the content the focus of the site. Clear separation between the experience section and the project documentation will keep relevant content together and allow for exploration within each section.&lt;/p&gt;
+
+&lt;p&gt;User interaction with mobile devices generally falls into one of four categories:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lookup / find - need an answer to something now&lt;/li&gt;
+  &lt;li&gt;Explore / play - have some time to kill&lt;/li&gt;
+  &lt;li&gt;Check in / status - stay on top of updating information&lt;/li&gt;
+  &lt;li&gt;Edit / create - need something done now&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;These interaction types should be handled with the following site features:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Lookup / find - site header has clear contact information, objective and experience summary to provide a quick overview&lt;/li&gt;
+  &lt;li&gt;Explore / play - highlighted resume content should tease content and provide more details when desired&lt;/li&gt;
+  &lt;li&gt;Check in / status - the main experience content won’t be changing too often, but updating information could come in the form of updates to github, new blog posts, and recent tweets&lt;/li&gt;
+  &lt;li&gt;Edit / create - ideally the user needs to contact me immediately to discuss an opportunity with their company, so I should make this really easy to do&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;layout&quot;&gt;Layout&lt;/h3&gt;
+
+&lt;p&gt;Design the mobile experience first and strive for the minimum amount necessary to communicate the desired messages. Then progressively enhance the layout using responsive web design. While all content should be accessible regardless of device used, layout rules can reposition elements, increase image sizes, and toggle initial visibility of content.&lt;/p&gt;
+
+&lt;p&gt;Some work will be needed to handle responsive images, both in terms of size and resolution. Appropriate images can be determined and served using CSS3 media queries, JavaScript and server side solutions. Each image should have multiple sizes and multiple resolutions.&lt;/p&gt;
+
+&lt;p&gt;Develop a working prototype early and start testing how it behaves. Start testing the mobile experience early to evaluate how it meets the desired goals and consider how a user would interact with it in real world situations. Expect multiple iterations on the design to get something optimal.&lt;/p&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;http://www.abookapart.com/products/mobile-first&quot;&gt;Mobile First&lt;/a&gt;&lt;/em&gt; by Luke Wroblewski for explaining the importance of mobile and how it should affect our design process.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 11 Apr 2012 11:00:00 -0700</pubDate>
+        <link>http://tstapleton.github.io//2012/04/11/mobile-strategy.html</link>
+        <guid isPermaLink="true">http://tstapleton.github.io//2012/04/11/mobile-strategy.html</guid>
+        
+        <category>resume-site</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Research and Assessment</title>
+        <description>&lt;p&gt;Erin explains that the purpose of user research is to discover what your readers really want and need. My users are potential employers looking for front-end web developers, preferably those with consumers as their end users (versus working on a line-of-business web app), and who value design and user experience.&lt;/p&gt;
+
+&lt;h3 id=&quot;user-research&quot;&gt;User Research&lt;/h3&gt;
+
+&lt;p&gt;The purpose of doing user research is to discover what your users really want and need. There are many blog posts from someone with hiring power discussing the job application and interviewing process. Some common ideas are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Employers are looking for people who are smart and get things done&lt;/li&gt;
+  &lt;li&gt;Candidate should demonstrate passion, be able to explain things well, and show leadership roles in team projects&lt;/li&gt;
+  &lt;li&gt;Passion - early experience with programming, extra-curricular activities, exploring new technologies&lt;/li&gt;
+  &lt;li&gt;Pickiness - cover letter should demonstrate that the applicant really wants to work for the company applied to, specifically&lt;/li&gt;
+  &lt;li&gt;English - neatness, orderliness, no grammar or spelling errors&lt;/li&gt;
+  &lt;li&gt;Brains - high GPAs, high test scores, honor societies&lt;/li&gt;
+  &lt;li&gt;Selectivity - evidence that applicant has passed a highly selective process in the past&lt;/li&gt;
+  &lt;li&gt;Hard-core - difficulty of projects listed&lt;/li&gt;
+  &lt;li&gt;Diversity - applicant will bring new ideas and new ways of thinking to the existing team&lt;/li&gt;
+  &lt;li&gt;Learn to sell, learn to write, learn to produce extraordinary video and multimedia&lt;/li&gt;
+  &lt;li&gt;Demonstrate that you can contribute far more than you cost&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;A review of recent job postings shows some of the common requirements listed for front-end developer positions are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Knowledge and understanding of JavaScript&lt;/li&gt;
+  &lt;li&gt;Experience with JavaScript/CSS frameworks and libraries&lt;/li&gt;
+  &lt;li&gt;Experience with git and github&lt;/li&gt;
+  &lt;li&gt;Experience in templating languages&lt;/li&gt;
+  &lt;li&gt;Clean and maintainable code, values quality&lt;/li&gt;
+  &lt;li&gt;Up to date with web standards and best practices, and what technologies can be used now&lt;/li&gt;
+  &lt;li&gt;Mobile web development experience&lt;/li&gt;
+  &lt;li&gt;Experience with agile development&lt;/li&gt;
+  &lt;li&gt;Examples of work - portfolio, side projects, open source contributions, personal sites&lt;/li&gt;
+  &lt;li&gt;Responsive and adaptive design&lt;/li&gt;
+  &lt;li&gt;Front-end testing frameworks&lt;/li&gt;
+  &lt;li&gt;Resolve cross-browser issues&lt;/li&gt;
+  &lt;li&gt;Focus on performance, knowledgeable about techniques to increase performance&lt;/li&gt;
+  &lt;li&gt;Communicate effectively and clearly, collaborate with team and users&lt;/li&gt;
+  &lt;li&gt;Typography, layout, design skills&lt;/li&gt;
+  &lt;li&gt;Understanding of UI/UX best practices and patterns, appreciation of usability&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And the continual feedback from the applying and interviewing process should be used to improve the site and content.&lt;/p&gt;
+
+&lt;h3 id=&quot;user-proxies&quot;&gt;User Proxies&lt;/h3&gt;
+
+&lt;p&gt;Ultimately, my user is someone who works for a company that needs a front-end developer and who has the power to hire a new employee. But as I will be joining a team, a employee of the new organization is also an important user to consider.&lt;/p&gt;
+
+&lt;p&gt;Tina is a lead designer at ACME and has been overworked recently due to the recent success of their web app. She has been talking with her manager about bringing a new developer to the team so they can handle the extra work and continue to build an amazing product. She is looking for someone she can trust to finish tasks on time and up to their high quality standards. She is busy doing work during the day, and relaxes in the evening, often browsing the web on her iPhone and iPad.&lt;/p&gt;
+
+&lt;p&gt;Jeff is a manager of a web development shop that does client work. Recently, there have been a couple projects Jeff has had to turn down due to lack of time for his current team. He is looking to bring on a new developer so the company can accept more client projects and expand into larger projects. Jeff needs someone who can understand client needs and communicate well with clients, while meeting deadlines and often working on multiple projects concurrently. Jeff has set aside some time during his work day to find a new developer, and is having trouble finding a good one.&lt;/p&gt;
+
+&lt;h3 id=&quot;content-inventory&quot;&gt;Content Inventory&lt;/h3&gt;
+
+&lt;p&gt;A content inventory is a detailed list of all existing content, with some meta data on each piece. Once content is collected, it should then be assessed for quality by answering questions like - Is it appropriate? Useful and user-centered? Clear, consistent, and concise? Has it been properly supported, or is it outdated and inaccurate?&lt;/p&gt;
+
+&lt;p&gt;At the start of the project, all existing content was contained within my &lt;a href=&quot;#&quot;&gt;resume&lt;/a&gt;. The bullet points have been pulled out of the document and added to a &lt;a href=&quot;#&quot;&gt;content inventory&lt;/a&gt; spreadsheet for better organization, meta data collection, and assessment.&lt;/p&gt;
+
+&lt;p&gt;There is enough content to cut the less important items, and maintain variety and depth. Most content could be improved through a rewrite once a clear message to convey is determined, like asking “how does this item demonstrate value to an organization?”&lt;/p&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;http://www.abookapart.com/products/the-elements-of-content-strategy&quot;&gt;The Elements of Content Strategy&lt;/a&gt;&lt;/em&gt; by Erin Kissane for direction on understanding users and assessing content.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.joelonsoftware.com/articles/GuerrillaInterviewing3.html&quot;&gt;The Guerrilla Guide to Interviewing (version 3.0)&lt;/a&gt;, &lt;a href=&quot;http://www.joelonsoftware.com/articles/SortingResumes.html&quot;&gt;Sorting Resumes&lt;/a&gt;, and &lt;a href=&quot;http://sethgodin.typepad.com/seths_blog/2011/10/how-to-get-a-job-with-a-small-company.html&quot;&gt;How to get a job with a small company&lt;/a&gt; for contributions on how an applicant should earn a position.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://jobs.37signals.com/&quot;&gt;37signals Job Board&lt;/a&gt; for collecting many relevant job postings into one place.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 10 Apr 2012 10:00:00 -0700</pubDate>
+        <link>http://tstapleton.github.io//2012/04/10/research-and-assessment.html</link>
+        <guid isPermaLink="true">http://tstapleton.github.io//2012/04/10/research-and-assessment.html</guid>
+        
+        <category>resume-site</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Content Strategy</title>
+        <description>&lt;p&gt;The primary message that should be conveyed to potential employers is that I will be able to provide value to their organization, that I can figure out how to solve problems and then deliver results.&lt;/p&gt;
+
+&lt;p&gt;I need to convey that I care about the projects that I have worked on, by identifying how I contributed to making the project great.&lt;/p&gt;
+
+&lt;p&gt;I need to convey diversity and passion, by describing a variety of accomplishments and having opinions on subjects.&lt;/p&gt;
+
+&lt;p&gt;I need to convey ability and action, by showcasing completed projects and listing my responsibilities.&lt;/p&gt;
+
+&lt;h3 id=&quot;big-concepts&quot;&gt;Big Concepts&lt;/h3&gt;
+
+&lt;p&gt;A traditional resume consists of text in bullet points, separated into various categories and delivered in a printable format. A website with the resume content would be more effective at delivering the desired messages to potential employers.&lt;/p&gt;
+
+&lt;p&gt;The resume content on the website should be readable like a traditional resume, in the sense that a reader can easily read the content quickly. But the content should be explorable, where a user can get more detail about a piece of content, something that wouldn’t be easily available with a traditional, static resume.&lt;/p&gt;
+
+&lt;p&gt;The website can be used as a code sample for potential employers to demonstrate current abilities. Host all code and supporting documentation on github so it is easily available.&lt;/p&gt;
+
+&lt;p&gt;Describing the process of building the website could be included as a separate section of the resume site, which can demonstrate writing ability and thinking process. Plus, writing about solving problems often leads to a better solution.&lt;/p&gt;
+
+&lt;p&gt;Much of the written content reviewed during the content inventory phase felt formal and terse. Use the website to be more lighthearted to better demonstrate personality.&lt;/p&gt;
+
+&lt;p&gt;Resume content should be rewritten to convey the messages described above. The at-a-glance resume view should be short and direct summaries, encouraging exploration for more detail. More descriptive content should be developed for important resume pieces, which could include images, links to active sites, and more text to communicate the desired messages.&lt;/p&gt;
+
+&lt;h3 id=&quot;structural-design&quot;&gt;Structural Design&lt;/h3&gt;
+
+&lt;p&gt;The structural design of this site will be fairly simple by intention. The resume content should be main focus of the site, with the project documentation easily available, but distinctly separate.&lt;/p&gt;
+
+&lt;h4 id=&quot;sitemap&quot;&gt;Sitemap&lt;/h4&gt;
+
+&lt;p&gt;To allow for easy reading, most of the resume content should be available on a single page, with additional content becoming available as requested, without directing the user onto a separate page. The project documentation will be available on a different page, as to separate it from the main resume content, while collecting it in one location for easy exploration.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Experience (the resume content)&lt;/li&gt;
+  &lt;li&gt;Notation (the project planning documentation)
+    &lt;ul&gt;
+      &lt;li&gt;Project Definition&lt;/li&gt;
+      &lt;li&gt;Research and Assessment&lt;/li&gt;
+      &lt;li&gt;Content Strategy&lt;/li&gt;
+      &lt;li&gt;Design Process&lt;/li&gt;
+      &lt;li&gt;Mobile Strategy&lt;/li&gt;
+      &lt;li&gt;Responsive Framework&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;experience-organization&quot;&gt;Experience Organization&lt;/h4&gt;
+
+&lt;p&gt;The resume content is unique in that grouping by organization and job title results in many overlaps of time and responsibilities. The relevant experiences for a new position as a front-end developer come from multiple job titles from multiple organizations since I have been doing web development outside my day job for a few years now.&lt;/p&gt;
+
+&lt;p&gt;Analysis of the content shows 8 overlapping and non-hierarchical terms that can be used for categorization:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Education - taking responsibility to learn something new&lt;/li&gt;
+  &lt;li&gt;Design - determining how something should work to solve a problem&lt;/li&gt;
+  &lt;li&gt;Development - writing code to solve a problem&lt;/li&gt;
+  &lt;li&gt;Drupal - implementing a solution using the open source content management system &lt;a href=&quot;http://drupal.org&quot;&gt;Drupal&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Shopify - implementing a solution using the ecommerce platform &lt;a href=&quot;http://www.shopify.com&quot;&gt;Shopify&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Leadership - affecting the path forward and bringing others along&lt;/li&gt;
+  &lt;li&gt;Teaching - learning someone’s situation then providing a resolution and explanation so it is understandable&lt;/li&gt;
+  &lt;li&gt;Data Analysis - collecting and interpreting information to understand a situation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Content should be sectioned by year to show new experiences first as recent work should establish current abilities. Within each year, a few important projects should be made more prominent to attract attention to specific pieces that are deemed most important. And each piece of content should be tagged with the relevant categories to provide a quick way of finding similar content.&lt;/p&gt;
+
+&lt;p&gt;A summary section at the top of the page should include a brief bio and the type of position I am looking for, similar to a traditional resume objective. Statistic-like information would also be useful, like organizations I have worked for, dates of employment, positions held, and terms that will be used for the content.&lt;/p&gt;
+
+&lt;p&gt;A review of the quantity of content pieces in each year, and those desired to be highlighted, shows that some years should be combined to have more balance in each section. The counts when separated by year is:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Year&lt;/th&gt;
+      &lt;th&gt;Content Count&lt;/th&gt;
+      &lt;th&gt;Highlight Count&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2012&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2011&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2010&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2009&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2008&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2007&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2006&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2005&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+      &lt;td&gt;0&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2004&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2003&lt;/td&gt;
+      &lt;td&gt;2&lt;/td&gt;
+      &lt;td&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Combining 2008, 2009 and 2010 into one section, and 2003, 2004, 2005 and 2006 into a separate section would balance out the content distribution:&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Section&lt;/th&gt;
+      &lt;th&gt;Content Count&lt;/th&gt;
+      &lt;th&gt;Highlight Count&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2012&lt;/td&gt;
+      &lt;td&gt;7&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2011&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2008 - 2010&lt;/td&gt;
+      &lt;td&gt;8&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2007&lt;/td&gt;
+      &lt;td&gt;5&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;2003 - 2006&lt;/td&gt;
+      &lt;td&gt;14&lt;/td&gt;
+      &lt;td&gt;4&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&quot;content-templates&quot;&gt;Content Templates&lt;/h3&gt;
+
+&lt;p&gt;A piece of content should contain at least:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Year - the year the project was completed&lt;/li&gt;
+  &lt;li&gt;Organization - the company I was working for during the project&lt;/li&gt;
+  &lt;li&gt;Position - the position I held while doing the project&lt;/li&gt;
+  &lt;li&gt;Tags - relevant categories&lt;/li&gt;
+  &lt;li&gt;Highlighted - yes or no, depending on desire to display this piece of content prominently&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Depending on the piece of content, it may also contain:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Teaser - a short description of the project that conveys a desired message&lt;/li&gt;
+  &lt;li&gt;Description - a longer description of the project listing my contributions, background, results, etc&lt;/li&gt;
+  &lt;li&gt;Link - to support material like a live site&lt;/li&gt;
+  &lt;li&gt;Images - screen shots representing the project, often with text captions&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;An example piece of content:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Year - 2012&lt;/li&gt;
+  &lt;li&gt;Organization - Baker Hughes&lt;/li&gt;
+  &lt;li&gt;Position - Web Developer&lt;/li&gt;
+  &lt;li&gt;Teaser - Identified the need for a user interface designer and took the role&lt;/li&gt;
+  &lt;li&gt;Tags - Design, Development, Leadership, Teaching&lt;/li&gt;
+  &lt;li&gt;Highlighted - Yes&lt;/li&gt;
+  &lt;li&gt;Description -
+    &lt;ul&gt;
+      &lt;li&gt;Identified the lack of user interface design in our current processes and the issues it was causing like gaps between what the business wanted and the solution developed, and inconsistent interface patterns throughout the application&lt;/li&gt;
+      &lt;li&gt;Set the expectation that screen mockups should be developed and approved by the business prior to development so a common understanding could be established early&lt;/li&gt;
+      &lt;li&gt;Started developing a front-end pattern library to establish standard and reusable ways of interacting with the application&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Link - none&lt;/li&gt;
+  &lt;li&gt;Images - take cropped screenshot of interface designed&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;content-creation&quot;&gt;Content Creation&lt;/h3&gt;
+
+&lt;p&gt;Placeholders exist for each content piece already, as they were retrieved from the existing resume. The quality of each piece varies, and each piece should be reviewed and updated to ensure that a desired message is communicated. In order to meet the desired launch date, content creation should be prioritized as:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Write teasers for the highlighted content piece that will be used on the site&lt;/li&gt;
+  &lt;li&gt;Write descriptions and collect links and images for highlight content&lt;/li&gt;
+  &lt;li&gt;Write descriptions and collect links and images for remaining content, starting with the the most recent sections&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;The site could launch with only the first task completed, but it would be ideal to complete the second task as well. The third task, while important, provides less value and can be prioritized with other project tasks.&lt;/p&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;http://www.abookapart.com/products/the-elements-of-content-strategy&quot;&gt;The Elements of Content Strategy&lt;/a&gt;&lt;/em&gt; by Erin Kissane for explaining the benefits of defining a content strategy and for direction on what to think about in during process.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 09 Apr 2012 10:00:00 -0700</pubDate>
+        <link>http://tstapleton.github.io//2012/04/09/content-strategy.html</link>
+        <guid isPermaLink="true">http://tstapleton.github.io//2012/04/09/content-strategy.html</guid>
+        
+        <category>resume-site</category>
+        
+        
+      </item>
+    
+      <item>
+        <title>Project Definition</title>
+        <description>&lt;p&gt;I find that I learn best through application. In school, I was always good math, largely, I believe, because of the repetition of problems in the homework sets. I was able to learn about a topic, and then practice how that topic is applied to problems. This project, I hope, will give me the opportunity to learn about new ideas in web development, and apply them to a problem.&lt;/p&gt;
+
+&lt;p&gt;My goal is to get a job as a front-end developer. The problem is solving how to demonstrate that I will be valuable to an organization. I will use this project as a way to highlight what I have done in the past, and, possibly more importantly, document how I go about solving a problem.&lt;/p&gt;
+
+&lt;h3 id=&quot;project-goals&quot;&gt;Project Goals&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Get a job as a front-end developer in the Bay Area&lt;/li&gt;
+  &lt;li&gt;Build a website to highlight my projects and accomplishments&lt;/li&gt;
+  &lt;li&gt;Learn about new ideas and technologies in web development&lt;/li&gt;
+  &lt;li&gt;Demonstrate how I can provide value to a new organization&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;project-objectives&quot;&gt;Project Objectives&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Update my resume content to show my accomplishments and projects in an interesting format&lt;/li&gt;
+  &lt;li&gt;Build a website to replace the need for a traditional paginated resume&lt;/li&gt;
+  &lt;li&gt;Provide an outlet for continued writing and projects&lt;/li&gt;
+  &lt;li&gt;Demonstrate my understanding of new ideas and technologies in web development&lt;/li&gt;
+  &lt;li&gt;Document the way I think about solving problems and completing projects&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;victory-conditions&quot;&gt;Victory Conditions&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Accepted a job offer as a front-end web developer by June 1, 2012&lt;/li&gt;
+  &lt;li&gt;Zero requests from potential employers for a standard document resume because my site does not communicate the necessary information&lt;/li&gt;
+  &lt;li&gt;This website is discussed in 100% of my job interviews with potential employers&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;requirements&quot;&gt;Requirements&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Launch by April 15, 2012 so I may start applying to jobs&lt;/li&gt;
+  &lt;li&gt;Accept a job offer by June 1, 2012 so I may move to the Bay Area by July 1, 2012&lt;/li&gt;
+  &lt;li&gt;I will complete the website on my own&lt;/li&gt;
+  &lt;li&gt;The website will need to be completed during nights and weekends while I continue working in my present position&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;references&quot;&gt;References&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;&lt;a href=&quot;http://www.abookapart.com/products/the-elements-of-content-strategy&quot;&gt;The Elements of Content Strategy&lt;/a&gt;&lt;/em&gt; by Erin Kissane for the ideas on how to structure project planning information.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 08 Apr 2012 10:00:00 -0700</pubDate>
+        <link>http://tstapleton.github.io//2012/04/08/project-definition.html</link>
+        <guid isPermaLink="true">http://tstapleton.github.io//2012/04/08/project-definition.html</guid>
+        
+        <category>resume-site</category>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

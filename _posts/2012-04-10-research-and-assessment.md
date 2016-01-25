@@ -1,0 +1,68 @@
+---
+layout: post
+title: "Research and Assessment"
+date: 2012-04-10 17:00:00
+tags: [resume-site]
+---
+Erin explains that the purpose of user research is to discover what your readers really want and need. My users are potential employers looking for front-end web developers, preferably those with consumers as their end users (versus working on a line-of-business web app), and who value design and user experience.
+
+### User Research
+
+The purpose of doing user research is to discover what your users really want and need. There are many blog posts from someone with hiring power discussing the job application and interviewing process. Some common ideas are:
+
+* Employers are looking for people who are smart and get things done
+* Candidate should demonstrate passion, be able to explain things well, and show leadership roles in team projects
+* Passion - early experience with programming, extra-curricular activities, exploring new technologies
+* Pickiness - cover letter should demonstrate that the applicant really wants to work for the company applied to, specifically
+* English - neatness, orderliness, no grammar or spelling errors
+* Brains - high GPAs, high test scores, honor societies
+* Selectivity - evidence that applicant has passed a highly selective process in the past
+* Hard-core - difficulty of projects listed
+* Diversity - applicant will bring new ideas and new ways of thinking to the existing team
+* Learn to sell, learn to write, learn to produce extraordinary video and multimedia
+* Demonstrate that you can contribute far more than you cost
+
+A review of recent job postings shows some of the common requirements listed for front-end developer positions are:
+
+* Knowledge and understanding of JavaScript
+* Experience with JavaScript/CSS frameworks and libraries
+* Experience with git and github
+* Experience in templating languages
+* Clean and maintainable code, values quality
+* Up to date with web standards and best practices, and what technologies can be used now
+* Mobile web development experience
+* Experience with agile development
+* Examples of work - portfolio, side projects, open source contributions, personal sites
+* Responsive and adaptive design
+* Front-end testing frameworks
+* Resolve cross-browser issues
+* Focus on performance, knowledgeable about techniques to increase performance
+* Communicate effectively and clearly, collaborate with team and users
+* Typography, layout, design skills
+* Understanding of UI/UX best practices and patterns, appreciation of usability
+
+And the continual feedback from the applying and interviewing process should be used to improve the site and content.
+
+### User Proxies
+
+Ultimately, my user is someone who works for a company that needs a front-end developer and who has the power to hire a new employee. But as I will be joining a team, a employee of the new organization is also an important user to consider.
+
+Tina is a lead designer at ACME and has been overworked recently due to the recent success of their web app. She has been talking with her manager about bringing a new developer to the team so they can handle the extra work and continue to build an amazing product. She is looking for someone she can trust to finish tasks on time and up to their high quality standards. She is busy doing work during the day, and relaxes in the evening, often browsing the web on her iPhone and iPad.
+
+Jeff is a manager of a web development shop that does client work. Recently, there have been a couple projects Jeff has had to turn down due to lack of time for his current team. He is looking to bring on a new developer so the company can accept more client projects and expand into larger projects. Jeff needs someone who can understand client needs and communicate well with clients, while meeting deadlines and often working on multiple projects concurrently. Jeff has set aside some time during his work day to find a new developer, and is having trouble finding a good one.
+
+### Content Inventory
+
+A content inventory is a detailed list of all existing content, with some meta data on each piece. Once content is collected, it should then be assessed for quality by answering questions like - Is it appropriate? Useful and user-centered? Clear, consistent, and concise? Has it been properly supported, or is it outdated and inaccurate?
+
+At the start of the project, all existing content was contained within my [resume](#). The bullet points have been pulled out of the document and added to a [content inventory](#) spreadsheet for better organization, meta data collection, and assessment.
+
+There is enough content to cut the less important items, and maintain variety and depth. Most content could be improved through a rewrite once a clear message to convey is determined, like asking "how does this item demonstrate value to an organization?"
+
+### References
+
+*[The Elements of Content Strategy](http://www.abookapart.com/products/the-elements-of-content-strategy)* by Erin Kissane for direction on understanding users and assessing content.
+
+[The Guerrilla Guide to Interviewing (version 3.0)](http://www.joelonsoftware.com/articles/GuerrillaInterviewing3.html), [Sorting Resumes](http://www.joelonsoftware.com/articles/SortingResumes.html), and [How to get a job with a small company](http://sethgodin.typepad.com/seths_blog/2011/10/how-to-get-a-job-with-a-small-company.html) for contributions on how an applicant should earn a position.
+
+[37signals Job Board](http://jobs.37signals.com/) for collecting many relevant job postings into one place.

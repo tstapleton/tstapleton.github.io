@@ -1,0 +1,52 @@
+.tile0 {
+	h1 {
+		font: normal 40px/1.2 "Helvetica", sans-serif;
+	}
+	h2 {
+		font: normal 28px/1.2 "Helvetica", sans-serif;
+		margin-bottom: 8px;
+	}
+	h3 {
+		font: normal 24px/1.2 "Helvetica", sans-serif;
+		margin-bottom: 8px;
+	}
+	p {
+		font: normal 16px/1.5 "Helvetica", sans-serif;
+		margin-bottom: 8px;
+	}
+	p + h3 {
+		margin-top: 24px;
+	}
+	ul {
+		margin-left: 0;
+		padding-left: 12px;
+		text-indent: -12px;
+	}
+	li {
+		margin-bottom: 4px;
+	}
+	li > ul {
+		margin-top: 4px;
+	}
+	li:before {
+		content: "\00BB \0020";
+	}
+	.container {
+		background: #fff;
+		border: 1px solid #a1a1a1;
+		margin: 20px 0 20px 10px;
+		padding: 20px;
+		width: 442px;
+	}
+	.tile { background: #fff; }
+	div.swatch-0 { background: #a1a1a1; }
+	div.swatch-1 { background: #a1a1a1; }
+	div.swatch-2 { background: #a1a1a1; }
+	div.swatch-3 { background: #a1a1a1; }
+	div.swatch-4 { background: #a1a1a1; }
+	div.swatch-5 { background: #a1a1a1; }
+	div.swatch-6 { background: #a1a1a1; }
+	div.swatch-7 { background: #a1a1a1; }
+	div.swatch-8 { background: #a1a1a1; }
+	div.swatch-9 { background: #a1a1a1; }
+}

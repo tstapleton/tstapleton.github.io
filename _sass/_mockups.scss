@@ -1,0 +1,101 @@
+@mixin swatches ($color) {
+	div {
+		height: $unit * 4;
+		margin-bottom: $unit-half;
+
+		&:nth-of-type(1) {
+			background-color: $color;
+		}
+		&:nth-of-type(2) {
+			background-color: adjust1($color);
+		}
+		&:nth-of-type(3) {
+			background-color: adjust2($color);
+		}
+		&:nth-of-type(4) {
+			background-color: adjust3($color);
+		}
+		&:nth-of-type(5) {
+			background-color: adjust4($color);
+		}
+		&:nth-of-type(6) {
+			background-color: adjust5($color);
+		}
+	}
+}
+
+.wrapper {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	padding: $unit;
+
+	div {
+		height: 100%;
+		margin: 0 $unit-quarter;
+		width: 100%;
+	}
+
+	&.colors {
+		height: $unit * 30;
+
+		.a {
+			@include swatches($color-first);
+		}
+		.b {
+			@include swatches($color-second);
+		}
+		.c {
+			@include swatches($color-third);
+		}
+		.d {
+			@include swatches($color-fourth);
+		}
+		.e {
+			@include swatches($color-fifth);
+		}
+		// .f {
+		// 	@include swatches($color-tertiary-alt);
+		// }
+	}
+	&.sample {
+		min-height: $unit * 15;
+
+		.a, .b, .c, .d, .e, .f {
+			padding: $unit-half;
+		}
+		.a {
+			@include colorize($color-first);
+		}
+		.b {
+			@include colorize($color-second);
+		}
+		.c {
+			@include colorize($color-third);
+		}
+		.d {
+			@include colorize($color-fourth);
+		}
+		.e {
+			@include colorize($color-fifth);
+		}
+		// .f {
+		// 	@include colorize($color-tertiary-alt);
+		// }
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	a {
+		@include underline($color-first);
+	}
+}
+h1 a {
+
+}
